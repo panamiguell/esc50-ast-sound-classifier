@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Audio and caches are not versioned (downloaded from the Hugging Face Hub by the notebook)
+data/raw/
+data/cache/
+*.wav
+*.flac
+*.mp3
+.hf_cache/
+
+# Fine-tuned weights (results and predictions in outputs/tables are versioned)
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Smoke-test outputs (quick mode)
+outputs/_smoke_test/
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/*.fdb_latexmk
+report/*.fls
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
