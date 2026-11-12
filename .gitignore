@@ -23,6 +23,7 @@ outputs/models/*
 
 # Smoke-test outputs (quick mode)
 outputs/_smoke_test/
+data/splits_smoke/
 
 # LaTeX build files
 report/*.aux

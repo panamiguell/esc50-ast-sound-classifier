@@ -61,7 +61,9 @@ esc50-ast-sound-classifier/
 
 3. Open `notebooks/01_solucion_ast_esc50.ipynb`, select the `.venv` kernel and run all cells. Internet access is needed the first time (dataset and model from the Hugging Face Hub).
 
-A GPU (CUDA or Apple MPS) is strongly recommended: AST has 86 M parameters and processes 1,212 patches per clip. Each experiment saves its results in `outputs/tables/runs/`; if they already exist the notebook reloads them instead of retraining (`RETRAIN = True` to train again).
+Audio is read with `soundfile` and resampled with `scipy`, so FFmpeg / `torchcodec` are **not** required (they are what `datasets` ≥ 4 would otherwise need to decode audio).
+
+A GPU (CUDA or Apple MPS) is strongly recommended: AST has 86 M parameters and processes 1,212 patches per clip. Each experiment saves its results in `outputs/tables/runs/`; if they already exist the notebook reloads them instead of retraining (`RETRAIN = True` to train again). If the GPU runs out of memory, set `batch_size=4, grad_accum=4` in `CONFIG` (same effective batch) or `grad_checkpointing=True`.
 
 **Smoke test without internet or GPU:** set the environment variable `MP4_QUICK=1` to run the whole pipeline with synthetic audio and a tiny randomly initialized AST (outputs go to `outputs/_smoke_test/`, not versioned). Its metrics are meaningless.
 
