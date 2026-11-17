@@ -1,0 +1,51 @@
+,categoria,precision,recall,f1,soporte,errores
+cat,Animales,1.0,1.0,1.0,8,0
+cow,Animales,1.0,1.0,1.0,8,0
+crow,Animales,1.0,1.0,1.0,8,0
+dog,Animales,1.0,1.0,1.0,8,0
+frog,Animales,1.0,1.0,1.0,8,0
+hen,Animales,1.0,1.0,1.0,8,0
+insects,Animales,1.0,1.0,1.0,8,0
+pig,Animales,1.0,1.0,1.0,8,0
+rooster,Animales,1.0,1.0,1.0,8,0
+sheep,Animales,1.0,1.0,1.0,8,0
+chirping_birds,Naturales y agua,1.0,1.0,1.0,8,0
+crackling_fire,Naturales y agua,1.0,1.0,1.0,8,0
+crickets,Naturales y agua,1.0,0.875,0.9333333333333333,8,1
+pouring_water,Naturales y agua,1.0,1.0,1.0,8,0
+rain,Naturales y agua,1.0,1.0,1.0,8,0
+sea_waves,Naturales y agua,0.7272727272727273,1.0,0.8421052631578947,8,0
+thunderstorm,Naturales y agua,0.8888888888888888,1.0,0.9411764705882353,8,0
+toilet_flush,Naturales y agua,1.0,1.0,1.0,8,0
+water_drops,Naturales y agua,0.8888888888888888,1.0,0.9411764705882353,8,0
+wind,Naturales y agua,0.8,0.5,0.6153846153846154,8,4
+breathing,Humanos no verbales,1.0,1.0,1.0,8,0
+brushing_teeth,Humanos no verbales,0.8888888888888888,1.0,0.9411764705882353,8,0
+clapping,Humanos no verbales,1.0,1.0,1.0,8,0
+coughing,Humanos no verbales,1.0,0.875,0.9333333333333333,8,1
+crying_baby,Humanos no verbales,1.0,0.875,0.9333333333333333,8,1
+drinking_sipping,Humanos no verbales,1.0,1.0,1.0,8,0
+footsteps,Humanos no verbales,1.0,0.75,0.8571428571428571,8,2
+laughing,Humanos no verbales,0.8888888888888888,1.0,0.9411764705882353,8,0
+sneezing,Humanos no verbales,0.8888888888888888,1.0,0.9411764705882353,8,0
+snoring,Humanos no verbales,1.0,1.0,1.0,8,0
+can_opening,Domésticos,1.0,1.0,1.0,8,0
+clock_alarm,Domésticos,1.0,1.0,1.0,8,0
+clock_tick,Domésticos,1.0,1.0,1.0,8,0
+door_wood_creaks,Domésticos,1.0,1.0,1.0,8,0
+door_wood_knock,Domésticos,0.8888888888888888,1.0,0.9411764705882353,8,0
+glass_breaking,Domésticos,1.0,1.0,1.0,8,0
+keyboard_typing,Domésticos,0.8888888888888888,1.0,0.9411764705882353,8,0
+mouse_click,Domésticos,1.0,0.875,0.9333333333333333,8,1
+vacuum_cleaner,Domésticos,0.8,1.0,0.8888888888888888,8,0
+washing_machine,Domésticos,0.5,0.5,0.5,8,4
+airplane,Urbanos,1.0,0.875,0.9333333333333333,8,1
+car_horn,Urbanos,1.0,1.0,1.0,8,0
+chainsaw,Urbanos,1.0,1.0,1.0,8,0
+church_bells,Urbanos,1.0,1.0,1.0,8,0
+engine,Urbanos,0.8,1.0,0.8888888888888888,8,0
+fireworks,Urbanos,1.0,0.875,0.9333333333333333,8,1
+hand_saw,Urbanos,1.0,1.0,1.0,8,0
+helicopter,Urbanos,0.8,0.5,0.6153846153846154,8,4
+siren,Urbanos,1.0,1.0,1.0,8,0
+train,Urbanos,0.875,0.875,0.875,8,1

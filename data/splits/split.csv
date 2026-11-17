@@ -1,0 +1,2001 @@
+idx,split_hf,archivo,clase,label_orig,fold,src,duracion_s,sr_original,canales,label,categoria,split
+0,train,4-155650-B-24.wav,coughing,12,4,155650,5.0,44100,1,23,Humanos no verbales,train
+1,train,3-94355-A-33.wav,door_wood_creaks,19,3,94355,5.0,44100,1,33,Domésticos,train
+2,train,5-193473-A-12.wav,crackling_fire,14,5,193473,5.0,44100,1,11,Naturales y agua,train
+3,train,2-173559-A-39.wav,glass_breaking,26,2,173559,5.0,44100,1,35,Domésticos,train
+4,train,5-251489-A-24.wav,coughing,12,5,251489,5.0,44100,1,23,Humanos no verbales,train
+5,train,5-51149-A-25.wav,footsteps,24,5,51149,5.0,44100,1,26,Humanos no verbales,train
+6,train,3-119120-D-48.wav,fireworks,23,3,119120,5.0,44100,1,45,Urbanos,train
+7,train,4-188033-A-38.wav,clock_tick,11,4,188033,5.0,44100,1,32,Domésticos,train
+8,train,2-118072-A-0.wav,dog,18,2,118072,5.0,44100,1,3,Animales,train
+9,train,2-123712-A-33.wav,door_wood_creaks,19,2,123712,5.0,44100,1,33,Domésticos,train
+10,train,5-244315-C-6.wav,hen,29,5,244315,5.0,44100,1,5,Animales,val
+11,train,3-102908-A-4.wav,frog,25,3,102908,5.0,44100,1,4,Animales,val
+12,train,2-80482-A-20.wav,crying_baby,17,2,80482,5.0,44100,1,24,Humanos no verbales,train
+13,train,2-120218-A-30.wav,door_wood_knock,20,2,120218,5.0,44100,1,34,Domésticos,train
+14,train,3-143119-A-21.wav,sneezing,41,3,143119,5.0,44100,1,28,Humanos no verbales,train
+15,train,2-70280-A-18.wav,toilet_flush,44,2,70280,5.0,44100,1,17,Naturales y agua,train
+16,train,3-164120-A-11.wav,sea_waves,38,3,164120,5.0,44100,1,15,Naturales y agua,val
+17,train,3-135650-A-45.wav,train,45,3,135650,5.0,44100,1,49,Urbanos,train
+18,train,4-132803-A-26.wav,laughing,32,4,132803,5.0,44100,1,27,Humanos no verbales,train
+19,train,4-181563-A-12.wav,crackling_fire,14,4,181563,5.0,44100,1,11,Naturales y agua,val
+20,train,5-250629-A-37.wav,clock_alarm,10,5,250629,5.0,44100,1,31,Domésticos,train
+21,train,3-166422-A-11.wav,sea_waves,38,3,166422,5.0,44100,1,15,Naturales y agua,train
+22,train,3-119120-A-48.wav,fireworks,23,3,119120,5.0,44100,1,45,Urbanos,train
+23,train,3-103051-A-19.wav,thunderstorm,43,3,103051,5.0,44100,1,16,Naturales y agua,val
+24,train,3-133977-A-29.wav,drinking_sipping,21,3,133977,5.0,44100,1,25,Humanos no verbales,train
+25,train,3-253084-A-2.wav,pig,34,3,253084,5.0,44100,1,7,Animales,train
+26,train,4-154793-A-4.wav,frog,25,4,154793,5.0,44100,1,4,Animales,train
+27,train,2-68391-A-41.wav,chainsaw,6,2,68391,5.0,44100,1,42,Urbanos,train
+28,train,3-150231-A-21.wav,sneezing,41,3,150231,5.0,44100,1,28,Humanos no verbales,train
+29,train,2-68595-B-15.wav,water_drops,48,2,68595,5.0,44100,1,18,Naturales y agua,train
+30,train,4-164064-C-1.wav,rooster,37,4,164064,5.0,44100,1,8,Animales,train
+31,train,3-108451-B-17.wav,pouring_water,35,3,108451,5.0,44100,1,13,Naturales y agua,train
+32,train,3-157149-A-10.wav,rain,36,3,157149,5.0,44100,1,14,Naturales y agua,val
+33,train,3-134802-A-13.wav,crickets,15,3,134802,5.0,44100,1,12,Naturales y agua,val
+34,train,2-37806-C-40.wav,helicopter,28,2,37806,5.0,44100,1,47,Urbanos,train
+35,train,4-191687-A-0.wav,dog,18,4,191687,5.0,44100,1,3,Animales,train
+36,train,5-214759-A-5.wav,cat,5,5,214759,5.0,44100,1,0,Animales,train
+37,train,5-219242-A-37.wav,clock_alarm,10,5,219242,5.0,44100,1,31,Domésticos,val
+38,train,4-170247-B-12.wav,crackling_fire,14,4,170247,5.0,44100,1,11,Naturales y agua,val
+39,train,5-223099-B-32.wav,keyboard_typing,31,5,223099,5.0,44100,1,36,Domésticos,val
+40,train,4-107117-A-33.wav,door_wood_creaks,19,4,107117,5.0,44100,1,33,Domésticos,train
+41,train,3-158056-B-31.wav,mouse_click,33,3,158056,5.0,44100,1,37,Domésticos,val
+42,train,4-155670-A-26.wav,laughing,32,4,155670,5.0,44100,1,27,Humanos no verbales,train
+43,train,5-238021-A-35.wav,washing_machine,47,5,238021,5.0,44100,1,39,Domésticos,train
+44,train,5-249937-A-22.wav,clapping,9,5,249937,5.0,44100,1,22,Humanos no verbales,train
+45,train,2-110010-A-5.wav,cat,5,2,110010,5.0,44100,1,0,Animales,train
+46,train,2-52001-A-28.wav,snoring,42,2,52001,5.0,44100,1,29,Humanos no verbales,train
+47,train,4-195305-A-31.wav,mouse_click,33,4,195305,5.0,44100,1,37,Domésticos,train
+48,train,3-100024-A-27.wav,brushing_teeth,2,3,100024,5.0,44100,1,21,Humanos no verbales,train
+49,train,2-70052-A-42.wav,siren,40,2,70052,5.0,44100,1,48,Urbanos,val
+50,train,4-174860-A-3.wav,cow,13,4,174860,5.0,44100,1,1,Animales,train
+51,train,3-178096-A-6.wav,hen,29,3,178096,5.0,44100,1,5,Animales,train
+52,train,3-94344-A-25.wav,footsteps,24,3,94344,5.0,44100,1,26,Humanos no verbales,val
+53,train,4-189828-A-22.wav,clapping,9,4,189828,5.0,44100,1,22,Humanos no verbales,val
+54,train,5-248341-B-6.wav,hen,29,5,248341,5.0,44100,1,5,Animales,train
+55,train,3-153444-A-32.wav,keyboard_typing,31,3,153444,5.0,44100,1,36,Domésticos,train
+56,train,3-197435-A-22.wav,clapping,9,3,197435,5.0,44100,1,22,Humanos no verbales,train
+57,train,3-101381-A-33.wav,door_wood_creaks,19,3,101381,5.0,44100,1,33,Domésticos,train
+58,train,2-102567-B-35.wav,washing_machine,47,2,102567,5.0,44100,1,39,Domésticos,val
+59,train,2-85292-A-24.wav,coughing,12,2,85292,5.0,44100,1,23,Humanos no verbales,train
+60,train,3-68630-B-40.wav,helicopter,28,3,68630,5.0,44100,1,47,Urbanos,train
+61,train,2-56926-A-46.wav,church_bells,8,2,56926,5.0,44100,1,43,Urbanos,train
+62,train,5-221950-A-22.wav,clapping,9,5,221950,5.0,44100,1,22,Humanos no verbales,val
+63,train,2-32834-A-4.wav,frog,25,2,32834,5.0,44100,1,4,Animales,train
+64,train,2-108760-A-14.wav,chirping_birds,7,2,108760,5.0,44100,1,10,Naturales y agua,train
+65,train,5-234145-A-28.wav,snoring,42,5,234145,5.0,44100,1,29,Humanos no verbales,val
+66,train,2-158746-A-2.wav,pig,34,2,158746,5.0,44100,1,7,Animales,train
+67,train,2-86160-A-27.wav,brushing_teeth,2,2,86160,5.0,44100,1,21,Humanos no verbales,val
+68,train,4-204777-B-39.wav,glass_breaking,26,4,204777,5.0,44100,1,35,Domésticos,train
+69,train,2-182508-A-8.wav,sheep,39,2,182508,5.0,44100,1,9,Animales,val
+70,train,4-99193-A-4.wav,frog,25,4,99193,5.0,44100,1,4,Animales,train
+71,train,5-127990-A-2.wav,pig,34,5,127990,5.0,44100,1,7,Animales,train
+72,train,3-130998-A-28.wav,snoring,42,3,130998,5.0,44100,1,29,Humanos no verbales,train
+73,train,5-221568-A-22.wav,clapping,9,5,221568,5.0,44100,1,22,Humanos no verbales,train
+74,train,5-213855-A-0.wav,dog,18,5,213855,5.0,44100,1,3,Animales,train
+75,train,2-39441-A-19.wav,thunderstorm,43,2,39441,5.0,44100,1,16,Naturales y agua,train
+76,train,5-244315-B-6.wav,hen,29,5,244315,5.0,44100,1,5,Animales,val
+77,train,2-109316-A-32.wav,keyboard_typing,31,2,109316,5.0,44100,1,36,Domésticos,train
+78,train,3-132747-A-26.wav,laughing,32,3,132747,5.0,44100,1,27,Humanos no verbales,train
+79,train,3-140323-A-29.wav,drinking_sipping,21,3,140323,5.0,44100,1,25,Humanos no verbales,val
+80,train,2-114609-B-28.wav,snoring,42,2,114609,5.0,44100,1,29,Humanos no verbales,train
+81,train,4-234644-A-2.wav,pig,34,4,234644,5.0,44100,1,7,Animales,train
+82,train,2-118624-A-30.wav,door_wood_knock,20,2,118624,5.0,44100,1,34,Domésticos,train
+83,train,5-214759-B-5.wav,cat,5,5,214759,5.0,44100,1,0,Animales,train
+84,train,5-198891-D-8.wav,sheep,39,5,198891,5.0,44100,1,9,Animales,train
+85,train,5-243783-A-44.wav,engine,22,5,243783,5.0,44100,1,44,Urbanos,train
+86,train,4-194981-A-25.wav,footsteps,24,4,194981,5.0,44100,1,26,Humanos no verbales,train
+87,train,2-135649-A-45.wav,train,45,2,135649,5.0,44100,1,49,Urbanos,train
+88,train,2-109374-A-16.wav,wind,49,2,109374,5.0,44100,1,19,Naturales y agua,train
+89,train,2-117271-A-0.wav,dog,18,2,117271,5.0,44100,1,3,Animales,val
+90,train,3-243726-A-43.wav,car_horn,4,3,243726,5.0,44100,1,41,Urbanos,train
+91,train,3-151080-A-20.wav,crying_baby,17,3,151080,5.0,44100,1,24,Humanos no verbales,train
+92,train,5-213836-D-9.wav,crow,16,5,213836,5.0,44100,1,2,Animales,train
+93,train,2-109231-B-9.wav,crow,16,2,109231,5.0,44100,1,2,Animales,train
+94,train,4-59579-A-20.wav,crying_baby,17,4,59579,5.0,44100,1,24,Humanos no verbales,train
+95,train,3-144120-A-32.wav,keyboard_typing,31,3,144120,5.0,44100,1,36,Domésticos,train
+96,train,2-32515-A-4.wav,frog,25,2,32515,5.0,44100,1,4,Animales,train
+97,train,2-166644-B-2.wav,pig,34,2,166644,5.0,44100,1,7,Animales,val
+98,train,3-124925-A-9.wav,crow,16,3,124925,5.0,44100,1,2,Animales,train
+99,train,4-175025-A-34.wav,can_opening,3,4,175025,5.0,44100,1,30,Domésticos,val
+100,train,5-233645-A-37.wav,clock_alarm,10,5,233645,5.0,44100,1,31,Domésticos,train
+101,train,2-121978-A-29.wav,drinking_sipping,21,2,121978,5.0,44100,1,25,Humanos no verbales,train
+102,train,5-263490-A-25.wav,footsteps,24,5,263490,5.0,44100,1,26,Humanos no verbales,train
+103,train,2-122763-B-29.wav,drinking_sipping,21,2,122763,5.0,44100,1,25,Humanos no verbales,train
+104,train,2-209475-A-25.wav,footsteps,24,2,209475,5.0,44100,1,26,Humanos no verbales,train
+105,train,4-223127-A-14.wav,chirping_birds,7,4,223127,5.0,44100,1,10,Naturales y agua,train
+106,train,5-212181-A-38.wav,clock_tick,11,5,212181,5.0,44100,1,32,Domésticos,train
+107,train,3-104958-A-12.wav,crackling_fire,14,3,104958,5.0,44100,1,11,Naturales y agua,train
+108,train,5-253101-B-49.wav,hand_saw,27,5,253101,5.0,44100,1,46,Urbanos,train
+109,train,2-262579-A-45.wav,train,45,2,262579,5.0,44100,1,49,Urbanos,train
+110,train,4-161100-A-47.wav,airplane,0,4,161100,5.0,44100,1,40,Urbanos,train
+111,train,2-114254-A-30.wav,door_wood_knock,20,2,114254,5.0,44100,1,34,Domésticos,train
+112,train,3-120644-A-12.wav,crackling_fire,14,3,120644,5.0,44100,1,11,Naturales y agua,train
+113,train,3-124376-A-3.wav,cow,13,3,124376,5.0,44100,1,1,Animales,train
+114,train,2-85471-A-34.wav,can_opening,3,2,85471,5.0,44100,1,30,Domésticos,train
+115,train,3-257858-A-2.wav,pig,34,3,257858,5.0,44100,1,7,Animales,train
+116,train,4-175945-A-38.wav,clock_tick,11,4,175945,5.0,44100,1,32,Domésticos,train
+117,train,4-125070-A-19.wav,thunderstorm,43,4,125070,5.0,44100,1,16,Naturales y agua,val
+118,train,2-50774-A-23.wav,breathing,1,2,50774,5.0,44100,1,20,Humanos no verbales,train
+119,train,5-219379-C-11.wav,sea_waves,38,5,219379,5.0,44100,1,15,Naturales y agua,train
+120,train,3-253084-D-2.wav,pig,34,3,253084,5.0,44100,1,7,Animales,train
+121,train,4-181707-A-32.wav,keyboard_typing,31,4,181707,5.0,44100,1,36,Domésticos,train
+122,train,5-133989-B-42.wav,siren,40,5,133989,5.0,44100,1,48,Urbanos,train
+123,train,3-130330-A-22.wav,clapping,9,3,130330,5.0,44100,1,22,Humanos no verbales,val
+124,train,5-212050-A-27.wav,brushing_teeth,2,5,212050,5.0,44100,1,21,Humanos no verbales,train
+125,train,4-213915-C-3.wav,cow,13,4,213915,5.0,44100,1,1,Animales,train
+126,train,4-186962-A-44.wav,engine,22,4,186962,5.0,44100,1,44,Urbanos,train
+127,train,2-132157-B-11.wav,sea_waves,38,2,132157,5.0,44100,1,15,Naturales y agua,train
+128,train,3-132340-A-37.wav,clock_alarm,10,3,132340,5.0,44100,1,31,Domésticos,val
+129,train,2-119161-C-8.wav,sheep,39,2,119161,5.0,44100,1,9,Animales,train
+130,train,4-184235-A-28.wav,snoring,42,4,184235,5.0,44100,1,29,Humanos no verbales,train
+131,train,2-128465-B-43.wav,car_horn,4,2,128465,5.0,44100,1,41,Urbanos,val
+132,train,4-191297-A-28.wav,snoring,42,4,191297,5.0,44100,1,29,Humanos no verbales,val
+133,train,4-143118-A-7.wav,insects,30,4,143118,5.0,44100,1,6,Animales,train
+134,train,4-212698-A-39.wav,glass_breaking,26,4,212698,5.0,44100,1,35,Domésticos,train
+135,train,2-98392-A-23.wav,breathing,1,2,98392,5.0,44100,1,20,Humanos no verbales,train
+136,train,4-188703-B-8.wav,sheep,39,4,188703,5.0,44100,1,9,Animales,val
+137,train,5-156026-D-4.wav,frog,25,5,156026,5.0,44100,1,4,Animales,train
+138,train,5-198411-F-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+139,train,5-219379-A-11.wav,sea_waves,38,5,219379,5.0,44100,1,15,Naturales y agua,train
+140,train,2-30322-A-12.wav,crackling_fire,14,2,30322,5.0,44100,1,11,Naturales y agua,train
+141,train,5-156999-A-19.wav,thunderstorm,43,5,156999,5.0,44100,1,16,Naturales y agua,train
+142,train,5-233019-A-31.wav,mouse_click,33,5,233019,5.0,44100,1,37,Domésticos,train
+143,train,3-103401-B-33.wav,door_wood_creaks,19,3,103401,5.0,44100,1,33,Domésticos,val
+144,train,2-50668-A-41.wav,chainsaw,6,2,50668,5.0,44100,1,42,Urbanos,train
+145,train,5-198373-A-46.wav,church_bells,8,5,198373,5.0,44100,1,43,Urbanos,train
+146,train,5-204352-A-13.wav,crickets,15,5,204352,5.0,44100,1,12,Naturales y agua,train
+147,train,5-237795-A-34.wav,can_opening,3,5,237795,5.0,44100,1,30,Domésticos,train
+148,train,2-96904-A-27.wav,brushing_teeth,2,2,96904,5.0,44100,1,21,Humanos no verbales,train
+149,train,2-196688-A-8.wav,sheep,39,2,196688,5.0,44100,1,9,Animales,train
+150,train,2-66205-A-23.wav,breathing,1,2,66205,5.0,44100,1,20,Humanos no verbales,train
+151,train,3-151206-A-23.wav,breathing,1,3,151206,5.0,44100,1,20,Humanos no verbales,train
+152,train,5-198411-D-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+153,train,4-99644-B-4.wav,frog,25,4,99644,5.0,44100,1,4,Animales,train
+154,train,5-236288-A-28.wav,snoring,42,5,236288,5.0,44100,1,29,Humanos no verbales,val
+155,train,2-102581-A-29.wav,drinking_sipping,21,2,102581,5.0,44100,1,25,Humanos no verbales,train
+156,train,2-81970-C-7.wav,insects,30,2,81970,5.0,44100,1,6,Animales,train
+157,train,5-157204-B-16.wav,wind,49,5,157204,5.0,44100,1,19,Naturales y agua,val
+158,train,5-215634-A-17.wav,pouring_water,35,5,215634,5.0,44100,1,13,Naturales y agua,train
+159,train,2-130978-A-21.wav,sneezing,41,2,130978,5.0,44100,1,28,Humanos no verbales,train
+160,train,2-166644-A-2.wav,pig,34,2,166644,5.0,44100,1,7,Animales,val
+161,train,4-157297-A-21.wav,sneezing,41,4,157297,5.0,44100,1,28,Humanos no verbales,train
+162,train,3-112356-A-18.wav,toilet_flush,44,3,112356,5.0,44100,1,17,Naturales y agua,train
+163,train,3-187710-A-11.wav,sea_waves,38,3,187710,5.0,44100,1,15,Naturales y agua,train
+164,train,4-167063-B-11.wav,sea_waves,38,4,167063,5.0,44100,1,15,Naturales y agua,val
+165,train,5-234247-A-37.wav,clock_alarm,10,5,234247,5.0,44100,1,31,Domésticos,train
+166,train,3-95695-A-5.wav,cat,5,3,95695,5.0,44100,1,0,Animales,val
+167,train,4-119647-D-48.wav,fireworks,23,4,119647,5.0,44100,1,45,Urbanos,train
+168,train,4-167077-A-20.wav,crying_baby,17,4,167077,5.0,44100,1,24,Humanos no verbales,val
+169,train,5-241846-A-15.wav,water_drops,48,5,241846,5.0,44100,1,18,Naturales y agua,train
+170,train,2-102435-A-37.wav,clock_alarm,10,2,102435,5.0,44100,1,31,Domésticos,train
+171,train,5-117250-A-2.wav,pig,34,5,117250,5.0,44100,1,7,Animales,train
+172,train,3-145577-A-43.wav,car_horn,4,3,145577,5.0,44100,1,41,Urbanos,train
+173,train,3-141684-A-21.wav,sneezing,41,3,141684,5.0,44100,1,28,Humanos no verbales,val
+174,train,4-172143-A-13.wav,crickets,15,4,172143,5.0,44100,1,12,Naturales y agua,train
+175,train,4-170078-A-1.wav,rooster,37,4,170078,5.0,44100,1,8,Animales,train
+176,train,4-185575-B-20.wav,crying_baby,17,4,185575,5.0,44100,1,24,Humanos no verbales,train
+177,train,3-143929-A-10.wav,rain,36,3,143929,5.0,44100,1,14,Naturales y agua,val
+178,train,3-165856-A-41.wav,chainsaw,6,3,165856,5.0,44100,1,42,Urbanos,train
+179,train,4-250869-A-2.wav,pig,34,4,250869,5.0,44100,1,7,Animales,train
+180,train,5-204114-A-29.wav,drinking_sipping,21,5,204114,5.0,44100,1,25,Humanos no verbales,train
+181,train,5-117122-A-42.wav,siren,40,5,117122,5.0,44100,1,48,Urbanos,train
+182,train,2-82367-A-10.wav,rain,36,2,82367,5.0,44100,1,14,Naturales y agua,train
+183,train,2-77347-A-46.wav,church_bells,8,2,77347,5.0,44100,1,43,Urbanos,train
+184,train,4-156843-A-21.wav,sneezing,41,4,156843,5.0,44100,1,28,Humanos no verbales,val
+185,train,3-115382-A-44.wav,engine,22,3,115382,5.0,44100,1,44,Urbanos,train
+186,train,2-184077-A-49.wav,hand_saw,27,2,184077,5.0,44100,1,46,Urbanos,train
+187,train,3-181278-A-22.wav,clapping,9,3,181278,5.0,44100,1,22,Humanos no verbales,val
+188,train,5-201172-A-46.wav,church_bells,8,5,201172,5.0,44100,1,43,Urbanos,val
+189,train,5-222524-A-41.wav,chainsaw,6,5,222524,5.0,44100,1,42,Urbanos,train
+190,train,5-235593-A-23.wav,breathing,1,5,235593,5.0,44100,1,20,Humanos no verbales,train
+191,train,4-186936-A-44.wav,engine,22,4,186936,5.0,44100,1,44,Urbanos,train
+192,train,3-155130-A-43.wav,car_horn,4,3,155130,5.0,44100,1,41,Urbanos,train
+193,train,5-208624-A-38.wav,clock_tick,11,5,208624,5.0,44100,1,32,Domésticos,train
+194,train,4-117630-A-25.wav,footsteps,24,4,117630,5.0,44100,1,26,Humanos no verbales,train
+195,train,2-107228-B-44.wav,engine,22,2,107228,5.0,44100,1,44,Urbanos,val
+196,train,2-106015-B-44.wav,engine,22,2,106015,5.0,44100,1,44,Urbanos,train
+197,train,2-106019-A-13.wav,crickets,15,2,106019,5.0,44100,1,12,Naturales y agua,val
+198,train,5-202540-A-18.wav,toilet_flush,44,5,202540,5.0,44100,1,17,Naturales y agua,val
+199,train,4-119648-D-48.wav,fireworks,23,4,119648,5.0,44100,1,45,Urbanos,train
+200,train,5-160551-A-42.wav,siren,40,5,160551,5.0,44100,1,48,Urbanos,train
+201,train,4-155650-A-24.wav,coughing,12,4,155650,5.0,44100,1,23,Humanos no verbales,train
+202,train,4-102844-B-49.wav,hand_saw,27,4,102844,5.0,44100,1,46,Urbanos,train
+203,train,3-253084-C-2.wav,pig,34,3,253084,5.0,44100,1,7,Animales,train
+204,train,5-251962-A-47.wav,airplane,0,5,251962,5.0,44100,1,40,Urbanos,train
+205,train,3-129338-A-13.wav,crickets,15,3,129338,5.0,44100,1,12,Naturales y agua,train
+206,train,5-177779-A-33.wav,door_wood_creaks,19,5,177779,5.0,44100,1,33,Domésticos,train
+207,train,3-103051-C-19.wav,thunderstorm,43,3,103051,5.0,44100,1,16,Naturales y agua,val
+208,train,2-117625-A-10.wav,rain,36,2,117625,5.0,44100,1,14,Naturales y agua,train
+209,train,5-169983-A-5.wav,cat,5,5,169983,5.0,44100,1,0,Animales,train
+210,train,2-70367-A-33.wav,door_wood_creaks,19,2,70367,5.0,44100,1,33,Domésticos,train
+211,train,2-106014-A-44.wav,engine,22,2,106014,5.0,44100,1,44,Urbanos,train
+212,train,3-126113-A-26.wav,laughing,32,3,126113,5.0,44100,1,27,Humanos no verbales,train
+213,train,5-215449-A-47.wav,airplane,0,5,215449,5.0,44100,1,40,Urbanos,train
+214,train,2-96654-A-47.wav,airplane,0,2,96654,5.0,44100,1,40,Urbanos,val
+215,train,5-253101-C-49.wav,hand_saw,27,5,253101,5.0,44100,1,46,Urbanos,train
+216,train,2-104475-A-37.wav,clock_alarm,10,2,104475,5.0,44100,1,31,Domésticos,val
+217,train,3-152594-A-30.wav,door_wood_knock,20,3,152594,5.0,44100,1,34,Domésticos,train
+218,train,2-119139-A-31.wav,mouse_click,33,2,119139,5.0,44100,1,37,Domésticos,train
+219,train,2-133889-A-30.wav,door_wood_knock,20,2,133889,5.0,44100,1,34,Domésticos,train
+220,train,4-99644-C-4.wav,frog,25,4,99644,5.0,44100,1,4,Animales,train
+221,train,5-209989-A-22.wav,clapping,9,5,209989,5.0,44100,1,22,Humanos no verbales,train
+222,train,3-170383-A-38.wav,clock_tick,11,3,170383,5.0,44100,1,32,Domésticos,train
+223,train,5-187444-A-33.wav,door_wood_creaks,19,5,187444,5.0,44100,1,33,Domésticos,train
+224,train,3-98869-A-46.wav,church_bells,8,3,98869,5.0,44100,1,43,Urbanos,train
+225,train,3-158476-A-12.wav,crackling_fire,14,3,158476,5.0,44100,1,11,Naturales y agua,train
+226,train,4-209536-A-37.wav,clock_alarm,10,4,209536,5.0,44100,1,31,Domésticos,train
+227,train,5-207811-B-35.wav,washing_machine,47,5,207811,5.0,44100,1,39,Domésticos,train
+228,train,3-152020-A-36.wav,vacuum_cleaner,46,3,152020,5.0,44100,1,38,Domésticos,train
+229,train,3-104761-A-7.wav,insects,30,3,104761,5.0,44100,1,6,Animales,train
+230,train,4-172500-D-27.wav,brushing_teeth,2,4,172500,5.0,44100,1,21,Humanos no verbales,train
+231,train,2-73544-A-27.wav,brushing_teeth,2,2,73544,5.0,44100,1,21,Humanos no verbales,train
+232,train,2-139749-A-15.wav,water_drops,48,2,139749,5.0,44100,1,18,Naturales y agua,train
+233,train,2-125821-A-13.wav,crickets,15,2,125821,5.0,44100,1,12,Naturales y agua,train
+234,train,4-198360-B-49.wav,hand_saw,27,4,198360,5.0,44100,1,46,Urbanos,train
+235,train,3-103401-A-33.wav,door_wood_creaks,19,3,103401,5.0,44100,1,33,Domésticos,val
+236,train,3-164216-A-6.wav,hen,29,3,164216,5.0,44100,1,5,Animales,train
+237,train,3-139958-A-37.wav,clock_alarm,10,3,139958,5.0,44100,1,31,Domésticos,train
+238,train,4-187769-B-14.wav,chirping_birds,7,4,187769,5.0,44100,1,10,Naturales y agua,train
+239,train,3-145719-A-17.wav,pouring_water,35,3,145719,5.0,44100,1,13,Naturales y agua,train
+240,train,4-132816-A-26.wav,laughing,32,4,132816,5.0,44100,1,27,Humanos no verbales,train
+241,train,3-170015-A-0.wav,dog,18,3,170015,5.0,44100,1,3,Animales,train
+242,train,5-263831-B-6.wav,hen,29,5,263831,5.0,44100,1,5,Animales,train
+243,train,4-187769-A-14.wav,chirping_birds,7,4,187769,5.0,44100,1,10,Naturales y agua,train
+244,train,3-159348-A-36.wav,vacuum_cleaner,46,3,159348,5.0,44100,1,38,Domésticos,train
+245,train,3-130998-B-28.wav,snoring,42,3,130998,5.0,44100,1,29,Humanos no verbales,train
+246,train,3-107123-A-26.wav,laughing,32,3,107123,5.0,44100,1,27,Humanos no verbales,val
+247,train,5-223176-A-37.wav,clock_alarm,10,5,223176,5.0,44100,1,31,Domésticos,train
+248,train,3-108160-A-23.wav,breathing,1,3,108160,5.0,44100,1,20,Humanos no verbales,val
+249,train,4-212604-B-15.wav,water_drops,48,4,212604,5.0,44100,1,18,Naturales y agua,train
+250,train,4-186938-A-44.wav,engine,22,4,186938,5.0,44100,1,44,Urbanos,train
+251,train,3-119120-B-48.wav,fireworks,23,3,119120,5.0,44100,1,45,Urbanos,train
+252,train,4-147658-A-46.wav,church_bells,8,4,147658,5.0,44100,1,43,Urbanos,train
+253,train,2-81731-A-10.wav,rain,36,2,81731,5.0,44100,1,14,Naturales y agua,train
+254,train,4-141365-A-18.wav,toilet_flush,44,4,141365,5.0,44100,1,17,Naturales y agua,train
+255,train,5-198891-B-8.wav,sheep,39,5,198891,5.0,44100,1,9,Animales,train
+256,train,5-231762-A-0.wav,dog,18,5,231762,5.0,44100,1,3,Animales,val
+257,train,3-103597-A-25.wav,footsteps,24,3,103597,5.0,44100,1,26,Humanos no verbales,val
+258,train,4-210309-A-31.wav,mouse_click,33,4,210309,5.0,44100,1,37,Domésticos,val
+259,train,2-114587-A-0.wav,dog,18,2,114587,5.0,44100,1,3,Animales,train
+260,train,5-188365-A-36.wav,vacuum_cleaner,46,5,188365,5.0,44100,1,38,Domésticos,val
+261,train,4-194808-A-29.wav,drinking_sipping,21,4,194808,5.0,44100,1,25,Humanos no verbales,train
+262,train,5-170338-B-41.wav,chainsaw,6,5,170338,5.0,44100,1,42,Urbanos,train
+263,train,2-122067-A-45.wav,train,45,2,122067,5.0,44100,1,49,Urbanos,train
+264,train,5-243450-A-14.wav,chirping_birds,7,5,243450,5.0,44100,1,10,Naturales y agua,train
+265,train,4-171652-A-44.wav,engine,22,4,171652,5.0,44100,1,44,Urbanos,val
+266,train,2-87780-A-33.wav,door_wood_creaks,19,2,87780,5.0,44100,1,33,Domésticos,train
+267,train,5-244651-A-31.wav,mouse_click,33,5,244651,5.0,44100,1,37,Domésticos,train
+268,train,3-124795-A-28.wav,snoring,42,3,124795,5.0,44100,1,29,Humanos no verbales,train
+269,train,4-149940-B-5.wav,cat,5,4,149940,5.0,44100,1,0,Animales,train
+270,train,2-82077-A-7.wav,insects,30,2,82077,5.0,44100,1,6,Animales,val
+271,train,4-197871-A-15.wav,water_drops,48,4,197871,5.0,44100,1,18,Naturales y agua,train
+272,train,3-70962-C-4.wav,frog,25,3,70962,5.0,44100,1,4,Animales,val
+273,train,5-243449-A-14.wav,chirping_birds,7,5,243449,5.0,44100,1,10,Naturales y agua,train
+274,train,3-154926-A-40.wav,helicopter,28,3,154926,5.0,44100,1,47,Urbanos,train
+275,train,2-188822-C-40.wav,helicopter,28,2,188822,5.0,44100,1,47,Urbanos,train
+276,train,5-156999-C-19.wav,thunderstorm,43,5,156999,5.0,44100,1,16,Naturales y agua,train
+277,train,4-172736-A-36.wav,vacuum_cleaner,46,4,172736,5.0,44100,1,38,Domésticos,train
+278,train,4-200330-A-6.wav,hen,29,4,200330,5.0,44100,1,5,Animales,train
+279,train,3-151081-B-20.wav,crying_baby,17,3,151081,5.0,44100,1,24,Humanos no verbales,val
+280,train,2-59321-A-49.wav,hand_saw,27,2,59321,5.0,44100,1,46,Urbanos,val
+281,train,5-185908-A-18.wav,toilet_flush,44,5,185908,5.0,44100,1,17,Naturales y agua,val
+282,train,4-172500-C-27.wav,brushing_teeth,2,4,172500,5.0,44100,1,21,Humanos no verbales,train
+283,train,4-175855-A-43.wav,car_horn,4,4,175855,5.0,44100,1,41,Urbanos,train
+284,train,4-181708-A-32.wav,keyboard_typing,31,4,181708,5.0,44100,1,36,Domésticos,train
+285,train,5-221518-A-21.wav,sneezing,41,5,221518,5.0,44100,1,28,Humanos no verbales,val
+286,train,4-182041-A-30.wav,door_wood_knock,20,4,182041,5.0,44100,1,34,Domésticos,train
+287,train,4-196672-A-8.wav,sheep,39,4,196672,5.0,44100,1,9,Animales,train
+288,train,2-106849-A-47.wav,airplane,0,2,106849,5.0,44100,1,40,Urbanos,train
+289,train,5-210571-A-38.wav,clock_tick,11,5,210571,5.0,44100,1,32,Domésticos,val
+290,train,5-195517-A-7.wav,insects,30,5,195517,5.0,44100,1,6,Animales,train
+291,train,5-210540-A-13.wav,crickets,15,5,210540,5.0,44100,1,12,Naturales y agua,train
+292,train,4-210000-B-23.wav,breathing,1,4,210000,5.0,44100,1,20,Humanos no verbales,train
+293,train,2-54961-A-23.wav,breathing,1,2,54961,5.0,44100,1,20,Humanos no verbales,train
+294,train,4-167077-C-20.wav,crying_baby,17,4,167077,5.0,44100,1,24,Humanos no verbales,val
+295,train,4-181955-A-3.wav,cow,13,4,181955,5.0,44100,1,1,Animales,train
+296,train,5-209992-A-44.wav,engine,22,5,209992,5.0,44100,1,44,Urbanos,train
+297,train,2-109231-A-9.wav,crow,16,2,109231,5.0,44100,1,2,Animales,train
+298,train,3-138212-A-45.wav,train,45,3,138212,5.0,44100,1,49,Urbanos,train
+299,train,3-188726-A-35.wav,washing_machine,47,3,188726,5.0,44100,1,39,Domésticos,train
+300,train,2-32515-B-4.wav,frog,25,2,32515,5.0,44100,1,4,Animales,train
+301,train,3-134699-C-16.wav,wind,49,3,134699,5.0,44100,1,19,Naturales y agua,train
+302,train,3-197408-A-8.wav,sheep,39,3,197408,5.0,44100,1,9,Animales,train
+303,train,5-251426-B-30.wav,door_wood_knock,20,5,251426,5.0,44100,1,34,Domésticos,train
+304,train,4-125825-A-46.wav,church_bells,8,4,125825,5.0,44100,1,43,Urbanos,val
+305,train,5-212734-A-17.wav,pouring_water,35,5,212734,5.0,44100,1,13,Naturales y agua,train
+306,train,3-124600-A-19.wav,thunderstorm,43,3,124600,5.0,44100,1,16,Naturales y agua,val
+307,train,5-223099-A-32.wav,keyboard_typing,31,5,223099,5.0,44100,1,36,Domésticos,val
+308,train,3-62878-B-42.wav,siren,40,3,62878,5.0,44100,1,48,Urbanos,train
+309,train,5-234855-A-25.wav,footsteps,24,5,234855,5.0,44100,1,26,Humanos no verbales,val
+310,train,3-172179-A-31.wav,mouse_click,33,3,172179,5.0,44100,1,37,Domésticos,train
+311,train,2-122616-A-14.wav,chirping_birds,7,2,122616,5.0,44100,1,10,Naturales y agua,val
+312,train,4-205526-B-23.wav,breathing,1,4,205526,5.0,44100,1,20,Humanos no verbales,train
+313,train,3-151269-A-35.wav,washing_machine,47,3,151269,5.0,44100,1,39,Domésticos,train
+314,train,4-161579-A-40.wav,helicopter,28,4,161579,5.0,44100,1,47,Urbanos,train
+315,train,5-209992-B-44.wav,engine,22,5,209992,5.0,44100,1,44,Urbanos,train
+316,train,2-138257-A-31.wav,mouse_click,33,2,138257,5.0,44100,1,37,Domésticos,train
+317,train,5-201194-A-38.wav,clock_tick,11,5,201194,5.0,44100,1,32,Domésticos,train
+318,train,4-182314-A-7.wav,insects,30,4,182314,5.0,44100,1,6,Animales,train
+319,train,3-142605-A-21.wav,sneezing,41,3,142605,5.0,44100,1,28,Humanos no verbales,train
+320,train,4-250869-C-2.wav,pig,34,4,250869,5.0,44100,1,7,Animales,train
+321,train,2-106487-A-44.wav,engine,22,2,106487,5.0,44100,1,44,Urbanos,val
+322,train,5-179866-A-43.wav,car_horn,4,5,179866,5.0,44100,1,41,Urbanos,train
+323,train,4-195707-A-13.wav,crickets,15,4,195707,5.0,44100,1,12,Naturales y agua,val
+324,train,3-187549-A-6.wav,hen,29,3,187549,5.0,44100,1,5,Animales,train
+325,train,5-235507-A-44.wav,engine,22,5,235507,5.0,44100,1,44,Urbanos,train
+326,train,3-20861-A-8.wav,sheep,39,3,20861,5.0,44100,1,9,Animales,train
+327,train,2-130979-A-21.wav,sneezing,41,2,130979,5.0,44100,1,28,Humanos no verbales,train
+328,train,4-253649-A-6.wav,hen,29,4,253649,5.0,44100,1,5,Animales,train
+329,train,3-119120-C-48.wav,fireworks,23,3,119120,5.0,44100,1,45,Urbanos,train
+330,train,4-176638-A-43.wav,car_horn,4,4,176638,5.0,44100,1,41,Urbanos,train
+331,train,4-251645-A-49.wav,hand_saw,27,4,251645,5.0,44100,1,46,Urbanos,train
+332,train,4-195497-B-11.wav,sea_waves,38,4,195497,5.0,44100,1,15,Naturales y agua,train
+333,train,4-188287-A-9.wav,crow,16,4,188287,5.0,44100,1,2,Animales,train
+334,train,4-205738-A-22.wav,clapping,9,4,205738,5.0,44100,1,22,Humanos no verbales,val
+335,train,5-213836-B-9.wav,crow,16,5,213836,5.0,44100,1,2,Animales,train
+336,train,3-150979-A-40.wav,helicopter,28,3,150979,5.0,44100,1,47,Urbanos,train
+337,train,4-187504-B-17.wav,pouring_water,35,4,187504,5.0,44100,1,13,Naturales y agua,train
+338,train,4-172366-A-37.wav,clock_alarm,10,4,172366,5.0,44100,1,31,Domésticos,val
+339,train,5-200329-C-8.wav,sheep,39,5,200329,5.0,44100,1,9,Animales,train
+340,train,2-104168-A-32.wav,keyboard_typing,31,2,104168,5.0,44100,1,36,Domésticos,train
+341,train,4-250864-A-8.wav,sheep,39,4,250864,5.0,44100,1,9,Animales,train
+342,train,2-146877-A-31.wav,mouse_click,33,2,146877,5.0,44100,1,37,Domésticos,train
+343,train,5-170338-A-41.wav,chainsaw,6,5,170338,5.0,44100,1,42,Urbanos,train
+344,train,2-108763-A-9.wav,crow,16,2,108763,5.0,44100,1,2,Animales,train
+345,train,4-150364-B-46.wav,church_bells,8,4,150364,5.0,44100,1,43,Urbanos,train
+346,train,3-182025-A-30.wav,door_wood_knock,20,3,182025,5.0,44100,1,34,Domésticos,train
+347,train,2-76408-A-22.wav,clapping,9,2,76408,5.0,44100,1,22,Humanos no verbales,train
+348,train,3-110913-B-7.wav,insects,30,3,110913,5.0,44100,1,6,Animales,train
+349,train,4-165813-A-19.wav,thunderstorm,43,4,165813,5.0,44100,1,16,Naturales y agua,train
+350,train,2-107351-A-20.wav,crying_baby,17,2,107351,5.0,44100,1,24,Humanos no verbales,train
+351,train,5-194899-A-3.wav,cow,13,5,194899,5.0,44100,1,1,Animales,val
+352,train,2-158746-C-2.wav,pig,34,2,158746,5.0,44100,1,7,Animales,train
+353,train,5-215447-A-47.wav,airplane,0,5,215447,5.0,44100,1,40,Urbanos,train
+354,train,4-188595-A-29.wav,drinking_sipping,21,4,188595,5.0,44100,1,25,Humanos no verbales,val
+355,train,4-207124-A-0.wav,dog,18,4,207124,5.0,44100,1,3,Animales,val
+356,train,3-155577-A-14.wav,chirping_birds,7,3,155577,5.0,44100,1,10,Naturales y agua,train
+357,train,3-95694-A-5.wav,cat,5,3,95694,5.0,44100,1,0,Animales,train
+358,train,2-99795-A-32.wav,keyboard_typing,31,2,99795,5.0,44100,1,36,Domésticos,train
+359,train,4-144468-A-27.wav,brushing_teeth,2,4,144468,5.0,44100,1,21,Humanos no verbales,train
+360,train,4-67358-A-42.wav,siren,40,4,67358,5.0,44100,1,48,Urbanos,val
+361,train,4-161099-B-47.wav,airplane,0,4,161099,5.0,44100,1,40,Urbanos,train
+362,train,3-249913-A-25.wav,footsteps,24,3,249913,5.0,44100,1,26,Humanos no verbales,train
+363,train,5-201664-A-18.wav,toilet_flush,44,5,201664,5.0,44100,1,17,Naturales y agua,train
+364,train,5-215445-A-47.wav,airplane,0,5,215445,5.0,44100,1,40,Urbanos,train
+365,train,4-180453-A-17.wav,pouring_water,35,4,180453,5.0,44100,1,13,Naturales y agua,train
+366,train,3-171937-A-34.wav,can_opening,3,3,171937,5.0,44100,1,30,Domésticos,train
+367,train,4-161105-B-47.wav,airplane,0,4,161105,5.0,44100,1,40,Urbanos,train
+368,train,4-156227-A-9.wav,crow,16,4,156227,5.0,44100,1,2,Animales,train
+369,train,3-159445-A-45.wav,train,45,3,159445,5.0,44100,1,49,Urbanos,train
+370,train,2-62226-A-26.wav,laughing,32,2,62226,5.0,44100,1,27,Humanos no verbales,val
+371,train,3-102583-B-49.wav,hand_saw,27,3,102583,5.0,44100,1,46,Urbanos,val
+372,train,4-132383-B-2.wav,pig,34,4,132383,5.0,44100,1,7,Animales,train
+373,train,3-180147-A-30.wav,door_wood_knock,20,3,180147,5.0,44100,1,34,Domésticos,val
+374,train,3-94342-A-25.wav,footsteps,24,3,94342,5.0,44100,1,26,Humanos no verbales,train
+375,train,3-203375-A-39.wav,glass_breaking,26,3,203375,5.0,44100,1,35,Domésticos,train
+376,train,4-130584-A-4.wav,frog,25,4,130584,5.0,44100,1,4,Animales,train
+377,train,4-163264-A-10.wav,rain,36,4,163264,5.0,44100,1,14,Naturales y agua,train
+378,train,3-156907-A-15.wav,water_drops,48,3,156907,5.0,44100,1,18,Naturales y agua,train
+379,train,3-124376-B-3.wav,cow,13,3,124376,5.0,44100,1,1,Animales,train
+380,train,3-136608-A-16.wav,wind,49,3,136608,5.0,44100,1,19,Naturales y agua,val
+381,train,4-234879-A-6.wav,hen,29,4,234879,5.0,44100,1,5,Animales,train
+382,train,2-59241-A-35.wav,washing_machine,47,2,59241,5.0,44100,1,39,Domésticos,train
+383,train,5-198411-A-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+384,train,5-253094-A-49.wav,hand_saw,27,5,253094,5.0,44100,1,46,Urbanos,train
+385,train,3-152007-E-20.wav,crying_baby,17,3,152007,5.0,44100,1,24,Humanos no verbales,train
+386,train,4-163609-B-16.wav,wind,49,4,163609,5.0,44100,1,19,Naturales y agua,train
+387,train,2-134049-A-6.wav,hen,29,2,134049,5.0,44100,1,5,Animales,val
+388,train,4-175000-A-40.wav,helicopter,28,4,175000,5.0,44100,1,47,Urbanos,train
+389,train,4-119648-A-48.wav,fireworks,23,4,119648,5.0,44100,1,45,Urbanos,train
+390,train,3-129678-A-13.wav,crickets,15,3,129678,5.0,44100,1,12,Naturales y agua,train
+391,train,3-122110-A-46.wav,church_bells,8,3,122110,5.0,44100,1,43,Urbanos,train
+392,train,5-193473-B-12.wav,crackling_fire,14,5,193473,5.0,44100,1,11,Naturales y agua,train
+393,train,5-212054-A-36.wav,vacuum_cleaner,46,5,212054,5.0,44100,1,38,Domésticos,train
+394,train,3-116135-A-1.wav,rooster,37,3,116135,5.0,44100,1,8,Animales,train
+395,train,4-169127-A-41.wav,chainsaw,6,4,169127,5.0,44100,1,42,Urbanos,train
+396,train,2-54086-A-43.wav,car_horn,4,2,54086,5.0,44100,1,41,Urbanos,train
+397,train,3-141240-A-44.wav,engine,22,3,141240,5.0,44100,1,44,Urbanos,train
+398,train,5-207836-D-29.wav,drinking_sipping,21,5,207836,5.0,44100,1,25,Humanos no verbales,train
+399,train,5-257642-A-39.wav,glass_breaking,26,5,257642,5.0,44100,1,35,Domésticos,train
+400,train,3-128512-B-47.wav,airplane,0,3,128512,5.0,44100,1,40,Urbanos,val
+401,train,2-37870-A-2.wav,pig,34,2,37870,5.0,44100,1,7,Animales,val
+402,train,5-203739-A-10.wav,rain,36,5,203739,5.0,44100,1,14,Naturales y agua,val
+403,train,3-164216-B-6.wav,hen,29,3,164216,5.0,44100,1,5,Animales,train
+404,train,2-51630-A-49.wav,hand_saw,27,2,51630,5.0,44100,1,46,Urbanos,train
+405,train,4-167063-A-11.wav,sea_waves,38,4,167063,5.0,44100,1,15,Naturales y agua,val
+406,train,4-171207-A-12.wav,crackling_fire,14,4,171207,5.0,44100,1,11,Naturales y agua,val
+407,train,3-126391-B-27.wav,brushing_teeth,2,3,126391,5.0,44100,1,21,Humanos no verbales,train
+408,train,4-173865-B-9.wav,crow,16,4,173865,5.0,44100,1,2,Animales,val
+409,train,5-256452-A-5.wav,cat,5,5,256452,5.0,44100,1,0,Animales,train
+410,train,2-68595-A-15.wav,water_drops,48,2,68595,5.0,44100,1,18,Naturales y agua,train
+411,train,2-50665-A-20.wav,crying_baby,17,2,50665,5.0,44100,1,24,Humanos no verbales,train
+412,train,2-85434-A-27.wav,brushing_teeth,2,2,85434,5.0,44100,1,21,Humanos no verbales,train
+413,train,3-156581-A-14.wav,chirping_birds,7,3,156581,5.0,44100,1,10,Naturales y agua,train
+414,train,4-164064-A-1.wav,rooster,37,4,164064,5.0,44100,1,8,Animales,train
+415,train,5-233260-A-23.wav,breathing,1,5,233260,5.0,44100,1,20,Humanos no verbales,train
+416,train,4-216349-A-34.wav,can_opening,3,4,216349,5.0,44100,1,30,Domésticos,train
+417,train,4-135439-A-18.wav,toilet_flush,44,4,135439,5.0,44100,1,17,Naturales y agua,train
+418,train,2-106072-A-36.wav,vacuum_cleaner,46,2,106072,5.0,44100,1,38,Domésticos,train
+419,train,2-103423-A-3.wav,cow,13,2,103423,5.0,44100,1,1,Animales,train
+420,train,5-188495-A-19.wav,thunderstorm,43,5,188495,5.0,44100,1,16,Naturales y agua,train
+421,train,4-167642-A-21.wav,sneezing,41,4,167642,5.0,44100,1,28,Humanos no verbales,train
+422,train,4-198025-A-23.wav,breathing,1,4,198025,5.0,44100,1,20,Humanos no verbales,train
+423,train,4-169127-B-41.wav,chainsaw,6,4,169127,5.0,44100,1,42,Urbanos,train
+424,train,5-200329-B-8.wav,sheep,39,5,200329,5.0,44100,1,9,Animales,train
+425,train,3-118487-A-26.wav,laughing,32,3,118487,5.0,44100,1,27,Humanos no verbales,train
+426,train,2-68391-B-41.wav,chainsaw,6,2,68391,5.0,44100,1,42,Urbanos,train
+427,train,5-194930-A-1.wav,rooster,37,5,194930,5.0,44100,1,8,Animales,val
+428,train,4-167077-B-20.wav,crying_baby,17,4,167077,5.0,44100,1,24,Humanos no verbales,val
+429,train,2-39945-A-19.wav,thunderstorm,43,2,39945,5.0,44100,1,16,Naturales y agua,train
+430,train,2-127108-A-38.wav,clock_tick,11,2,127108,5.0,44100,1,32,Domésticos,train
+431,train,5-219242-B-37.wav,clock_alarm,10,5,219242,5.0,44100,1,31,Domésticos,val
+432,train,5-205589-B-17.wav,pouring_water,35,5,205589,5.0,44100,1,13,Naturales y agua,val
+433,train,4-175845-A-43.wav,car_horn,4,4,175845,5.0,44100,1,41,Urbanos,train
+434,train,4-204612-A-31.wav,mouse_click,33,4,204612,5.0,44100,1,37,Domésticos,train
+435,train,5-117773-A-16.wav,wind,49,5,117773,5.0,44100,1,19,Naturales y agua,train
+436,train,3-71964-C-4.wav,frog,25,3,71964,5.0,44100,1,4,Animales,train
+437,train,2-43802-A-42.wav,siren,40,2,43802,5.0,44100,1,48,Urbanos,train
+438,train,4-181955-C-3.wav,cow,13,4,181955,5.0,44100,1,1,Animales,train
+439,train,4-188293-A-15.wav,water_drops,48,4,188293,5.0,44100,1,18,Naturales y agua,train
+440,train,3-102583-A-49.wav,hand_saw,27,3,102583,5.0,44100,1,46,Urbanos,val
+441,train,2-74977-A-18.wav,toilet_flush,44,2,74977,5.0,44100,1,17,Naturales y agua,train
+442,train,3-155579-A-14.wav,chirping_birds,7,3,155579,5.0,44100,1,10,Naturales y agua,train
+443,train,2-120587-A-6.wav,hen,29,2,120587,5.0,44100,1,5,Animales,train
+444,train,3-95695-B-5.wav,cat,5,3,95695,5.0,44100,1,0,Animales,val
+445,train,2-118459-A-32.wav,keyboard_typing,31,2,118459,5.0,44100,1,36,Domésticos,train
+446,train,5-197118-A-45.wav,train,45,5,197118,5.0,44100,1,49,Urbanos,val
+447,train,5-257349-A-15.wav,water_drops,48,5,257349,5.0,44100,1,18,Naturales y agua,val
+448,train,5-215172-A-13.wav,crickets,15,5,215172,5.0,44100,1,12,Naturales y agua,train
+449,train,4-164243-A-26.wav,laughing,32,4,164243,5.0,44100,1,27,Humanos no verbales,train
+450,train,2-77945-A-41.wav,chainsaw,6,2,77945,5.0,44100,1,42,Urbanos,train
+451,train,5-147297-A-27.wav,brushing_teeth,2,5,147297,5.0,44100,1,21,Humanos no verbales,train
+452,train,4-172500-B-27.wav,brushing_teeth,2,4,172500,5.0,44100,1,21,Humanos no verbales,train
+453,train,4-204684-A-37.wav,clock_alarm,10,4,204684,5.0,44100,1,31,Domésticos,train
+454,train,5-243459-B-14.wav,chirping_birds,7,5,243459,5.0,44100,1,10,Naturales y agua,val
+455,train,2-188822-A-40.wav,helicopter,28,2,188822,5.0,44100,1,47,Urbanos,train
+456,train,5-161270-A-33.wav,door_wood_creaks,19,5,161270,5.0,44100,1,33,Domésticos,train
+457,train,2-125520-A-43.wav,car_horn,4,2,125520,5.0,44100,1,41,Urbanos,train
+458,train,3-103050-A-19.wav,thunderstorm,43,3,103050,5.0,44100,1,16,Naturales y agua,train
+459,train,5-151085-A-20.wav,crying_baby,17,5,151085,5.0,44100,1,24,Humanos no verbales,train
+460,train,4-212604-A-15.wav,water_drops,48,4,212604,5.0,44100,1,18,Naturales y agua,train
+461,train,3-170377-A-38.wav,clock_tick,11,3,170377,5.0,44100,1,32,Domésticos,train
+462,train,2-94807-A-29.wav,drinking_sipping,21,2,94807,5.0,44100,1,25,Humanos no verbales,train
+463,train,2-67422-A-18.wav,toilet_flush,44,2,67422,5.0,44100,1,17,Naturales y agua,train
+464,train,5-215658-A-12.wav,crackling_fire,14,5,215658,5.0,44100,1,11,Naturales y agua,train
+465,train,4-164064-B-1.wav,rooster,37,4,164064,5.0,44100,1,8,Animales,train
+466,train,5-244315-A-6.wav,hen,29,5,244315,5.0,44100,1,5,Animales,val
+467,train,2-70366-A-33.wav,door_wood_creaks,19,2,70366,5.0,44100,1,33,Domésticos,train
+468,train,3-51909-B-42.wav,siren,40,3,51909,5.0,44100,1,48,Urbanos,train
+469,train,3-70962-A-4.wav,frog,25,3,70962,5.0,44100,1,4,Animales,val
+470,train,4-165845-A-45.wav,train,45,4,165845,5.0,44100,1,49,Urbanos,train
+471,train,3-155584-A-14.wav,chirping_birds,7,3,155584,5.0,44100,1,10,Naturales y agua,train
+472,train,2-98866-A-47.wav,airplane,0,2,98866,5.0,44100,1,40,Urbanos,train
+473,train,2-95258-B-1.wav,rooster,37,2,95258,5.0,44100,1,8,Animales,train
+474,train,2-39945-B-19.wav,thunderstorm,43,2,39945,5.0,44100,1,16,Naturales y agua,train
+475,train,2-51630-B-49.wav,hand_saw,27,2,51630,5.0,44100,1,46,Urbanos,train
+476,train,3-155659-A-34.wav,can_opening,3,3,155659,5.0,44100,1,30,Domésticos,train
+477,train,5-243448-A-14.wav,chirping_birds,7,5,243448,5.0,44100,1,10,Naturales y agua,train
+478,train,5-141683-A-35.wav,washing_machine,47,5,141683,5.0,44100,1,39,Domésticos,train
+479,train,2-106015-A-44.wav,engine,22,2,106015,5.0,44100,1,44,Urbanos,train
+480,train,2-117116-A-37.wav,clock_alarm,10,2,117116,5.0,44100,1,31,Domésticos,train
+481,train,3-144891-A-19.wav,thunderstorm,43,3,144891,5.0,44100,1,16,Naturales y agua,train
+482,train,2-141681-A-36.wav,vacuum_cleaner,46,2,141681,5.0,44100,1,38,Domésticos,train
+483,train,5-216214-A-13.wav,crickets,15,5,216214,5.0,44100,1,12,Naturales y agua,train
+484,train,4-107120-A-33.wav,door_wood_creaks,19,4,107120,5.0,44100,1,33,Domésticos,train
+485,train,3-96606-B-49.wav,hand_saw,27,3,96606,5.0,44100,1,46,Urbanos,train
+486,train,3-151557-A-28.wav,snoring,42,3,151557,5.0,44100,1,29,Humanos no verbales,train
+487,train,5-212730-A-17.wav,pouring_water,35,5,212730,5.0,44100,1,13,Naturales y agua,val
+488,train,2-107351-B-20.wav,crying_baby,17,2,107351,5.0,44100,1,24,Humanos no verbales,train
+489,train,5-213836-A-9.wav,crow,16,5,213836,5.0,44100,1,2,Animales,train
+490,train,2-117795-B-3.wav,cow,13,2,117795,5.0,44100,1,1,Animales,train
+491,train,5-253085-B-3.wav,cow,13,5,253085,5.0,44100,1,1,Animales,train
+492,train,3-108451-A-17.wav,pouring_water,35,3,108451,5.0,44100,1,13,Naturales y agua,train
+493,train,5-171653-A-41.wav,chainsaw,6,5,171653,5.0,44100,1,42,Urbanos,val
+494,train,2-158746-D-2.wav,pig,34,2,158746,5.0,44100,1,7,Animales,train
+495,train,2-72547-D-14.wav,chirping_birds,7,2,72547,5.0,44100,1,10,Naturales y agua,train
+496,train,2-96033-A-13.wav,crickets,15,2,96033,5.0,44100,1,12,Naturales y agua,train
+497,train,2-209472-A-25.wav,footsteps,24,2,209472,5.0,44100,1,26,Humanos no verbales,train
+498,train,2-133863-A-11.wav,sea_waves,38,2,133863,5.0,44100,1,15,Naturales y agua,train
+499,train,4-163608-B-16.wav,wind,49,4,163608,5.0,44100,1,19,Naturales y agua,train
+500,train,3-144259-A-29.wav,drinking_sipping,21,3,144259,5.0,44100,1,25,Humanos no verbales,train
+501,train,4-161579-B-40.wav,helicopter,28,4,161579,5.0,44100,1,47,Urbanos,train
+502,train,3-156391-A-35.wav,washing_machine,47,3,156391,5.0,44100,1,39,Domésticos,train
+503,train,4-147240-A-2.wav,pig,34,4,147240,5.0,44100,1,7,Animales,train
+504,train,2-108017-A-24.wav,coughing,12,2,108017,5.0,44100,1,23,Humanos no verbales,train
+505,train,4-177835-A-24.wav,coughing,12,4,177835,5.0,44100,1,23,Humanos no verbales,val
+506,train,5-243773-A-44.wav,engine,22,5,243773,5.0,44100,1,44,Urbanos,train
+507,train,3-155234-A-43.wav,car_horn,4,3,155234,5.0,44100,1,41,Urbanos,train
+508,train,4-157611-A-41.wav,chainsaw,6,4,157611,5.0,44100,1,42,Urbanos,val
+509,train,2-72268-A-6.wav,hen,29,2,72268,5.0,44100,1,5,Animales,train
+510,train,3-92637-A-18.wav,toilet_flush,44,3,92637,5.0,44100,1,17,Naturales y agua,train
+511,train,5-253094-D-49.wav,hand_saw,27,5,253094,5.0,44100,1,46,Urbanos,train
+512,train,5-195557-A-19.wav,thunderstorm,43,5,195557,5.0,44100,1,16,Naturales y agua,train
+513,train,4-182368-A-12.wav,crackling_fire,14,4,182368,5.0,44100,1,11,Naturales y agua,val
+514,train,5-179865-A-43.wav,car_horn,4,5,179865,5.0,44100,1,41,Urbanos,train
+515,train,5-219379-B-11.wav,sea_waves,38,5,219379,5.0,44100,1,15,Naturales y agua,train
+516,train,5-263831-A-6.wav,hen,29,5,263831,5.0,44100,1,5,Animales,train
+517,train,5-235893-A-28.wav,snoring,42,5,235893,5.0,44100,1,29,Humanos no verbales,val
+518,train,3-110913-C-7.wav,insects,30,3,110913,5.0,44100,1,6,Animales,train
+519,train,2-117617-A-48.wav,fireworks,23,2,117617,5.0,44100,1,45,Urbanos,train
+520,train,3-134699-A-16.wav,wind,49,3,134699,5.0,44100,1,19,Naturales y agua,train
+521,train,3-155642-A-11.wav,sea_waves,38,3,155642,5.0,44100,1,15,Naturales y agua,train
+522,train,5-156999-D-19.wav,thunderstorm,43,5,156999,5.0,44100,1,16,Naturales y agua,train
+523,train,5-194899-D-3.wav,cow,13,5,194899,5.0,44100,1,1,Animales,val
+524,train,4-182314-B-7.wav,insects,30,4,182314,5.0,44100,1,6,Animales,train
+525,train,4-59579-B-20.wav,crying_baby,17,4,59579,5.0,44100,1,24,Humanos no verbales,train
+526,train,5-260434-A-39.wav,glass_breaking,26,5,260434,5.0,44100,1,35,Domésticos,val
+527,train,5-197121-B-45.wav,train,45,5,197121,5.0,44100,1,49,Urbanos,val
+528,train,3-170312-A-31.wav,mouse_click,33,3,170312,5.0,44100,1,37,Domésticos,train
+529,train,5-259180-A-15.wav,water_drops,48,5,259180,5.0,44100,1,18,Naturales y agua,train
+530,train,2-109759-B-26.wav,laughing,32,2,109759,5.0,44100,1,27,Humanos no verbales,train
+531,train,3-111102-B-46.wav,church_bells,8,3,111102,5.0,44100,1,43,Urbanos,train
+532,train,4-158653-A-32.wav,keyboard_typing,31,4,158653,5.0,44100,1,36,Domésticos,val
+533,train,3-150363-A-38.wav,clock_tick,11,3,150363,5.0,44100,1,32,Domésticos,train
+534,train,3-127890-B-9.wav,crow,16,3,127890,5.0,44100,1,2,Animales,train
+535,train,4-145081-A-9.wav,crow,16,4,145081,5.0,44100,1,2,Animales,train
+536,train,3-164592-A-15.wav,water_drops,48,3,164592,5.0,44100,1,18,Naturales y agua,train
+537,train,4-125072-A-19.wav,thunderstorm,43,4,125072,5.0,44100,1,16,Naturales y agua,train
+538,train,3-103401-C-33.wav,door_wood_creaks,19,3,103401,5.0,44100,1,33,Domésticos,val
+539,train,3-144827-B-11.wav,sea_waves,38,3,144827,5.0,44100,1,15,Naturales y agua,train
+540,train,2-83688-A-34.wav,can_opening,3,2,83688,5.0,44100,1,30,Domésticos,train
+541,train,5-219318-A-31.wav,mouse_click,33,5,219318,5.0,44100,1,37,Domésticos,train
+542,train,5-215658-B-12.wav,crackling_fire,14,5,215658,5.0,44100,1,11,Naturales y agua,train
+543,train,3-148297-A-37.wav,clock_alarm,10,3,148297,5.0,44100,1,31,Domésticos,train
+544,train,3-143562-A-47.wav,airplane,0,3,143562,5.0,44100,1,40,Urbanos,train
+545,train,4-150364-A-46.wav,church_bells,8,4,150364,5.0,44100,1,43,Urbanos,train
+546,train,4-204119-A-39.wav,glass_breaking,26,4,204119,5.0,44100,1,35,Domésticos,train
+547,train,3-152039-B-3.wav,cow,13,3,152039,5.0,44100,1,1,Animales,train
+548,train,2-60794-A-26.wav,laughing,32,2,60794,5.0,44100,1,27,Humanos no verbales,train
+549,train,5-179860-A-43.wav,car_horn,4,5,179860,5.0,44100,1,41,Urbanos,train
+550,train,5-160614-H-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+551,train,2-70052-B-42.wav,siren,40,2,70052,5.0,44100,1,48,Urbanos,val
+552,train,2-82274-A-5.wav,cat,5,2,82274,5.0,44100,1,0,Animales,train
+553,train,2-74361-A-47.wav,airplane,0,2,74361,5.0,44100,1,40,Urbanos,train
+554,train,3-157487-A-10.wav,rain,36,3,157487,5.0,44100,1,14,Naturales y agua,train
+555,train,5-244178-A-32.wav,keyboard_typing,31,5,244178,5.0,44100,1,36,Domésticos,train
+556,train,3-142005-A-10.wav,rain,36,3,142005,5.0,44100,1,14,Naturales y agua,train
+557,train,4-198360-C-49.wav,hand_saw,27,4,198360,5.0,44100,1,46,Urbanos,train
+558,train,5-232816-A-23.wav,breathing,1,5,232816,5.0,44100,1,20,Humanos no verbales,val
+559,train,5-205589-A-17.wav,pouring_water,35,5,205589,5.0,44100,1,13,Naturales y agua,val
+560,train,3-136288-A-0.wav,dog,18,3,136288,5.0,44100,1,3,Animales,train
+561,train,3-197435-B-22.wav,clapping,9,3,197435,5.0,44100,1,22,Humanos no verbales,train
+562,train,3-171041-A-38.wav,clock_tick,11,3,171041,5.0,44100,1,32,Domésticos,train
+563,train,3-177083-A-22.wav,clapping,9,3,177083,5.0,44100,1,22,Humanos no verbales,train
+564,train,5-233605-A-39.wav,glass_breaking,26,5,233605,5.0,44100,1,35,Domésticos,val
+565,train,3-120526-A-37.wav,clock_alarm,10,3,120526,5.0,44100,1,31,Domésticos,train
+566,train,2-144137-A-43.wav,car_horn,4,2,144137,5.0,44100,1,41,Urbanos,val
+567,train,3-119455-A-44.wav,engine,22,3,119455,5.0,44100,1,44,Urbanos,train
+568,train,5-210612-A-37.wav,clock_alarm,10,5,210612,5.0,44100,1,31,Domésticos,train
+569,train,3-156581-B-14.wav,chirping_birds,7,3,156581,5.0,44100,1,10,Naturales y agua,train
+570,train,3-216284-A-39.wav,glass_breaking,26,3,216284,5.0,44100,1,35,Domésticos,train
+571,train,4-181628-A-17.wav,pouring_water,35,4,181628,5.0,44100,1,13,Naturales y agua,train
+572,train,4-154405-B-27.wav,brushing_teeth,2,4,154405,5.0,44100,1,21,Humanos no verbales,train
+573,train,2-134700-A-38.wav,clock_tick,11,2,134700,5.0,44100,1,32,Domésticos,train
+574,train,4-146200-A-36.wav,vacuum_cleaner,46,4,146200,5.0,44100,1,38,Domésticos,val
+575,train,3-139331-A-27.wav,brushing_teeth,2,3,139331,5.0,44100,1,21,Humanos no verbales,train
+576,train,4-215635-A-34.wav,can_opening,3,4,215635,5.0,44100,1,30,Domésticos,train
+577,train,3-151273-A-35.wav,washing_machine,47,3,151273,5.0,44100,1,39,Domésticos,train
+578,train,4-194711-A-38.wav,clock_tick,11,4,194711,5.0,44100,1,32,Domésticos,train
+579,train,5-150409-A-42.wav,siren,40,5,150409,5.0,44100,1,48,Urbanos,train
+580,train,3-132852-A-10.wav,rain,36,3,132852,5.0,44100,1,14,Naturales y agua,val
+581,train,5-207811-A-35.wav,washing_machine,47,5,207811,5.0,44100,1,39,Domésticos,train
+582,train,4-179836-A-34.wav,can_opening,3,4,179836,5.0,44100,1,30,Domésticos,train
+583,train,5-218196-A-27.wav,brushing_teeth,2,5,218196,5.0,44100,1,21,Humanos no verbales,train
+584,train,4-218199-H-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+585,train,3-102583-C-49.wav,hand_saw,27,3,102583,5.0,44100,1,46,Urbanos,val
+586,train,2-92978-A-29.wav,drinking_sipping,21,2,92978,5.0,44100,1,25,Humanos no verbales,train
+587,train,3-132601-A-24.wav,coughing,12,3,132601,5.0,44100,1,23,Humanos no verbales,train
+588,train,3-185456-A-29.wav,drinking_sipping,21,3,185456,5.0,44100,1,25,Humanos no verbales,val
+589,train,4-119647-B-48.wav,fireworks,23,4,119647,5.0,44100,1,45,Urbanos,train
+590,train,3-203371-A-39.wav,glass_breaking,26,3,203371,5.0,44100,1,35,Domésticos,train
+591,train,5-185579-B-41.wav,chainsaw,6,5,185579,5.0,44100,1,42,Urbanos,val
+592,train,5-187979-A-21.wav,sneezing,41,5,187979,5.0,44100,1,28,Humanos no verbales,train
+593,train,2-82538-A-21.wav,sneezing,41,2,82538,5.0,44100,1,28,Humanos no verbales,train
+594,train,3-170574-A-30.wav,door_wood_knock,20,3,170574,5.0,44100,1,34,Domésticos,val
+595,train,3-104632-A-12.wav,crackling_fire,14,3,104632,5.0,44100,1,11,Naturales y agua,train
+596,train,2-18766-B-12.wav,crackling_fire,14,2,18766,5.0,44100,1,11,Naturales y agua,train
+597,train,5-194930-B-1.wav,rooster,37,5,194930,5.0,44100,1,8,Animales,val
+598,train,2-37806-B-40.wav,helicopter,28,2,37806,5.0,44100,1,47,Urbanos,train
+599,train,5-220027-A-21.wav,sneezing,41,5,220027,5.0,44100,1,28,Humanos no verbales,train
+600,train,3-107219-A-1.wav,rooster,37,3,107219,5.0,44100,1,8,Animales,train
+601,train,5-238938-A-27.wav,brushing_teeth,2,5,238938,5.0,44100,1,21,Humanos no verbales,train
+602,train,2-99955-C-7.wav,insects,30,2,99955,5.0,44100,1,6,Animales,val
+603,train,4-99644-A-4.wav,frog,25,4,99644,5.0,44100,1,4,Animales,train
+604,train,4-161099-A-47.wav,airplane,0,4,161099,5.0,44100,1,40,Urbanos,train
+605,train,2-114609-A-28.wav,snoring,42,2,114609,5.0,44100,1,29,Humanos no verbales,train
+606,train,3-154378-A-30.wav,door_wood_knock,20,3,154378,5.0,44100,1,34,Domésticos,val
+607,train,2-57733-A-22.wav,clapping,9,2,57733,5.0,44100,1,22,Humanos no verbales,val
+608,train,4-180380-A-10.wav,rain,36,4,180380,5.0,44100,1,14,Naturales y agua,train
+609,train,3-152912-A-26.wav,laughing,32,3,152912,5.0,44100,1,27,Humanos no verbales,val
+610,train,4-181865-A-38.wav,clock_tick,11,4,181865,5.0,44100,1,32,Domésticos,val
+611,train,5-204604-A-24.wav,coughing,12,5,204604,5.0,44100,1,23,Humanos no verbales,val
+612,train,2-120333-A-32.wav,keyboard_typing,31,2,120333,5.0,44100,1,36,Domésticos,train
+613,train,2-122763-A-29.wav,drinking_sipping,21,2,122763,5.0,44100,1,25,Humanos no verbales,train
+614,train,4-140034-A-46.wav,church_bells,8,4,140034,5.0,44100,1,43,Urbanos,train
+615,train,2-80313-A-28.wav,snoring,42,2,80313,5.0,44100,1,29,Humanos no verbales,val
+616,train,2-39443-A-19.wav,thunderstorm,43,2,39443,5.0,44100,1,16,Naturales y agua,train
+617,train,5-250258-A-49.wav,hand_saw,27,5,250258,5.0,44100,1,46,Urbanos,train
+618,train,2-125966-A-11.wav,sea_waves,38,2,125966,5.0,44100,1,15,Naturales y agua,train
+619,train,2-109371-A-16.wav,wind,49,2,109371,5.0,44100,1,19,Naturales y agua,train
+620,train,5-197121-A-45.wav,train,45,5,197121,5.0,44100,1,49,Urbanos,val
+621,train,3-145774-A-12.wav,crackling_fire,14,3,145774,5.0,44100,1,11,Naturales y agua,train
+622,train,5-200461-A-11.wav,sea_waves,38,5,200461,5.0,44100,1,15,Naturales y agua,train
+623,train,3-117504-B-16.wav,wind,49,3,117504,5.0,44100,1,19,Naturales y agua,train
+624,train,4-111671-A-42.wav,siren,40,4,111671,5.0,44100,1,48,Urbanos,train
+625,train,2-104952-B-16.wav,wind,49,2,104952,5.0,44100,1,19,Naturales y agua,train
+626,train,2-78562-B-37.wav,clock_alarm,10,2,78562,5.0,44100,1,31,Domésticos,train
+627,train,3-118972-B-41.wav,chainsaw,6,3,118972,5.0,44100,1,42,Urbanos,train
+628,train,5-242491-A-14.wav,chirping_birds,7,5,242491,5.0,44100,1,10,Naturales y agua,train
+629,train,3-146873-A-24.wav,coughing,12,3,146873,5.0,44100,1,23,Humanos no verbales,train
+630,train,3-87936-B-46.wav,church_bells,8,3,87936,5.0,44100,1,43,Urbanos,train
+631,train,2-99955-A-7.wav,insects,30,2,99955,5.0,44100,1,6,Animales,val
+632,train,3-251617-A-48.wav,fireworks,23,3,251617,5.0,44100,1,45,Urbanos,train
+633,train,5-217158-A-0.wav,dog,18,5,217158,5.0,44100,1,3,Animales,train
+634,train,2-83667-A-34.wav,can_opening,3,2,83667,5.0,44100,1,30,Domésticos,train
+635,train,3-101381-B-33.wav,door_wood_creaks,19,3,101381,5.0,44100,1,33,Domésticos,train
+636,train,4-117627-A-25.wav,footsteps,24,4,117627,5.0,44100,1,26,Humanos no verbales,train
+637,train,5-200334-A-1.wav,rooster,37,5,200334,5.0,44100,1,8,Animales,train
+638,train,5-177614-A-5.wav,cat,5,5,177614,5.0,44100,1,0,Animales,train
+639,train,2-78799-A-47.wav,airplane,0,2,78799,5.0,44100,1,40,Urbanos,train
+640,train,2-152895-A-31.wav,mouse_click,33,2,152895,5.0,44100,1,37,Domésticos,val
+641,train,2-102567-C-35.wav,washing_machine,47,2,102567,5.0,44100,1,39,Domésticos,val
+642,train,2-119748-A-38.wav,clock_tick,11,2,119748,5.0,44100,1,32,Domésticos,val
+643,train,3-140199-B-8.wav,sheep,39,3,140199,5.0,44100,1,9,Animales,train
+644,train,3-127874-A-17.wav,pouring_water,35,3,127874,5.0,44100,1,13,Naturales y agua,train
+645,train,4-125825-B-46.wav,church_bells,8,4,125825,5.0,44100,1,43,Urbanos,val
+646,train,5-213836-C-9.wav,crow,16,5,213836,5.0,44100,1,2,Animales,train
+647,train,5-250026-A-30.wav,door_wood_knock,20,5,250026,5.0,44100,1,34,Domésticos,train
+648,train,3-153057-A-43.wav,car_horn,4,3,153057,5.0,44100,1,41,Urbanos,val
+649,train,4-180337-A-28.wav,snoring,42,4,180337,5.0,44100,1,29,Humanos no verbales,train
+650,train,4-144468-B-27.wav,brushing_teeth,2,4,144468,5.0,44100,1,21,Humanos no verbales,train
+651,train,4-164021-A-1.wav,rooster,37,4,164021,5.0,44100,1,8,Animales,train
+652,train,2-91912-A-33.wav,door_wood_creaks,19,2,91912,5.0,44100,1,33,Domésticos,train
+653,train,2-60900-A-22.wav,clapping,9,2,60900,5.0,44100,1,22,Humanos no verbales,train
+654,train,5-188945-A-45.wav,train,45,5,188945,5.0,44100,1,49,Urbanos,train
+655,train,2-57191-A-46.wav,church_bells,8,2,57191,5.0,44100,1,43,Urbanos,train
+656,train,2-118625-A-30.wav,door_wood_knock,20,2,118625,5.0,44100,1,34,Domésticos,train
+657,train,2-59565-A-46.wav,church_bells,8,2,59565,5.0,44100,1,43,Urbanos,train
+658,train,2-72677-A-18.wav,toilet_flush,44,2,72677,5.0,44100,1,17,Naturales y agua,train
+659,train,3-161500-A-17.wav,pouring_water,35,3,161500,5.0,44100,1,13,Naturales y agua,train
+660,train,4-145006-A-18.wav,toilet_flush,44,4,145006,5.0,44100,1,17,Naturales y agua,train
+661,train,5-232802-A-31.wav,mouse_click,33,5,232802,5.0,44100,1,37,Domésticos,train
+662,train,4-188293-B-15.wav,water_drops,48,4,188293,5.0,44100,1,18,Naturales y agua,train
+663,train,2-95258-A-1.wav,rooster,37,2,95258,5.0,44100,1,8,Animales,train
+664,train,4-193480-A-40.wav,helicopter,28,4,193480,5.0,44100,1,47,Urbanos,train
+665,train,2-106073-A-36.wav,vacuum_cleaner,46,2,106073,5.0,44100,1,38,Domésticos,val
+666,train,4-102844-C-49.wav,hand_saw,27,4,102844,5.0,44100,1,46,Urbanos,train
+667,train,5-238926-A-31.wav,mouse_click,33,5,238926,5.0,44100,1,37,Domésticos,train
+668,train,3-68630-A-40.wav,helicopter,28,3,68630,5.0,44100,1,47,Urbanos,train
+669,train,5-223317-A-31.wav,mouse_click,33,5,223317,5.0,44100,1,37,Domésticos,train
+670,train,4-165823-A-41.wav,chainsaw,6,4,165823,5.0,44100,1,42,Urbanos,train
+671,train,4-216211-A-14.wav,chirping_birds,7,4,216211,5.0,44100,1,10,Naturales y agua,train
+672,train,3-159445-B-45.wav,train,45,3,159445,5.0,44100,1,49,Urbanos,train
+673,train,5-261464-A-23.wav,breathing,1,5,261464,5.0,44100,1,20,Humanos no verbales,train
+674,train,3-118069-A-27.wav,brushing_teeth,2,3,118069,5.0,44100,1,21,Humanos no verbales,val
+675,train,2-76868-A-6.wav,hen,29,2,76868,5.0,44100,1,5,Animales,val
+676,train,4-90014-A-42.wav,siren,40,4,90014,5.0,44100,1,48,Urbanos,val
+677,train,5-198600-A-45.wav,train,45,5,198600,5.0,44100,1,49,Urbanos,train
+678,train,3-159346-B-36.wav,vacuum_cleaner,46,3,159346,5.0,44100,1,38,Domésticos,train
+679,train,2-135649-C-45.wav,train,45,2,135649,5.0,44100,1,49,Urbanos,train
+680,train,4-199261-A-0.wav,dog,18,4,199261,5.0,44100,1,3,Animales,train
+681,train,4-132383-A-2.wav,pig,34,4,132383,5.0,44100,1,7,Animales,train
+682,train,4-194680-A-36.wav,vacuum_cleaner,46,4,194680,5.0,44100,1,38,Domésticos,train
+683,train,4-209698-A-37.wav,clock_alarm,10,4,209698,5.0,44100,1,31,Domésticos,train
+684,train,3-164630-A-11.wav,sea_waves,38,3,164630,5.0,44100,1,15,Naturales y agua,train
+685,train,2-112213-B-39.wav,glass_breaking,26,2,112213,5.0,44100,1,35,Domésticos,train
+686,train,3-118194-A-33.wav,door_wood_creaks,19,3,118194,5.0,44100,1,33,Domésticos,train
+687,train,2-83270-A-13.wav,crickets,15,2,83270,5.0,44100,1,12,Naturales y agua,train
+688,train,5-263775-A-26.wav,laughing,32,5,263775,5.0,44100,1,27,Humanos no verbales,train
+689,train,4-147657-A-46.wav,church_bells,8,4,147657,5.0,44100,1,43,Urbanos,train
+690,train,2-109759-A-26.wav,laughing,32,2,109759,5.0,44100,1,27,Humanos no verbales,train
+691,train,3-180977-A-0.wav,dog,18,3,180977,5.0,44100,1,3,Animales,train
+692,train,2-85139-A-13.wav,crickets,15,2,85139,5.0,44100,1,12,Naturales y agua,train
+693,train,4-172733-A-36.wav,vacuum_cleaner,46,4,172733,5.0,44100,1,38,Domésticos,train
+694,train,4-204777-A-39.wav,glass_breaking,26,4,204777,5.0,44100,1,35,Domésticos,train
+695,train,4-154405-A-27.wav,brushing_teeth,2,4,154405,5.0,44100,1,21,Humanos no verbales,train
+696,train,3-142006-A-10.wav,rain,36,3,142006,5.0,44100,1,14,Naturales y agua,train
+697,train,4-171823-A-13.wav,crickets,15,4,171823,5.0,44100,1,12,Naturales y agua,train
+698,train,3-155583-A-14.wav,chirping_birds,7,3,155583,5.0,44100,1,10,Naturales y agua,train
+699,train,4-164661-A-12.wav,crackling_fire,14,4,164661,5.0,44100,1,11,Naturales y agua,train
+700,train,2-158746-B-2.wav,pig,34,2,158746,5.0,44100,1,7,Animales,train
+701,train,4-159426-A-9.wav,crow,16,4,159426,5.0,44100,1,2,Animales,train
+702,train,3-163288-A-1.wav,rooster,37,3,163288,5.0,44100,1,8,Animales,train
+703,train,4-165606-A-45.wav,train,45,4,165606,5.0,44100,1,49,Urbanos,train
+704,train,2-122067-B-45.wav,train,45,2,122067,5.0,44100,1,49,Urbanos,train
+705,train,5-259514-A-26.wav,laughing,32,5,259514,5.0,44100,1,27,Humanos no verbales,train
+706,train,5-208810-B-11.wav,sea_waves,38,5,208810,5.0,44100,1,15,Naturales y agua,train
+707,train,3-140199-D-8.wav,sheep,39,3,140199,5.0,44100,1,9,Animales,train
+708,train,3-103599-B-25.wav,footsteps,24,3,103599,5.0,44100,1,26,Humanos no verbales,train
+709,train,4-125072-B-19.wav,thunderstorm,43,4,125072,5.0,44100,1,16,Naturales y agua,train
+710,train,3-155766-A-13.wav,crickets,15,3,155766,5.0,44100,1,12,Naturales y agua,train
+711,train,4-218199-G-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+712,train,4-170247-A-12.wav,crackling_fire,14,4,170247,5.0,44100,1,11,Naturales y agua,val
+713,train,2-82274-B-5.wav,cat,5,2,82274,5.0,44100,1,0,Animales,train
+714,train,2-102567-D-35.wav,washing_machine,47,2,102567,5.0,44100,1,39,Domésticos,val
+715,train,5-215179-A-13.wav,crickets,15,5,215179,5.0,44100,1,12,Naturales y agua,train
+716,train,5-248341-A-6.wav,hen,29,5,248341,5.0,44100,1,5,Animales,train
+717,train,4-188191-B-29.wav,drinking_sipping,21,4,188191,5.0,44100,1,25,Humanos no verbales,train
+718,train,4-204683-A-31.wav,mouse_click,33,4,204683,5.0,44100,1,37,Domésticos,train
+719,train,3-216281-A-39.wav,glass_breaking,26,3,216281,5.0,44100,1,35,Domésticos,train
+720,train,4-204777-C-39.wav,glass_breaking,26,4,204777,5.0,44100,1,35,Domésticos,train
+721,train,5-253101-A-49.wav,hand_saw,27,5,253101,5.0,44100,1,46,Urbanos,train
+722,train,3-97909-B-49.wav,hand_saw,27,3,97909,5.0,44100,1,46,Urbanos,val
+723,train,3-51731-A-42.wav,siren,40,3,51731,5.0,44100,1,48,Urbanos,train
+724,train,2-102568-A-35.wav,washing_machine,47,2,102568,5.0,44100,1,39,Domésticos,train
+725,train,2-32515-D-4.wav,frog,25,2,32515,5.0,44100,1,4,Animales,train
+726,train,5-156999-B-19.wav,thunderstorm,43,5,156999,5.0,44100,1,16,Naturales y agua,train
+727,train,4-204115-A-39.wav,glass_breaking,26,4,204115,5.0,44100,1,35,Domésticos,val
+728,train,5-160614-E-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+729,train,4-160999-A-10.wav,rain,36,4,160999,5.0,44100,1,14,Naturales y agua,train
+730,train,3-156393-A-35.wav,washing_machine,47,3,156393,5.0,44100,1,39,Domésticos,train
+731,train,3-141559-A-45.wav,train,45,3,141559,5.0,44100,1,49,Urbanos,train
+732,train,2-54962-A-23.wav,breathing,1,2,54962,5.0,44100,1,20,Humanos no verbales,train
+733,train,5-207681-A-24.wav,coughing,12,5,207681,5.0,44100,1,23,Humanos no verbales,train
+734,train,5-179496-B-16.wav,wind,49,5,179496,5.0,44100,1,19,Naturales y agua,train
+735,train,4-138344-A-9.wav,crow,16,4,138344,5.0,44100,1,2,Animales,val
+736,train,2-87781-A-10.wav,rain,36,2,87781,5.0,44100,1,14,Naturales y agua,train
+737,train,4-189838-A-22.wav,clapping,9,4,189838,5.0,44100,1,22,Humanos no verbales,train
+738,train,3-166546-B-34.wav,can_opening,3,3,166546,5.0,44100,1,30,Domésticos,val
+739,train,5-221529-A-39.wav,glass_breaking,26,5,221529,5.0,44100,1,35,Domésticos,train
+740,train,5-160614-A-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+741,train,5-156026-B-4.wav,frog,25,5,156026,5.0,44100,1,4,Animales,train
+742,train,4-164859-A-1.wav,rooster,37,4,164859,5.0,44100,1,8,Animales,train
+743,train,3-87936-A-46.wav,church_bells,8,3,87936,5.0,44100,1,43,Urbanos,train
+744,train,4-159609-A-14.wav,chirping_birds,7,4,159609,5.0,44100,1,10,Naturales y agua,val
+745,train,5-231551-A-36.wav,vacuum_cleaner,46,5,231551,5.0,44100,1,38,Domésticos,train
+746,train,3-124958-A-28.wav,snoring,42,3,124958,5.0,44100,1,29,Humanos no verbales,train
+747,train,5-213802-A-12.wav,crackling_fire,14,5,213802,5.0,44100,1,11,Naturales y agua,train
+748,train,4-126046-A-18.wav,toilet_flush,44,4,126046,5.0,44100,1,17,Naturales y agua,val
+749,train,5-207836-B-29.wav,drinking_sipping,21,5,207836,5.0,44100,1,25,Humanos no verbales,train
+750,train,5-197913-A-18.wav,toilet_flush,44,5,197913,5.0,44100,1,17,Naturales y agua,train
+751,train,2-50668-B-41.wav,chainsaw,6,2,50668,5.0,44100,1,42,Urbanos,train
+752,train,2-100786-A-1.wav,rooster,37,2,100786,5.0,44100,1,8,Animales,train
+753,train,5-177957-A-40.wav,helicopter,28,5,177957,5.0,44100,1,47,Urbanos,val
+754,train,5-237499-A-4.wav,frog,25,5,237499,5.0,44100,1,4,Animales,train
+755,train,3-172922-A-48.wav,fireworks,23,3,172922,5.0,44100,1,45,Urbanos,train
+756,train,3-123224-A-19.wav,thunderstorm,43,3,123224,5.0,44100,1,16,Naturales y agua,train
+757,train,5-260875-A-35.wav,washing_machine,47,5,260875,5.0,44100,1,39,Domésticos,val
+758,train,2-154688-A-31.wav,mouse_click,33,2,154688,5.0,44100,1,37,Domésticos,train
+759,train,4-191246-B-7.wav,insects,30,4,191246,5.0,44100,1,6,Animales,val
+760,train,2-69131-B-5.wav,cat,5,2,69131,5.0,44100,1,0,Animales,val
+761,train,4-187284-A-30.wav,door_wood_knock,20,4,187284,5.0,44100,1,34,Domésticos,train
+762,train,3-118658-B-41.wav,chainsaw,6,3,118658,5.0,44100,1,42,Urbanos,train
+763,train,2-107228-A-44.wav,engine,22,2,107228,5.0,44100,1,44,Urbanos,val
+764,train,3-108677-A-18.wav,toilet_flush,44,3,108677,5.0,44100,1,17,Naturales y agua,train
+765,train,2-99796-A-32.wav,keyboard_typing,31,2,99796,5.0,44100,1,36,Domésticos,train
+766,train,2-141681-B-36.wav,vacuum_cleaner,46,2,141681,5.0,44100,1,38,Domésticos,train
+767,train,5-263491-A-25.wav,footsteps,24,5,263491,5.0,44100,1,26,Humanos no verbales,train
+768,train,2-141682-A-36.wav,vacuum_cleaner,46,2,141682,5.0,44100,1,38,Domésticos,train
+769,train,3-134049-A-1.wav,rooster,37,3,134049,5.0,44100,1,8,Animales,val
+770,train,4-188191-C-29.wav,drinking_sipping,21,4,188191,5.0,44100,1,25,Humanos no verbales,train
+771,train,3-164688-A-38.wav,clock_tick,11,3,164688,5.0,44100,1,32,Domésticos,train
+772,train,4-102844-A-49.wav,hand_saw,27,4,102844,5.0,44100,1,46,Urbanos,train
+773,train,2-104105-A-19.wav,thunderstorm,43,2,104105,5.0,44100,1,16,Naturales y agua,train
+774,train,2-78562-A-37.wav,clock_alarm,10,2,78562,5.0,44100,1,31,Domésticos,train
+775,train,4-191015-A-43.wav,car_horn,4,4,191015,5.0,44100,1,41,Urbanos,train
+776,train,3-154781-A-32.wav,keyboard_typing,31,3,154781,5.0,44100,1,36,Domésticos,train
+777,train,5-235874-A-28.wav,snoring,42,5,235874,5.0,44100,1,29,Humanos no verbales,train
+778,train,5-156026-C-4.wav,frog,25,5,156026,5.0,44100,1,4,Animales,train
+779,train,2-76408-D-22.wav,clapping,9,2,76408,5.0,44100,1,22,Humanos no verbales,train
+780,train,5-222894-A-32.wav,keyboard_typing,31,5,222894,5.0,44100,1,36,Domésticos,train
+781,train,5-177957-B-40.wav,helicopter,28,5,177957,5.0,44100,1,47,Urbanos,val
+782,train,4-157611-B-41.wav,chainsaw,6,4,157611,5.0,44100,1,42,Urbanos,val
+783,train,4-102871-A-42.wav,siren,40,4,102871,5.0,44100,1,48,Urbanos,train
+784,train,4-251959-A-47.wav,airplane,0,4,251959,5.0,44100,1,40,Urbanos,train
+785,train,4-186693-A-17.wav,pouring_water,35,4,186693,5.0,44100,1,13,Naturales y agua,val
+786,train,2-119161-B-8.wav,sheep,39,2,119161,5.0,44100,1,9,Animales,train
+787,train,5-205898-A-40.wav,helicopter,28,5,205898,5.0,44100,1,47,Urbanos,train
+788,train,2-102414-D-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+789,train,5-221528-A-39.wav,glass_breaking,26,5,221528,5.0,44100,1,35,Domésticos,train
+790,train,2-117615-B-48.wav,fireworks,23,2,117615,5.0,44100,1,45,Urbanos,train
+791,train,2-39443-B-19.wav,thunderstorm,43,2,39443,5.0,44100,1,16,Naturales y agua,train
+792,train,5-223810-A-35.wav,washing_machine,47,5,223810,5.0,44100,1,39,Domésticos,train
+793,train,4-197103-A-6.wav,hen,29,4,197103,5.0,44100,1,5,Animales,train
+794,train,4-218304-A-25.wav,footsteps,24,4,218304,5.0,44100,1,26,Humanos no verbales,train
+795,train,5-193339-A-10.wav,rain,36,5,193339,5.0,44100,1,14,Naturales y agua,train
+796,train,3-95697-A-5.wav,cat,5,3,95697,5.0,44100,1,0,Animales,train
+797,train,4-152995-A-24.wav,coughing,12,4,152995,5.0,44100,1,23,Humanos no verbales,val
+798,train,4-202749-A-13.wav,crickets,15,4,202749,5.0,44100,1,12,Naturales y agua,val
+799,train,4-181286-A-10.wav,rain,36,4,181286,5.0,44100,1,14,Naturales y agua,train
+800,train,3-152007-D-20.wav,crying_baby,17,3,152007,5.0,44100,1,24,Humanos no verbales,train
+801,train,3-155570-A-32.wav,keyboard_typing,31,3,155570,5.0,44100,1,36,Domésticos,train
+802,train,3-94343-A-25.wav,footsteps,24,3,94343,5.0,44100,1,26,Humanos no verbales,val
+803,train,4-179984-A-38.wav,clock_tick,11,4,179984,5.0,44100,1,32,Domésticos,train
+804,train,2-135728-A-38.wav,clock_tick,11,2,135728,5.0,44100,1,32,Domésticos,val
+805,train,4-182395-A-0.wav,dog,18,4,182395,5.0,44100,1,3,Animales,train
+806,train,4-212728-A-34.wav,can_opening,3,4,212728,5.0,44100,1,30,Domésticos,train
+807,train,4-163609-A-16.wav,wind,49,4,163609,5.0,44100,1,19,Naturales y agua,train
+808,train,3-120526-B-37.wav,clock_alarm,10,3,120526,5.0,44100,1,31,Domésticos,train
+809,train,2-81970-B-7.wav,insects,30,2,81970,5.0,44100,1,6,Animales,train
+810,train,5-220939-A-27.wav,brushing_teeth,2,5,220939,5.0,44100,1,21,Humanos no verbales,val
+811,train,3-144028-A-0.wav,dog,18,3,144028,5.0,44100,1,3,Animales,train
+812,train,5-160614-D-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+813,train,4-213915-B-3.wav,cow,13,4,213915,5.0,44100,1,1,Animales,train
+814,train,3-185313-A-31.wav,mouse_click,33,3,185313,5.0,44100,1,37,Domésticos,train
+815,train,4-175000-C-40.wav,helicopter,28,4,175000,5.0,44100,1,47,Urbanos,train
+816,train,5-198411-G-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+817,train,2-102414-B-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+818,train,5-202795-A-3.wav,cow,13,5,202795,5.0,44100,1,1,Animales,train
+819,train,3-259622-A-44.wav,engine,22,3,259622,5.0,44100,1,44,Urbanos,train
+820,train,2-108761-A-14.wav,chirping_birds,7,2,108761,5.0,44100,1,10,Naturales y agua,train
+821,train,2-78651-A-44.wav,engine,22,2,78651,5.0,44100,1,44,Urbanos,val
+822,train,3-193767-A-47.wav,airplane,0,3,193767,5.0,44100,1,40,Urbanos,train
+823,train,5-209719-A-24.wav,coughing,12,5,209719,5.0,44100,1,23,Humanos no verbales,train
+824,train,2-84965-A-23.wav,breathing,1,2,84965,5.0,44100,1,20,Humanos no verbales,val
+825,train,2-110011-A-5.wav,cat,5,2,110011,5.0,44100,1,0,Animales,train
+826,train,2-117615-A-48.wav,fireworks,23,2,117615,5.0,44100,1,45,Urbanos,train
+827,train,3-164593-A-15.wav,water_drops,48,3,164593,5.0,44100,1,18,Naturales y agua,val
+828,train,2-122066-B-45.wav,train,45,2,122066,5.0,44100,1,49,Urbanos,val
+829,train,5-253085-A-3.wav,cow,13,5,253085,5.0,44100,1,1,Animales,train
+830,train,5-254160-A-22.wav,clapping,9,5,254160,5.0,44100,1,22,Humanos no verbales,train
+831,train,5-217186-A-16.wav,wind,49,5,217186,5.0,44100,1,19,Naturales y agua,val
+832,train,4-172734-A-36.wav,vacuum_cleaner,46,4,172734,5.0,44100,1,38,Domésticos,train
+833,train,5-248341-C-6.wav,hen,29,5,248341,5.0,44100,1,5,Animales,train
+834,train,3-197408-B-8.wav,sheep,39,3,197408,5.0,44100,1,9,Animales,train
+835,train,5-260011-A-34.wav,can_opening,3,5,260011,5.0,44100,1,30,Domésticos,train
+836,train,4-182613-B-11.wav,sea_waves,38,4,182613,5.0,44100,1,15,Naturales y agua,train
+837,train,5-187201-A-4.wav,frog,25,5,187201,5.0,44100,1,4,Animales,train
+838,train,2-124564-A-15.wav,water_drops,48,2,124564,5.0,44100,1,18,Naturales y agua,val
+839,train,2-109371-B-16.wav,wind,49,2,109371,5.0,44100,1,19,Naturales y agua,train
+840,train,4-119647-A-48.wav,fireworks,23,4,119647,5.0,44100,1,45,Urbanos,train
+841,train,5-213077-A-11.wav,sea_waves,38,5,213077,5.0,44100,1,15,Naturales y agua,val
+842,train,2-110614-A-8.wav,sheep,39,2,110614,5.0,44100,1,9,Animales,train
+843,train,3-51376-A-42.wav,siren,40,3,51376,5.0,44100,1,48,Urbanos,train
+844,train,2-126756-A-29.wav,drinking_sipping,21,2,126756,5.0,44100,1,25,Humanos no verbales,train
+845,train,2-61618-A-46.wav,church_bells,8,2,61618,5.0,44100,1,43,Urbanos,train
+846,train,4-189832-B-22.wav,clapping,9,4,189832,5.0,44100,1,22,Humanos no verbales,train
+847,train,4-198962-B-25.wav,footsteps,24,4,198962,5.0,44100,1,26,Humanos no verbales,val
+848,train,2-72547-C-14.wav,chirping_birds,7,2,72547,5.0,44100,1,10,Naturales y agua,train
+849,train,5-254832-A-15.wav,water_drops,48,5,254832,5.0,44100,1,18,Naturales y agua,val
+850,train,5-256512-A-30.wav,door_wood_knock,20,5,256512,5.0,44100,1,34,Domésticos,train
+851,train,2-109505-A-21.wav,sneezing,41,2,109505,5.0,44100,1,28,Humanos no verbales,val
+852,train,3-152007-C-20.wav,crying_baby,17,3,152007,5.0,44100,1,24,Humanos no verbales,train
+853,train,5-234879-B-1.wav,rooster,37,5,234879,5.0,44100,1,8,Animales,train
+854,train,5-244526-A-26.wav,laughing,32,5,244526,5.0,44100,1,27,Humanos no verbales,train
+855,train,4-189833-A-22.wav,clapping,9,4,189833,5.0,44100,1,22,Humanos no verbales,train
+856,train,5-220026-A-21.wav,sneezing,41,5,220026,5.0,44100,1,28,Humanos no verbales,val
+857,train,3-58772-A-42.wav,siren,40,3,58772,5.0,44100,1,48,Urbanos,train
+858,train,4-197454-B-28.wav,snoring,42,4,197454,5.0,44100,1,29,Humanos no verbales,train
+859,train,4-163697-A-13.wav,crickets,15,4,163697,5.0,44100,1,12,Naturales y agua,train
+860,train,4-208021-A-1.wav,rooster,37,4,208021,5.0,44100,1,8,Animales,train
+861,train,3-146697-A-43.wav,car_horn,4,3,146697,5.0,44100,1,41,Urbanos,train
+862,train,4-189832-A-22.wav,clapping,9,4,189832,5.0,44100,1,22,Humanos no verbales,train
+863,train,4-183882-A-28.wav,snoring,42,4,183882,5.0,44100,1,29,Humanos no verbales,train
+864,train,5-209833-A-38.wav,clock_tick,11,5,209833,5.0,44100,1,32,Domésticos,train
+865,train,4-175000-B-40.wav,helicopter,28,4,175000,5.0,44100,1,47,Urbanos,train
+866,train,5-259169-A-5.wav,cat,5,5,259169,5.0,44100,1,0,Animales,val
+867,train,5-236299-A-34.wav,can_opening,3,5,236299,5.0,44100,1,30,Domésticos,train
+868,train,2-102414-G-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+869,train,2-60791-A-26.wav,laughing,32,2,60791,5.0,44100,1,27,Humanos no verbales,val
+870,train,5-216370-B-41.wav,chainsaw,6,5,216370,5.0,44100,1,42,Urbanos,train
+871,train,5-251957-A-47.wav,airplane,0,5,251957,5.0,44100,1,40,Urbanos,train
+872,train,5-198411-C-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+873,train,3-62878-A-42.wav,siren,40,3,62878,5.0,44100,1,48,Urbanos,train
+874,train,5-212736-A-17.wav,pouring_water,35,5,212736,5.0,44100,1,13,Naturales y agua,train
+875,train,5-179496-A-16.wav,wind,49,5,179496,5.0,44100,1,19,Naturales y agua,train
+876,train,3-117883-A-37.wav,clock_alarm,10,3,117883,5.0,44100,1,31,Domésticos,train
+877,train,4-210000-A-23.wav,breathing,1,4,210000,5.0,44100,1,20,Humanos no verbales,train
+878,train,3-98193-A-46.wav,church_bells,8,3,98193,5.0,44100,1,43,Urbanos,train
+879,train,4-251645-B-49.wav,hand_saw,27,4,251645,5.0,44100,1,46,Urbanos,train
+880,train,3-151557-B-28.wav,snoring,42,3,151557,5.0,44100,1,29,Humanos no verbales,train
+881,train,5-156698-A-18.wav,toilet_flush,44,5,156698,5.0,44100,1,17,Naturales y agua,train
+882,train,5-182012-A-36.wav,vacuum_cleaner,46,5,182012,5.0,44100,1,38,Domésticos,train
+883,train,3-151212-A-24.wav,coughing,12,3,151212,5.0,44100,1,23,Humanos no verbales,train
+884,train,3-146964-A-5.wav,cat,5,3,146964,5.0,44100,1,0,Animales,train
+885,train,3-149448-A-17.wav,pouring_water,35,3,149448,5.0,44100,1,13,Naturales y agua,val
+886,train,5-237315-A-31.wav,mouse_click,33,5,237315,5.0,44100,1,37,Domésticos,val
+887,train,3-246513-A-16.wav,wind,49,3,246513,5.0,44100,1,19,Naturales y agua,train
+888,train,2-132157-A-11.wav,sea_waves,38,2,132157,5.0,44100,1,15,Naturales y agua,train
+889,train,3-142349-A-17.wav,pouring_water,35,3,142349,5.0,44100,1,13,Naturales y agua,train
+890,train,2-108766-A-9.wav,crow,16,2,108766,5.0,44100,1,2,Animales,train
+891,train,5-157204-A-16.wav,wind,49,5,157204,5.0,44100,1,19,Naturales y agua,val
+892,train,2-99955-B-7.wav,insects,30,2,99955,5.0,44100,1,6,Animales,val
+893,train,4-108352-A-33.wav,door_wood_creaks,19,4,108352,5.0,44100,1,33,Domésticos,train
+894,train,2-87795-A-24.wav,coughing,12,2,87795,5.0,44100,1,23,Humanos no verbales,train
+895,train,5-199284-B-45.wav,train,45,5,199284,5.0,44100,1,49,Urbanos,train
+896,train,3-150979-C-40.wav,helicopter,28,3,150979,5.0,44100,1,47,Urbanos,train
+897,train,4-149940-A-5.wav,cat,5,4,149940,5.0,44100,1,0,Animales,train
+898,train,2-43806-A-42.wav,siren,40,2,43806,5.0,44100,1,48,Urbanos,train
+899,train,2-103426-A-3.wav,cow,13,2,103426,5.0,44100,1,1,Animales,train
+900,train,3-151081-A-20.wav,crying_baby,17,3,151081,5.0,44100,1,24,Humanos no verbales,val
+901,train,5-171118-A-26.wav,laughing,32,5,171118,5.0,44100,1,27,Humanos no verbales,train
+902,train,5-243773-B-44.wav,engine,22,5,243773,5.0,44100,1,44,Urbanos,train
+903,train,2-79769-A-26.wav,laughing,32,2,79769,5.0,44100,1,27,Humanos no verbales,train
+904,train,2-109371-C-16.wav,wind,49,2,109371,5.0,44100,1,19,Naturales y agua,train
+905,train,5-194932-A-7.wav,insects,30,5,194932,5.0,44100,1,6,Animales,val
+906,train,2-151079-A-20.wav,crying_baby,17,2,151079,5.0,44100,1,24,Humanos no verbales,val
+907,train,5-187201-B-4.wav,frog,25,5,187201,5.0,44100,1,4,Animales,train
+908,train,4-205526-A-23.wav,breathing,1,4,205526,5.0,44100,1,20,Humanos no verbales,train
+909,train,5-204352-B-13.wav,crickets,15,5,204352,5.0,44100,1,12,Naturales y agua,train
+910,train,5-251963-A-47.wav,airplane,0,5,251963,5.0,44100,1,40,Urbanos,train
+911,train,4-178881-A-45.wav,train,45,4,178881,5.0,44100,1,49,Urbanos,train
+912,train,2-102414-E-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+913,train,5-218196-B-27.wav,brushing_teeth,2,5,218196,5.0,44100,1,21,Humanos no verbales,train
+914,train,2-95035-A-1.wav,rooster,37,2,95035,5.0,44100,1,8,Animales,train
+915,train,4-218199-B-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+916,train,4-232495-A-6.wav,hen,29,4,232495,5.0,44100,1,5,Animales,val
+917,train,5-201170-A-46.wav,church_bells,8,5,201170,5.0,44100,1,43,Urbanos,train
+918,train,4-160036-B-33.wav,door_wood_creaks,19,4,160036,5.0,44100,1,33,Domésticos,train
+919,train,5-180156-A-43.wav,car_horn,4,5,180156,5.0,44100,1,41,Urbanos,train
+920,train,4-200330-B-6.wav,hen,29,4,200330,5.0,44100,1,5,Animales,train
+921,train,5-179868-A-43.wav,car_horn,4,5,179868,5.0,44100,1,41,Urbanos,train
+922,train,2-102414-A-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+923,train,4-183992-A-0.wav,dog,18,4,183992,5.0,44100,1,3,Animales,train
+924,train,3-144128-B-23.wav,breathing,1,3,144128,5.0,44100,1,20,Humanos no verbales,val
+925,train,4-144083-A-16.wav,wind,49,4,144083,5.0,44100,1,19,Naturales y agua,train
+926,train,2-126433-A-17.wav,pouring_water,35,2,126433,5.0,44100,1,13,Naturales y agua,train
+927,train,5-181766-A-10.wav,rain,36,5,181766,5.0,44100,1,14,Naturales y agua,train
+928,train,2-98676-A-24.wav,coughing,12,2,98676,5.0,44100,1,23,Humanos no verbales,train
+929,train,4-204830-A-6.wav,hen,29,4,204830,5.0,44100,1,5,Animales,train
+930,train,4-207116-A-23.wav,breathing,1,4,207116,5.0,44100,1,20,Humanos no verbales,val
+931,train,5-233787-A-7.wav,insects,30,5,233787,5.0,44100,1,6,Animales,train
+932,train,4-167063-C-11.wav,sea_waves,38,4,167063,5.0,44100,1,15,Naturales y agua,val
+933,train,3-103401-D-33.wav,door_wood_creaks,19,3,103401,5.0,44100,1,33,Domésticos,val
+934,train,2-173618-A-39.wav,glass_breaking,26,2,173618,5.0,44100,1,35,Domésticos,val
+935,train,2-141682-B-36.wav,vacuum_cleaner,46,2,141682,5.0,44100,1,38,Domésticos,train
+936,train,2-64963-A-15.wav,water_drops,48,2,64963,5.0,44100,1,18,Naturales y agua,train
+937,train,4-184575-A-0.wav,dog,18,4,184575,5.0,44100,1,3,Animales,val
+938,train,4-187384-A-34.wav,can_opening,3,4,187384,5.0,44100,1,30,Domésticos,train
+939,train,2-37806-A-40.wav,helicopter,28,2,37806,5.0,44100,1,47,Urbanos,train
+940,train,4-189332-A-37.wav,clock_alarm,10,4,189332,5.0,44100,1,31,Domésticos,train
+941,train,4-152958-A-18.wav,toilet_flush,44,4,152958,5.0,44100,1,17,Naturales y agua,train
+942,train,5-251426-A-30.wav,door_wood_knock,20,5,251426,5.0,44100,1,34,Domésticos,train
+943,train,4-119647-C-48.wav,fireworks,23,4,119647,5.0,44100,1,45,Urbanos,train
+944,train,5-216370-A-41.wav,chainsaw,6,5,216370,5.0,44100,1,42,Urbanos,train
+945,train,4-182839-A-17.wav,pouring_water,35,4,182839,5.0,44100,1,13,Naturales y agua,train
+946,train,2-72970-A-10.wav,rain,36,2,72970,5.0,44100,1,14,Naturales y agua,train
+947,train,2-96063-A-37.wav,clock_alarm,10,2,96063,5.0,44100,1,31,Domésticos,train
+948,train,4-165823-B-41.wav,chainsaw,6,4,165823,5.0,44100,1,42,Urbanos,train
+949,train,2-82071-A-27.wav,brushing_teeth,2,2,82071,5.0,44100,1,21,Humanos no verbales,train
+950,train,4-147240-B-2.wav,pig,34,4,147240,5.0,44100,1,7,Animales,train
+951,train,2-130245-A-34.wav,can_opening,3,2,130245,5.0,44100,1,30,Domésticos,train
+952,train,3-123086-A-28.wav,snoring,42,3,123086,5.0,44100,1,29,Humanos no verbales,train
+953,train,4-218199-A-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+954,train,2-52001-B-28.wav,snoring,42,2,52001,5.0,44100,1,29,Humanos no verbales,train
+955,train,4-133047-C-5.wav,cat,5,4,133047,5.0,44100,1,0,Animales,train
+956,train,2-112213-A-39.wav,glass_breaking,26,2,112213,5.0,44100,1,35,Domésticos,train
+957,train,2-104105-B-19.wav,thunderstorm,43,2,104105,5.0,44100,1,16,Naturales y agua,train
+958,train,2-102414-C-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+959,train,3-152007-B-20.wav,crying_baby,17,3,152007,5.0,44100,1,24,Humanos no verbales,train
+960,train,5-177957-C-40.wav,helicopter,28,5,177957,5.0,44100,1,47,Urbanos,val
+961,train,5-200461-B-11.wav,sea_waves,38,5,200461,5.0,44100,1,15,Naturales y agua,train
+962,train,2-209473-A-25.wav,footsteps,24,2,209473,5.0,44100,1,26,Humanos no verbales,val
+963,train,5-202898-A-10.wav,rain,36,5,202898,5.0,44100,1,14,Naturales y agua,train
+964,train,4-201300-A-31.wav,mouse_click,33,4,201300,5.0,44100,1,37,Domésticos,train
+965,train,3-177082-A-22.wav,clapping,9,3,177082,5.0,44100,1,22,Humanos no verbales,train
+966,train,5-182007-A-36.wav,vacuum_cleaner,46,5,182007,5.0,44100,1,38,Domésticos,train
+967,train,3-159346-A-36.wav,vacuum_cleaner,46,3,159346,5.0,44100,1,38,Domésticos,train
+968,train,3-71964-A-4.wav,frog,25,3,71964,5.0,44100,1,4,Animales,train
+969,train,3-140199-A-8.wav,sheep,39,3,140199,5.0,44100,1,9,Animales,train
+970,train,2-108760-B-14.wav,chirping_birds,7,2,108760,5.0,44100,1,10,Naturales y agua,train
+971,train,5-181458-A-33.wav,door_wood_creaks,19,5,181458,5.0,44100,1,33,Domésticos,train
+972,train,4-167155-A-32.wav,keyboard_typing,31,4,167155,5.0,44100,1,36,Domésticos,train
+973,train,2-165801-A-48.wav,fireworks,23,2,165801,5.0,44100,1,45,Urbanos,train
+974,train,5-198278-C-7.wav,insects,30,5,198278,5.0,44100,1,6,Animales,train
+975,train,2-64962-A-15.wav,water_drops,48,2,64962,5.0,44100,1,18,Naturales y agua,train
+976,train,4-136381-A-9.wav,crow,16,4,136381,5.0,44100,1,2,Animales,train
+977,train,3-181132-A-14.wav,chirping_birds,7,3,181132,5.0,44100,1,10,Naturales y agua,val
+978,train,5-103418-A-2.wav,pig,34,5,103418,5.0,44100,1,7,Animales,train
+979,train,4-184237-A-28.wav,snoring,42,4,184237,5.0,44100,1,29,Humanos no verbales,train
+980,train,5-200334-B-1.wav,rooster,37,5,200334,5.0,44100,1,8,Animales,train
+981,train,3-140774-A-10.wav,rain,36,3,140774,5.0,44100,1,14,Naturales y agua,val
+982,train,2-155801-A-11.wav,sea_waves,38,2,155801,5.0,44100,1,15,Naturales y agua,train
+983,train,5-216213-A-13.wav,crickets,15,5,216213,5.0,44100,1,12,Naturales y agua,val
+984,train,3-135469-A-35.wav,washing_machine,47,3,135469,5.0,44100,1,39,Domésticos,train
+985,train,2-81112-A-34.wav,can_opening,3,2,81112,5.0,44100,1,30,Domésticos,train
+986,train,5-177957-E-40.wav,helicopter,28,5,177957,5.0,44100,1,47,Urbanos,val
+987,train,4-218199-F-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+988,train,2-139748-B-15.wav,water_drops,48,2,139748,5.0,44100,1,18,Naturales y agua,train
+989,train,2-122104-B-0.wav,dog,18,2,122104,5.0,44100,1,3,Animales,train
+990,train,5-177957-D-40.wav,helicopter,28,5,177957,5.0,44100,1,47,Urbanos,val
+991,train,5-259640-A-29.wav,drinking_sipping,21,5,259640,5.0,44100,1,25,Humanos no verbales,train
+992,train,5-243459-A-14.wav,chirping_birds,7,5,243459,5.0,44100,1,10,Naturales y agua,val
+993,train,3-174866-A-29.wav,drinking_sipping,21,3,174866,5.0,44100,1,25,Humanos no verbales,train
+994,train,4-119648-B-48.wav,fireworks,23,4,119648,5.0,44100,1,45,Urbanos,train
+995,train,3-140199-C-8.wav,sheep,39,3,140199,5.0,44100,1,9,Animales,train
+996,train,4-171396-A-24.wav,coughing,12,4,171396,5.0,44100,1,23,Humanos no verbales,val
+997,train,5-235671-A-38.wav,clock_tick,11,5,235671,5.0,44100,1,32,Domésticos,train
+998,train,4-186935-A-44.wav,engine,22,4,186935,5.0,44100,1,44,Urbanos,train
+999,train,4-99644-D-4.wav,frog,25,4,99644,5.0,44100,1,4,Animales,train
+1000,train,2-209474-A-25.wav,footsteps,24,2,209474,5.0,44100,1,26,Humanos no verbales,train
+1001,train,5-244327-A-34.wav,can_opening,3,5,244327,5.0,44100,1,30,Domésticos,train
+1002,train,4-161103-A-47.wav,airplane,0,4,161103,5.0,44100,1,40,Urbanos,train
+1003,train,3-145382-A-1.wav,rooster,37,3,145382,5.0,44100,1,8,Animales,train
+1004,train,5-218981-A-30.wav,door_wood_knock,20,5,218981,5.0,44100,1,34,Domésticos,val
+1005,train,3-115387-C-47.wav,airplane,0,3,115387,5.0,44100,1,40,Urbanos,train
+1006,train,3-110536-A-26.wav,laughing,32,3,110536,5.0,44100,1,27,Humanos no verbales,train
+1007,train,2-102567-A-35.wav,washing_machine,47,2,102567,5.0,44100,1,39,Domésticos,val
+1008,train,4-160036-A-33.wav,door_wood_creaks,19,4,160036,5.0,44100,1,33,Domésticos,train
+1009,train,2-73260-A-10.wav,rain,36,2,73260,5.0,44100,1,14,Naturales y agua,train
+1010,train,3-161010-A-43.wav,car_horn,4,3,161010,5.0,44100,1,41,Urbanos,val
+1011,train,5-222041-A-9.wav,crow,16,5,222041,5.0,44100,1,2,Animales,val
+1012,train,4-144083-C-16.wav,wind,49,4,144083,5.0,44100,1,19,Naturales y agua,train
+1013,train,5-253094-B-49.wav,hand_saw,27,5,253094,5.0,44100,1,46,Urbanos,train
+1014,train,2-138465-A-43.wav,car_horn,4,2,138465,5.0,44100,1,41,Urbanos,train
+1015,train,3-142601-A-21.wav,sneezing,41,3,142601,5.0,44100,1,28,Humanos no verbales,train
+1016,train,3-111102-A-46.wav,church_bells,8,3,111102,5.0,44100,1,43,Urbanos,train
+1017,train,4-196671-B-8.wav,sheep,39,4,196671,5.0,44100,1,9,Animales,train
+1018,train,4-169508-A-37.wav,clock_alarm,10,4,169508,5.0,44100,1,31,Domésticos,train
+1019,train,4-133895-A-7.wav,insects,30,4,133895,5.0,44100,1,6,Animales,train
+1020,train,4-130891-A-7.wav,insects,30,4,130891,5.0,44100,1,6,Animales,train
+1021,train,3-145387-A-29.wav,drinking_sipping,21,3,145387,5.0,44100,1,25,Humanos no verbales,val
+1022,train,5-216131-A-32.wav,keyboard_typing,31,5,216131,5.0,44100,1,36,Domésticos,val
+1023,train,4-149294-A-41.wav,chainsaw,6,4,149294,5.0,44100,1,42,Urbanos,val
+1024,train,5-211408-A-37.wav,clock_alarm,10,5,211408,5.0,44100,1,31,Domésticos,val
+1025,train,5-251971-A-47.wav,airplane,0,5,251971,5.0,44100,1,40,Urbanos,val
+1026,train,4-171706-A-23.wav,breathing,1,4,171706,5.0,44100,1,20,Humanos no verbales,train
+1027,train,2-87794-A-24.wav,coughing,12,2,87794,5.0,44100,1,23,Humanos no verbales,train
+1028,train,5-204741-A-46.wav,church_bells,8,5,204741,5.0,44100,1,43,Urbanos,train
+1029,train,5-219342-A-38.wav,clock_tick,11,5,219342,5.0,44100,1,32,Domésticos,train
+1030,train,4-165845-B-45.wav,train,45,4,165845,5.0,44100,1,49,Urbanos,train
+1031,train,4-123680-A-18.wav,toilet_flush,44,4,123680,5.0,44100,1,17,Naturales y agua,train
+1032,train,4-168868-A-17.wav,pouring_water,35,4,168868,5.0,44100,1,13,Naturales y agua,val
+1033,train,2-110417-A-28.wav,snoring,42,2,110417,5.0,44100,1,29,Humanos no verbales,val
+1034,train,4-255371-A-47.wav,airplane,0,4,255371,5.0,44100,1,40,Urbanos,val
+1035,train,2-140147-A-38.wav,clock_tick,11,2,140147,5.0,44100,1,32,Domésticos,train
+1036,train,4-193480-B-40.wav,helicopter,28,4,193480,5.0,44100,1,47,Urbanos,train
+1037,train,4-198962-A-25.wav,footsteps,24,4,198962,5.0,44100,1,26,Humanos no verbales,val
+1038,train,2-70938-A-42.wav,siren,40,2,70938,5.0,44100,1,48,Urbanos,train
+1039,train,5-201274-A-21.wav,sneezing,41,5,201274,5.0,44100,1,28,Humanos no verbales,train
+1040,train,5-211197-A-24.wav,coughing,12,5,211197,5.0,44100,1,23,Humanos no verbales,train
+1041,train,2-60180-B-49.wav,hand_saw,27,2,60180,5.0,44100,1,46,Urbanos,train
+1042,train,5-257839-A-14.wav,chirping_birds,7,5,257839,5.0,44100,1,10,Naturales y agua,train
+1043,train,3-160993-A-3.wav,cow,13,3,160993,5.0,44100,1,1,Animales,train
+1044,train,4-196671-A-8.wav,sheep,39,4,196671,5.0,44100,1,9,Animales,train
+1045,train,2-7321-A-33.wav,door_wood_creaks,19,2,7321,5.0,44100,1,33,Domésticos,val
+1046,train,3-128512-A-47.wav,airplane,0,3,128512,5.0,44100,1,40,Urbanos,val
+1047,train,5-133989-A-42.wav,siren,40,5,133989,5.0,44100,1,48,Urbanos,train
+1048,train,4-165813-B-19.wav,thunderstorm,43,4,165813,5.0,44100,1,16,Naturales y agua,train
+1049,train,4-133674-A-26.wav,laughing,32,4,133674,5.0,44100,1,27,Humanos no verbales,train
+1050,train,2-76408-B-22.wav,clapping,9,2,76408,5.0,44100,1,22,Humanos no verbales,train
+1051,train,2-157488-A-6.wav,hen,29,2,157488,5.0,44100,1,5,Animales,train
+1052,train,4-198841-A-37.wav,clock_alarm,10,4,198841,5.0,44100,1,31,Domésticos,train
+1053,train,4-181362-A-13.wav,crickets,15,4,181362,5.0,44100,1,12,Naturales y agua,train
+1054,train,5-181977-A-35.wav,washing_machine,47,5,181977,5.0,44100,1,39,Domésticos,train
+1055,train,4-213193-A-29.wav,drinking_sipping,21,4,213193,5.0,44100,1,25,Humanos no verbales,val
+1056,train,5-217186-C-16.wav,wind,49,5,217186,5.0,44100,1,19,Naturales y agua,val
+1057,train,5-200339-A-1.wav,rooster,37,5,200339,5.0,44100,1,8,Animales,train
+1058,train,3-174840-A-43.wav,car_horn,4,3,174840,5.0,44100,1,41,Urbanos,train
+1059,train,3-104761-B-7.wav,insects,30,3,104761,5.0,44100,1,6,Animales,train
+1060,train,4-182369-A-12.wav,crackling_fire,14,4,182369,5.0,44100,1,11,Naturales y agua,train
+1061,train,3-118972-A-41.wav,chainsaw,6,3,118972,5.0,44100,1,42,Urbanos,train
+1062,train,2-121909-A-35.wav,washing_machine,47,2,121909,5.0,44100,1,39,Domésticos,val
+1063,train,2-96460-A-1.wav,rooster,37,2,96460,5.0,44100,1,8,Animales,val
+1064,train,2-52789-A-4.wav,frog,25,2,52789,5.0,44100,1,4,Animales,train
+1065,train,3-135650-B-45.wav,train,45,3,135650,5.0,44100,1,49,Urbanos,train
+1066,train,4-188003-A-34.wav,can_opening,3,4,188003,5.0,44100,1,30,Domésticos,val
+1067,train,3-188390-A-6.wav,hen,29,3,188390,5.0,44100,1,5,Animales,val
+1068,train,4-177250-A-10.wav,rain,36,4,177250,5.0,44100,1,14,Naturales y agua,train
+1069,train,3-118657-B-41.wav,chainsaw,6,3,118657,5.0,44100,1,42,Urbanos,train
+1070,train,3-157492-A-45.wav,train,45,3,157492,5.0,44100,1,49,Urbanos,train
+1071,train,4-156844-A-21.wav,sneezing,41,4,156844,5.0,44100,1,28,Humanos no verbales,train
+1072,train,3-71964-B-4.wav,frog,25,3,71964,5.0,44100,1,4,Animales,train
+1073,train,3-117504-A-16.wav,wind,49,3,117504,5.0,44100,1,19,Naturales y agua,train
+1074,train,3-246513-B-16.wav,wind,49,3,246513,5.0,44100,1,19,Naturales y agua,train
+1075,train,2-141584-A-38.wav,clock_tick,11,2,141584,5.0,44100,1,32,Domésticos,train
+1076,train,5-198411-E-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+1077,train,2-50667-B-41.wav,chainsaw,6,2,50667,5.0,44100,1,42,Urbanos,train
+1078,train,4-198965-A-38.wav,clock_tick,11,4,198965,5.0,44100,1,32,Domésticos,train
+1079,train,4-165791-B-45.wav,train,45,4,165791,5.0,44100,1,49,Urbanos,train
+1080,train,5-263902-A-36.wav,vacuum_cleaner,46,5,263902,5.0,44100,1,38,Domésticos,train
+1081,train,2-72547-A-14.wav,chirping_birds,7,2,72547,5.0,44100,1,10,Naturales y agua,train
+1082,train,4-183882-B-28.wav,snoring,42,4,183882,5.0,44100,1,29,Humanos no verbales,train
+1083,train,4-121532-A-42.wav,siren,40,4,121532,5.0,44100,1,48,Urbanos,val
+1084,train,4-125071-A-19.wav,thunderstorm,43,4,125071,5.0,44100,1,16,Naturales y agua,train
+1085,train,2-117795-A-3.wav,cow,13,2,117795,5.0,44100,1,1,Animales,train
+1086,train,5-261439-A-15.wav,water_drops,48,5,261439,5.0,44100,1,18,Naturales y agua,train
+1087,train,3-139109-A-46.wav,church_bells,8,3,139109,5.0,44100,1,43,Urbanos,train
+1088,train,2-51173-A-35.wav,washing_machine,47,2,51173,5.0,44100,1,39,Domésticos,train
+1089,train,5-234923-A-32.wav,keyboard_typing,31,5,234923,5.0,44100,1,36,Domésticos,train
+1090,train,4-194754-A-0.wav,dog,18,4,194754,5.0,44100,1,3,Animales,train
+1091,train,3-162786-A-13.wav,crickets,15,3,162786,5.0,44100,1,12,Naturales y agua,train
+1092,train,5-218494-A-22.wav,clapping,9,5,218494,5.0,44100,1,22,Humanos no verbales,val
+1093,train,3-253084-E-2.wav,pig,34,3,253084,5.0,44100,1,7,Animales,train
+1094,train,3-152020-B-36.wav,vacuum_cleaner,46,3,152020,5.0,44100,1,38,Domésticos,train
+1095,train,3-128160-A-44.wav,engine,22,3,128160,5.0,44100,1,44,Urbanos,train
+1096,train,5-200329-A-8.wav,sheep,39,5,200329,5.0,44100,1,9,Animales,train
+1097,train,3-118657-A-41.wav,chainsaw,6,3,118657,5.0,44100,1,42,Urbanos,train
+1098,train,2-102414-F-17.wav,pouring_water,35,2,102414,5.0,44100,1,13,Naturales y agua,train
+1099,train,4-143118-B-7.wav,insects,30,4,143118,5.0,44100,1,6,Animales,train
+1100,train,4-176631-A-43.wav,car_horn,4,4,176631,5.0,44100,1,41,Urbanos,val
+1101,train,5-199284-A-45.wav,train,45,5,199284,5.0,44100,1,49,Urbanos,train
+1102,train,5-212454-A-0.wav,dog,18,5,212454,5.0,44100,1,3,Animales,val
+1103,train,2-84693-A-49.wav,hand_saw,27,2,84693,5.0,44100,1,46,Urbanos,train
+1104,train,2-91912-B-33.wav,door_wood_creaks,19,2,91912,5.0,44100,1,33,Domésticos,train
+1105,train,4-177243-A-32.wav,keyboard_typing,31,4,177243,5.0,44100,1,36,Domésticos,train
+1106,train,3-141240-B-44.wav,engine,22,3,141240,5.0,44100,1,44,Urbanos,train
+1107,train,4-250869-B-2.wav,pig,34,4,250869,5.0,44100,1,7,Animales,train
+1108,train,3-110913-A-7.wav,insects,30,3,110913,5.0,44100,1,6,Animales,train
+1109,train,3-70962-B-4.wav,frog,25,3,70962,5.0,44100,1,4,Animales,val
+1110,train,4-181035-A-38.wav,clock_tick,11,4,181035,5.0,44100,1,32,Domésticos,val
+1111,train,2-122820-B-36.wav,vacuum_cleaner,46,2,122820,5.0,44100,1,38,Domésticos,train
+1112,train,5-197988-A-46.wav,church_bells,8,5,197988,5.0,44100,1,43,Urbanos,train
+1113,train,5-216368-A-28.wav,snoring,42,5,216368,5.0,44100,1,29,Humanos no verbales,train
+1114,train,5-214869-A-9.wav,crow,16,5,214869,5.0,44100,1,2,Animales,train
+1115,train,5-172639-A-5.wav,cat,5,5,172639,5.0,44100,1,0,Animales,train
+1116,train,4-192068-A-31.wav,mouse_click,33,4,192068,5.0,44100,1,37,Domésticos,train
+1117,train,2-108767-C-9.wav,crow,16,2,108767,5.0,44100,1,2,Animales,train
+1118,train,2-59566-A-46.wav,church_bells,8,2,59566,5.0,44100,1,43,Urbanos,train
+1119,train,5-250026-B-30.wav,door_wood_knock,20,5,250026,5.0,44100,1,34,Domésticos,train
+1120,train,2-110613-A-13.wav,crickets,15,2,110613,5.0,44100,1,12,Naturales y agua,train
+1121,train,5-179863-A-43.wav,car_horn,4,5,179863,5.0,44100,1,41,Urbanos,train
+1122,train,4-172742-A-32.wav,keyboard_typing,31,4,172742,5.0,44100,1,36,Domésticos,train
+1123,train,2-70344-A-33.wav,door_wood_creaks,19,2,70344,5.0,44100,1,33,Domésticos,train
+1124,train,4-194246-A-13.wav,crickets,15,4,194246,5.0,44100,1,12,Naturales y agua,val
+1125,train,2-160128-A-7.wav,insects,30,2,160128,5.0,44100,1,6,Animales,train
+1126,train,2-104476-A-37.wav,clock_alarm,10,2,104476,5.0,44100,1,31,Domésticos,train
+1127,train,3-51909-A-42.wav,siren,40,3,51909,5.0,44100,1,48,Urbanos,train
+1128,train,3-203373-A-39.wav,glass_breaking,26,3,203373,5.0,44100,1,35,Domésticos,train
+1129,train,4-178402-A-43.wav,car_horn,4,4,178402,5.0,44100,1,41,Urbanos,train
+1130,train,4-111671-B-42.wav,siren,40,4,111671,5.0,44100,1,48,Urbanos,train
+1131,train,5-180156-B-43.wav,car_horn,4,5,180156,5.0,44100,1,41,Urbanos,train
+1132,train,3-152020-C-36.wav,vacuum_cleaner,46,3,152020,5.0,44100,1,38,Domésticos,train
+1133,train,2-70936-A-42.wav,siren,40,2,70936,5.0,44100,1,48,Urbanos,train
+1134,train,5-242711-A-9.wav,crow,16,5,242711,5.0,44100,1,2,Animales,train
+1135,train,5-260433-A-39.wav,glass_breaking,26,5,260433,5.0,44100,1,35,Domésticos,train
+1136,train,5-234263-A-25.wav,footsteps,24,5,234263,5.0,44100,1,26,Humanos no verbales,train
+1137,train,3-98771-A-18.wav,toilet_flush,44,3,98771,5.0,44100,1,17,Naturales y agua,train
+1138,train,2-160888-A-47.wav,airplane,0,2,160888,5.0,44100,1,40,Urbanos,val
+1139,train,5-216216-A-13.wav,crickets,15,5,216216,5.0,44100,1,12,Naturales y agua,train
+1140,train,3-147342-A-34.wav,can_opening,3,3,147342,5.0,44100,1,30,Domésticos,val
+1141,train,2-103428-A-3.wav,cow,13,2,103428,5.0,44100,1,1,Animales,val
+1142,train,5-195710-A-10.wav,rain,36,5,195710,5.0,44100,1,14,Naturales y agua,val
+1143,train,4-186940-A-44.wav,engine,22,4,186940,5.0,44100,1,44,Urbanos,train
+1144,train,2-114280-A-0.wav,dog,18,2,114280,5.0,44100,1,3,Animales,train
+1145,train,5-9032-A-0.wav,dog,18,5,9032,5.0,44100,1,3,Animales,train
+1146,train,5-160614-F-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+1147,train,4-171519-A-21.wav,sneezing,41,4,171519,5.0,44100,1,28,Humanos no verbales,train
+1148,train,4-195497-A-11.wav,sea_waves,38,4,195497,5.0,44100,1,15,Naturales y agua,train
+1149,train,2-128465-A-43.wav,car_horn,4,2,128465,5.0,44100,1,41,Urbanos,val
+1150,train,4-264453-A-34.wav,can_opening,3,4,264453,5.0,44100,1,30,Domésticos,train
+1151,train,3-163727-A-3.wav,cow,13,3,163727,5.0,44100,1,1,Animales,train
+1152,train,2-128631-A-21.wav,sneezing,41,2,128631,5.0,44100,1,28,Humanos no verbales,train
+1153,train,5-218980-A-30.wav,door_wood_knock,20,5,218980,5.0,44100,1,34,Domésticos,val
+1154,train,4-165791-A-45.wav,train,45,4,165791,5.0,44100,1,49,Urbanos,train
+1155,train,2-39945-C-19.wav,thunderstorm,43,2,39945,5.0,44100,1,16,Naturales y agua,train
+1156,train,5-263775-B-26.wav,laughing,32,5,263775,5.0,44100,1,27,Humanos no verbales,train
+1157,train,2-81190-A-34.wav,can_opening,3,2,81190,5.0,44100,1,30,Domésticos,train
+1158,train,5-203128-A-0.wav,dog,18,5,203128,5.0,44100,1,3,Animales,train
+1159,train,2-84943-A-18.wav,toilet_flush,44,2,84943,5.0,44100,1,17,Naturales y agua,train
+1160,train,2-65750-A-1.wav,rooster,37,2,65750,5.0,44100,1,8,Animales,train
+1161,train,5-233312-A-28.wav,snoring,42,5,233312,5.0,44100,1,29,Humanos no verbales,train
+1162,train,4-185575-A-20.wav,crying_baby,17,4,185575,5.0,44100,1,24,Humanos no verbales,train
+1163,train,3-115387-B-47.wav,airplane,0,3,115387,5.0,44100,1,40,Urbanos,train
+1164,train,5-207836-A-29.wav,drinking_sipping,21,5,207836,5.0,44100,1,25,Humanos no verbales,train
+1165,train,3-159347-A-36.wav,vacuum_cleaner,46,3,159347,5.0,44100,1,38,Domésticos,val
+1166,train,4-161127-A-10.wav,rain,36,4,161127,5.0,44100,1,14,Naturales y agua,train
+1167,train,3-65748-A-12.wav,crackling_fire,14,3,65748,5.0,44100,1,11,Naturales y agua,train
+1168,train,5-184323-A-42.wav,siren,40,5,184323,5.0,44100,1,48,Urbanos,train
+1169,train,4-195451-A-44.wav,engine,22,4,195451,5.0,44100,1,44,Urbanos,train
+1170,train,5-180156-C-43.wav,car_horn,4,5,180156,5.0,44100,1,41,Urbanos,train
+1171,train,3-117293-A-9.wav,crow,16,3,117293,5.0,44100,1,2,Animales,val
+1172,train,5-235956-A-47.wav,airplane,0,5,235956,5.0,44100,1,40,Urbanos,train
+1173,train,2-65747-A-12.wav,crackling_fire,14,2,65747,5.0,44100,1,11,Naturales y agua,train
+1174,train,3-118656-A-41.wav,chainsaw,6,3,118656,5.0,44100,1,42,Urbanos,train
+1175,train,4-90014-B-42.wav,siren,40,4,90014,5.0,44100,1,48,Urbanos,val
+1176,train,2-117616-A-48.wav,fireworks,23,2,117616,5.0,44100,1,45,Urbanos,train
+1177,train,3-142604-A-24.wav,coughing,12,3,142604,5.0,44100,1,23,Humanos no verbales,train
+1178,train,4-133047-B-5.wav,cat,5,4,133047,5.0,44100,1,0,Animales,train
+1179,train,3-169907-A-29.wav,drinking_sipping,21,3,169907,5.0,44100,1,25,Humanos no verbales,val
+1180,train,5-172299-A-5.wav,cat,5,5,172299,5.0,44100,1,0,Animales,train
+1181,train,3-155578-A-14.wav,chirping_birds,7,3,155578,5.0,44100,1,10,Naturales y agua,train
+1182,train,3-126391-A-27.wav,brushing_teeth,2,3,126391,5.0,44100,1,21,Humanos no verbales,train
+1183,train,3-126358-B-3.wav,cow,13,3,126358,5.0,44100,1,1,Animales,train
+1184,train,4-161303-B-5.wav,cat,5,4,161303,5.0,44100,1,0,Animales,train
+1185,train,5-198321-A-10.wav,rain,36,5,198321,5.0,44100,1,14,Naturales y agua,train
+1186,train,3-144891-B-19.wav,thunderstorm,43,3,144891,5.0,44100,1,16,Naturales y agua,train
+1187,train,5-198411-B-20.wav,crying_baby,17,5,198411,5.0,44100,1,24,Humanos no verbales,train
+1188,train,5-244933-A-34.wav,can_opening,3,5,244933,5.0,44100,1,30,Domésticos,val
+1189,train,3-151089-A-30.wav,door_wood_knock,20,3,151089,5.0,44100,1,34,Domésticos,train
+1190,train,5-249748-A-28.wav,snoring,42,5,249748,5.0,44100,1,29,Humanos no verbales,train
+1191,train,4-128659-A-33.wav,door_wood_creaks,19,4,128659,5.0,44100,1,33,Domésticos,train
+1192,train,3-171012-A-38.wav,clock_tick,11,3,171012,5.0,44100,1,32,Domésticos,train
+1193,train,4-213915-A-3.wav,cow,13,4,213915,5.0,44100,1,1,Animales,train
+1194,train,4-211502-A-30.wav,door_wood_knock,20,4,211502,5.0,44100,1,34,Domésticos,train
+1195,train,5-223103-A-31.wav,mouse_click,33,5,223103,5.0,44100,1,37,Domésticos,train
+1196,train,3-145487-A-24.wav,coughing,12,3,145487,5.0,44100,1,23,Humanos no verbales,train
+1197,train,2-100648-A-43.wav,car_horn,4,2,100648,5.0,44100,1,41,Urbanos,train
+1198,train,5-243036-A-29.wav,drinking_sipping,21,5,243036,5.0,44100,1,25,Humanos no verbales,train
+1199,train,4-99193-B-4.wav,frog,25,4,99193,5.0,44100,1,4,Animales,train
+1200,train,2-82455-A-23.wav,breathing,1,2,82455,5.0,44100,1,20,Humanos no verbales,train
+1201,train,3-100018-A-18.wav,toilet_flush,44,3,100018,5.0,44100,1,17,Naturales y agua,train
+1202,train,5-205090-A-32.wav,keyboard_typing,31,5,205090,5.0,44100,1,36,Domésticos,train
+1203,train,5-244310-A-25.wav,footsteps,24,5,244310,5.0,44100,1,26,Humanos no verbales,train
+1204,train,3-103051-B-19.wav,thunderstorm,43,3,103051,5.0,44100,1,16,Naturales y agua,val
+1205,train,2-28314-B-12.wav,crackling_fire,14,2,28314,5.0,44100,1,11,Naturales y agua,train
+1206,train,3-159347-B-36.wav,vacuum_cleaner,46,3,159347,5.0,44100,1,38,Domésticos,val
+1207,train,5-243025-A-25.wav,footsteps,24,5,243025,5.0,44100,1,26,Humanos no verbales,train
+1208,train,2-77945-B-41.wav,chainsaw,6,2,77945,5.0,44100,1,42,Urbanos,train
+1209,train,3-119120-E-48.wav,fireworks,23,3,119120,5.0,44100,1,45,Urbanos,train
+1210,train,4-191246-A-7.wav,insects,30,4,191246,5.0,44100,1,6,Animales,val
+1211,train,2-89516-A-37.wav,clock_alarm,10,2,89516,5.0,44100,1,31,Domésticos,val
+1212,train,4-197454-A-28.wav,snoring,42,4,197454,5.0,44100,1,29,Humanos no verbales,train
+1213,train,3-146972-A-5.wav,cat,5,3,146972,5.0,44100,1,0,Animales,train
+1214,train,4-159609-B-14.wav,chirping_birds,7,4,159609,5.0,44100,1,10,Naturales y agua,val
+1215,train,2-188822-D-40.wav,helicopter,28,2,188822,5.0,44100,1,47,Urbanos,train
+1216,train,5-221878-A-34.wav,can_opening,3,5,221878,5.0,44100,1,30,Domésticos,train
+1217,train,4-185619-A-21.wav,sneezing,41,4,185619,5.0,44100,1,28,Humanos no verbales,train
+1218,train,4-163606-A-16.wav,wind,49,4,163606,5.0,44100,1,19,Naturales y agua,train
+1219,train,3-97909-A-49.wav,hand_saw,27,3,97909,5.0,44100,1,46,Urbanos,val
+1220,train,3-96606-A-49.wav,hand_saw,27,3,96606,5.0,44100,1,46,Urbanos,train
+1221,train,3-164594-A-15.wav,water_drops,48,3,164594,5.0,44100,1,18,Naturales y agua,train
+1222,train,5-220955-A-40.wav,helicopter,28,5,220955,5.0,44100,1,47,Urbanos,val
+1223,train,5-233160-A-1.wav,rooster,37,5,233160,5.0,44100,1,8,Animales,train
+1224,train,4-261068-A-30.wav,door_wood_knock,20,4,261068,5.0,44100,1,34,Domésticos,val
+1225,train,5-232272-A-44.wav,engine,22,5,232272,5.0,44100,1,44,Urbanos,val
+1226,train,2-137162-A-11.wav,sea_waves,38,2,137162,5.0,44100,1,15,Naturales y agua,train
+1227,train,3-125548-A-32.wav,keyboard_typing,31,3,125548,5.0,44100,1,36,Domésticos,val
+1228,train,2-209478-A-25.wav,footsteps,24,2,209478,5.0,44100,1,26,Humanos no verbales,train
+1229,train,2-135649-B-45.wav,train,45,2,135649,5.0,44100,1,49,Urbanos,train
+1230,train,2-87799-A-24.wav,coughing,12,2,87799,5.0,44100,1,23,Humanos no verbales,train
+1231,train,3-203374-A-39.wav,glass_breaking,26,3,203374,5.0,44100,1,35,Domésticos,val
+1232,train,2-122066-A-45.wav,train,45,2,122066,5.0,44100,1,49,Urbanos,val
+1233,train,5-189212-A-12.wav,crackling_fire,14,5,189212,5.0,44100,1,11,Naturales y agua,val
+1234,train,4-132810-A-26.wav,laughing,32,4,132810,5.0,44100,1,27,Humanos no verbales,train
+1235,train,2-118964-A-0.wav,dog,18,2,118964,5.0,44100,1,3,Animales,train
+1236,train,3-154439-A-17.wav,pouring_water,35,3,154439,5.0,44100,1,13,Naturales y agua,train
+1237,train,2-37806-D-40.wav,helicopter,28,2,37806,5.0,44100,1,47,Urbanos,train
+1238,train,2-71162-A-1.wav,rooster,37,2,71162,5.0,44100,1,8,Animales,train
+1239,train,3-118059-A-18.wav,toilet_flush,44,3,118059,5.0,44100,1,17,Naturales y agua,val
+1240,train,3-105235-A-7.wav,insects,30,3,105235,5.0,44100,1,6,Animales,train
+1241,train,3-147343-A-34.wav,can_opening,3,3,147343,5.0,44100,1,30,Domésticos,train
+1242,train,4-204123-A-39.wav,glass_breaking,26,4,204123,5.0,44100,1,35,Domésticos,val
+1243,train,3-132830-A-32.wav,keyboard_typing,31,3,132830,5.0,44100,1,36,Domésticos,train
+1244,train,5-263501-A-25.wav,footsteps,24,5,263501,5.0,44100,1,26,Humanos no verbales,train
+1245,train,2-69131-A-5.wav,cat,5,2,69131,5.0,44100,1,0,Animales,val
+1246,train,4-181599-A-26.wav,laughing,32,4,181599,5.0,44100,1,27,Humanos no verbales,train
+1247,train,2-87412-A-24.wav,coughing,12,2,87412,5.0,44100,1,23,Humanos no verbales,train
+1248,train,4-185575-C-20.wav,crying_baby,17,4,185575,5.0,44100,1,24,Humanos no verbales,train
+1249,train,2-83934-A-5.wav,cat,5,2,83934,5.0,44100,1,0,Animales,train
+1250,train,3-172881-A-48.wav,fireworks,23,3,172881,5.0,44100,1,45,Urbanos,train
+1251,train,2-66637-B-20.wav,crying_baby,17,2,66637,5.0,44100,1,24,Humanos no verbales,train
+1252,train,5-198891-C-8.wav,sheep,39,5,198891,5.0,44100,1,9,Animales,train
+1253,train,2-117615-C-48.wav,fireworks,23,2,117615,5.0,44100,1,45,Urbanos,train
+1254,train,5-233607-A-39.wav,glass_breaking,26,5,233607,5.0,44100,1,35,Domésticos,train
+1255,train,5-184871-A-24.wav,coughing,12,5,184871,5.0,44100,1,23,Humanos no verbales,val
+1256,train,5-191497-A-33.wav,door_wood_creaks,19,5,191497,5.0,44100,1,33,Domésticos,train
+1257,train,3-164595-A-15.wav,water_drops,48,3,164595,5.0,44100,1,18,Naturales y agua,train
+1258,train,2-28314-A-12.wav,crackling_fire,14,2,28314,5.0,44100,1,11,Naturales y agua,train
+1259,train,4-80761-A-42.wav,siren,40,4,80761,5.0,44100,1,48,Urbanos,train
+1260,train,5-194899-C-3.wav,cow,13,5,194899,5.0,44100,1,1,Animales,val
+1261,train,4-204618-A-11.wav,sea_waves,38,4,204618,5.0,44100,1,15,Naturales y agua,train
+1262,train,3-137152-A-1.wav,rooster,37,3,137152,5.0,44100,1,8,Animales,val
+1263,train,5-188716-A-46.wav,church_bells,8,5,188716,5.0,44100,1,43,Urbanos,val
+1264,train,2-64332-A-18.wav,toilet_flush,44,2,64332,5.0,44100,1,17,Naturales y agua,train
+1265,train,3-156558-A-21.wav,sneezing,41,3,156558,5.0,44100,1,28,Humanos no verbales,train
+1266,train,5-254832-B-15.wav,water_drops,48,5,254832,5.0,44100,1,18,Naturales y agua,val
+1267,train,4-144085-A-16.wav,wind,49,4,144085,5.0,44100,1,19,Naturales y agua,train
+1268,train,2-209477-A-25.wav,footsteps,24,2,209477,5.0,44100,1,26,Humanos no verbales,train
+1269,train,4-181999-A-36.wav,vacuum_cleaner,46,4,181999,5.0,44100,1,38,Domésticos,train
+1270,train,5-207836-C-29.wav,drinking_sipping,21,5,207836,5.0,44100,1,25,Humanos no verbales,train
+1271,train,2-87282-A-34.wav,can_opening,3,2,87282,5.0,44100,1,30,Domésticos,train
+1272,train,3-118069-B-27.wav,brushing_teeth,2,3,118069,5.0,44100,1,21,Humanos no verbales,val
+1273,train,2-104952-A-16.wav,wind,49,2,104952,5.0,44100,1,19,Naturales y agua,train
+1274,train,5-219044-A-46.wav,church_bells,8,5,219044,5.0,44100,1,43,Urbanos,val
+1275,train,4-182034-A-30.wav,door_wood_knock,20,4,182034,5.0,44100,1,34,Domésticos,train
+1276,train,3-233151-A-2.wav,pig,34,3,233151,5.0,44100,1,7,Animales,val
+1277,train,3-150979-B-40.wav,helicopter,28,3,150979,5.0,44100,1,47,Urbanos,train
+1278,train,5-261325-A-9.wav,crow,16,5,261325,5.0,44100,1,2,Animales,train
+1279,train,3-148330-A-21.wav,sneezing,41,3,148330,5.0,44100,1,28,Humanos no verbales,train
+1280,train,5-194892-A-10.wav,rain,36,5,194892,5.0,44100,1,14,Naturales y agua,train
+1281,train,2-79775-A-26.wav,laughing,32,2,79775,5.0,44100,1,27,Humanos no verbales,train
+1282,train,5-253534-A-26.wav,laughing,32,5,253534,5.0,44100,1,27,Humanos no verbales,train
+1283,train,3-83527-A-4.wav,frog,25,3,83527,5.0,44100,1,4,Animales,train
+1284,train,2-61311-A-12.wav,crackling_fire,14,2,61311,5.0,44100,1,11,Naturales y agua,train
+1285,train,5-194533-A-21.wav,sneezing,41,5,194533,5.0,44100,1,28,Humanos no verbales,train
+1286,train,3-163607-B-13.wav,crickets,15,3,163607,5.0,44100,1,12,Naturales y agua,train
+1287,train,5-202020-A-18.wav,toilet_flush,44,5,202020,5.0,44100,1,17,Naturales y agua,train
+1288,train,3-163607-A-13.wav,crickets,15,3,163607,5.0,44100,1,12,Naturales y agua,train
+1289,train,2-104877-A-3.wav,cow,13,2,104877,5.0,44100,1,1,Animales,val
+1290,train,5-160614-C-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+1291,train,5-234879-A-1.wav,rooster,37,5,234879,5.0,44100,1,8,Animales,train
+1292,train,4-174797-A-15.wav,water_drops,48,4,174797,5.0,44100,1,18,Naturales y agua,train
+1293,train,4-157296-A-24.wav,coughing,12,4,157296,5.0,44100,1,23,Humanos no verbales,train
+1294,train,4-185415-A-21.wav,sneezing,41,4,185415,5.0,44100,1,28,Humanos no verbales,train
+1295,train,2-102581-B-29.wav,drinking_sipping,21,2,102581,5.0,44100,1,25,Humanos no verbales,train
+1296,train,2-60795-A-26.wav,laughing,32,2,60795,5.0,44100,1,27,Humanos no verbales,train
+1297,train,4-182613-A-11.wav,sea_waves,38,4,182613,5.0,44100,1,15,Naturales y agua,train
+1298,train,2-42101-A-43.wav,car_horn,4,2,42101,5.0,44100,1,41,Urbanos,train
+1299,train,4-174860-B-3.wav,cow,13,4,174860,5.0,44100,1,1,Animales,train
+1300,train,3-151213-A-24.wav,coughing,12,3,151213,5.0,44100,1,23,Humanos no verbales,train
+1301,train,5-202220-A-21.wav,sneezing,41,5,202220,5.0,44100,1,28,Humanos no verbales,train
+1302,train,5-260432-A-39.wav,glass_breaking,26,5,260432,5.0,44100,1,35,Domésticos,train
+1303,train,4-133047-A-5.wav,cat,5,4,133047,5.0,44100,1,0,Animales,train
+1304,train,3-148932-A-34.wav,can_opening,3,3,148932,5.0,44100,1,30,Domésticos,train
+1305,train,2-81270-A-1.wav,rooster,37,2,81270,5.0,44100,1,8,Animales,train
+1306,train,3-131943-A-37.wav,clock_alarm,10,3,131943,5.0,44100,1,31,Domésticos,train
+1307,train,5-198891-A-8.wav,sheep,39,5,198891,5.0,44100,1,9,Animales,train
+1308,train,5-242932-A-26.wav,laughing,32,5,242932,5.0,44100,1,27,Humanos no verbales,val
+1309,train,4-165933-A-45.wav,train,45,4,165933,5.0,44100,1,49,Urbanos,train
+1310,train,3-171281-A-6.wav,hen,29,3,171281,5.0,44100,1,5,Animales,train
+1311,train,2-134915-A-30.wav,door_wood_knock,20,2,134915,5.0,44100,1,34,Domésticos,train
+1312,train,3-143933-A-38.wav,clock_tick,11,3,143933,5.0,44100,1,32,Domésticos,train
+1313,train,2-209476-A-25.wav,footsteps,24,2,209476,5.0,44100,1,26,Humanos no verbales,train
+1314,train,4-144083-B-16.wav,wind,49,4,144083,5.0,44100,1,19,Naturales y agua,train
+1315,train,4-126532-A-18.wav,toilet_flush,44,4,126532,5.0,44100,1,17,Naturales y agua,train
+1316,train,4-218199-D-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+1317,train,4-156993-A-19.wav,thunderstorm,43,4,156993,5.0,44100,1,16,Naturales y agua,train
+1318,train,2-50667-A-41.wav,chainsaw,6,2,50667,5.0,44100,1,42,Urbanos,train
+1319,train,2-52085-A-4.wav,frog,25,2,52085,5.0,44100,1,4,Animales,val
+1320,train,3-203377-A-39.wav,glass_breaking,26,3,203377,5.0,44100,1,35,Domésticos,train
+1321,train,4-188191-A-29.wav,drinking_sipping,21,4,188191,5.0,44100,1,25,Humanos no verbales,train
+1322,train,5-209698-A-38.wav,clock_tick,11,5,209698,5.0,44100,1,32,Domésticos,train
+1323,train,4-175846-A-43.wav,car_horn,4,4,175846,5.0,44100,1,41,Urbanos,train
+1324,train,4-120160-A-5.wav,cat,5,4,120160,5.0,44100,1,0,Animales,train
+1325,train,2-144031-A-34.wav,can_opening,3,2,144031,5.0,44100,1,30,Domésticos,train
+1326,train,4-212604-C-15.wav,water_drops,48,4,212604,5.0,44100,1,18,Naturales y agua,train
+1327,train,3-167096-A-31.wav,mouse_click,33,3,167096,5.0,44100,1,37,Domésticos,train
+1328,train,2-209471-A-25.wav,footsteps,24,2,209471,5.0,44100,1,26,Humanos no verbales,train
+1329,train,5-213293-A-23.wav,breathing,1,5,213293,5.0,44100,1,20,Humanos no verbales,train
+1330,train,4-188703-A-8.wav,sheep,39,4,188703,5.0,44100,1,9,Animales,val
+1331,train,5-240671-A-44.wav,engine,22,5,240671,5.0,44100,1,44,Urbanos,train
+1332,train,3-147965-A-12.wav,crackling_fire,14,3,147965,5.0,44100,1,11,Naturales y agua,train
+1333,train,5-245040-A-35.wav,washing_machine,47,5,245040,5.0,44100,1,39,Domésticos,train
+1334,train,5-103415-A-2.wav,pig,34,5,103415,5.0,44100,1,7,Animales,train
+1335,train,5-185579-A-41.wav,chainsaw,6,5,185579,5.0,44100,1,42,Urbanos,val
+1336,train,3-103599-A-25.wav,footsteps,24,3,103599,5.0,44100,1,26,Humanos no verbales,train
+1337,train,4-119720-A-18.wav,toilet_flush,44,4,119720,5.0,44100,1,17,Naturales y agua,train
+1338,train,3-151255-A-28.wav,snoring,42,3,151255,5.0,44100,1,29,Humanos no verbales,train
+1339,train,3-152039-A-3.wav,cow,13,3,152039,5.0,44100,1,1,Animales,train
+1340,train,2-109231-C-9.wav,crow,16,2,109231,5.0,44100,1,2,Animales,train
+1341,train,4-218199-E-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+1342,train,4-192236-A-0.wav,dog,18,4,192236,5.0,44100,1,3,Animales,train
+1343,train,2-139748-A-15.wav,water_drops,48,2,139748,5.0,44100,1,18,Naturales y agua,train
+1344,train,3-154926-B-40.wav,helicopter,28,3,154926,5.0,44100,1,47,Urbanos,train
+1345,train,4-187504-A-17.wav,pouring_water,35,4,187504,5.0,44100,1,13,Naturales y agua,train
+1346,train,2-25292-A-22.wav,clapping,9,2,25292,5.0,44100,1,22,Humanos no verbales,train
+1347,train,4-218304-B-25.wav,footsteps,24,4,218304,5.0,44100,1,26,Humanos no verbales,train
+1348,train,5-103420-A-2.wav,pig,34,5,103420,5.0,44100,1,7,Animales,train
+1349,train,4-210593-A-29.wav,drinking_sipping,21,4,210593,5.0,44100,1,25,Humanos no verbales,train
+1350,train,3-112557-A-23.wav,breathing,1,3,112557,5.0,44100,1,20,Humanos no verbales,train
+1351,train,2-81970-A-7.wav,insects,30,2,81970,5.0,44100,1,6,Animales,train
+1352,train,5-208761-A-24.wav,coughing,12,5,208761,5.0,44100,1,23,Humanos no verbales,val
+1353,train,3-155568-A-32.wav,keyboard_typing,31,3,155568,5.0,44100,1,36,Domésticos,train
+1354,train,3-126358-A-3.wav,cow,13,3,126358,5.0,44100,1,1,Animales,train
+1355,train,2-125875-A-13.wav,crickets,15,2,125875,5.0,44100,1,12,Naturales y agua,train
+1356,train,5-178997-A-24.wav,coughing,12,5,178997,5.0,44100,1,23,Humanos no verbales,train
+1357,train,4-204121-A-39.wav,glass_breaking,26,4,204121,5.0,44100,1,35,Domésticos,train
+1358,train,3-117793-A-37.wav,clock_alarm,10,3,117793,5.0,44100,1,31,Domésticos,train
+1359,train,4-184434-A-21.wav,sneezing,41,4,184434,5.0,44100,1,28,Humanos no verbales,train
+1360,train,4-176914-A-23.wav,breathing,1,4,176914,5.0,44100,1,20,Humanos no verbales,train
+1361,train,3-170851-A-31.wav,mouse_click,33,3,170851,5.0,44100,1,37,Domésticos,train
+1362,train,3-127890-C-9.wav,crow,16,3,127890,5.0,44100,1,2,Animales,train
+1363,train,3-170002-A-34.wav,can_opening,3,3,170002,5.0,44100,1,30,Domésticos,train
+1364,train,4-182039-A-30.wav,door_wood_knock,20,4,182039,5.0,44100,1,34,Domésticos,train
+1365,train,4-201800-A-31.wav,mouse_click,33,4,201800,5.0,44100,1,37,Domésticos,val
+1366,train,4-188878-A-30.wav,door_wood_knock,20,4,188878,5.0,44100,1,34,Domésticos,train
+1367,train,3-166324-A-15.wav,water_drops,48,3,166324,5.0,44100,1,18,Naturales y agua,train
+1368,train,3-154957-A-1.wav,rooster,37,3,154957,5.0,44100,1,8,Animales,train
+1369,train,2-50666-A-20.wav,crying_baby,17,2,50666,5.0,44100,1,24,Humanos no verbales,train
+1370,train,5-203128-B-0.wav,dog,18,5,203128,5.0,44100,1,3,Animales,train
+1371,train,4-198360-A-49.wav,hand_saw,27,4,198360,5.0,44100,1,46,Urbanos,train
+1372,train,2-66637-A-20.wav,crying_baby,17,2,66637,5.0,44100,1,24,Humanos no verbales,train
+1373,train,5-261433-A-15.wav,water_drops,48,5,261433,5.0,44100,1,18,Naturales y agua,train
+1374,train,3-143560-A-47.wav,airplane,0,3,143560,5.0,44100,1,40,Urbanos,train
+1375,train,5-235644-A-30.wav,door_wood_knock,20,5,235644,5.0,44100,1,34,Domésticos,train
+1376,train,3-149189-A-1.wav,rooster,37,3,149189,5.0,44100,1,8,Animales,train
+1377,train,5-61635-A-8.wav,sheep,39,5,61635,5.0,44100,1,9,Animales,train
+1378,train,5-103416-A-2.wav,pig,34,5,103416,5.0,44100,1,7,Animales,train
+1379,train,4-172736-B-36.wav,vacuum_cleaner,46,4,172736,5.0,44100,1,38,Domésticos,train
+1380,train,3-182710-B-35.wav,washing_machine,47,3,182710,5.0,44100,1,39,Domésticos,train
+1381,train,5-198278-A-7.wav,insects,30,5,198278,5.0,44100,1,6,Animales,train
+1382,train,2-102852-A-11.wav,sea_waves,38,2,102852,5.0,44100,1,15,Naturales y agua,train
+1383,train,3-51731-B-42.wav,siren,40,3,51731,5.0,44100,1,48,Urbanos,train
+1384,train,5-243635-A-29.wav,drinking_sipping,21,5,243635,5.0,44100,1,25,Humanos no verbales,train
+1385,train,2-109371-D-16.wav,wind,49,2,109371,5.0,44100,1,19,Naturales y agua,train
+1386,train,4-161303-A-5.wav,cat,5,4,161303,5.0,44100,1,0,Animales,train
+1387,train,3-253084-B-2.wav,pig,34,3,253084,5.0,44100,1,7,Animales,train
+1388,train,2-65484-A-18.wav,toilet_flush,44,2,65484,5.0,44100,1,17,Naturales y agua,train
+1389,train,5-260164-A-23.wav,breathing,1,5,260164,5.0,44100,1,20,Humanos no verbales,val
+1390,train,5-250753-A-34.wav,can_opening,3,5,250753,5.0,44100,1,30,Domésticos,train
+1391,train,5-182010-A-36.wav,vacuum_cleaner,46,5,182010,5.0,44100,1,38,Domésticos,train
+1392,train,4-244318-A-6.wav,hen,29,4,244318,5.0,44100,1,5,Animales,train
+1393,train,4-172377-A-17.wav,pouring_water,35,4,172377,5.0,44100,1,13,Naturales y agua,train
+1394,train,4-119648-C-48.wav,fireworks,23,4,119648,5.0,44100,1,45,Urbanos,train
+1395,train,2-120586-A-6.wav,hen,29,2,120586,5.0,44100,1,5,Animales,train
+1396,train,4-194979-A-25.wav,footsteps,24,4,194979,5.0,44100,1,26,Humanos no verbales,train
+1397,train,5-221567-A-22.wav,clapping,9,5,221567,5.0,44100,1,22,Humanos no verbales,train
+1398,train,3-208820-A-49.wav,hand_saw,27,3,208820,5.0,44100,1,46,Urbanos,train
+1399,train,4-204202-A-29.wav,drinking_sipping,21,4,204202,5.0,44100,1,25,Humanos no verbales,train
+1400,train,5-242492-A-3.wav,cow,13,5,242492,5.0,44100,1,1,Animales,val
+1401,train,3-68630-C-40.wav,helicopter,28,3,68630,5.0,44100,1,47,Urbanos,train
+1402,train,5-198278-B-7.wav,insects,30,5,198278,5.0,44100,1,6,Animales,train
+1403,train,4-185613-A-32.wav,keyboard_typing,31,4,185613,5.0,44100,1,36,Domésticos,train
+1404,train,2-119161-A-8.wav,sheep,39,2,119161,5.0,44100,1,9,Animales,train
+1405,train,2-103424-A-3.wav,cow,13,2,103424,5.0,44100,1,1,Animales,train
+1406,train,2-119102-A-21.wav,sneezing,41,2,119102,5.0,44100,1,28,Humanos no verbales,val
+1407,train,3-253081-A-2.wav,pig,34,3,253081,5.0,44100,1,7,Animales,train
+1408,train,5-103421-A-2.wav,pig,34,5,103421,5.0,44100,1,7,Animales,val
+1409,train,5-221593-A-21.wav,sneezing,41,5,221593,5.0,44100,1,28,Humanos no verbales,train
+1410,train,3-166125-A-23.wav,breathing,1,3,166125,5.0,44100,1,20,Humanos no verbales,train
+1411,train,5-103422-A-2.wav,pig,34,5,103422,5.0,44100,1,7,Animales,train
+1412,train,3-144106-A-32.wav,keyboard_typing,31,3,144106,5.0,44100,1,36,Domésticos,train
+1413,train,5-188655-A-10.wav,rain,36,5,188655,5.0,44100,1,14,Naturales y agua,train
+1414,train,2-118459-B-32.wav,keyboard_typing,31,2,118459,5.0,44100,1,36,Domésticos,train
+1415,train,5-192191-A-19.wav,thunderstorm,43,5,192191,5.0,44100,1,16,Naturales y agua,train
+1416,train,5-244459-A-28.wav,snoring,42,5,244459,5.0,44100,1,29,Humanos no verbales,train
+1417,train,3-146033-A-13.wav,crickets,15,3,146033,5.0,44100,1,12,Naturales y agua,train
+1418,train,5-208030-A-0.wav,dog,18,5,208030,5.0,44100,1,3,Animales,train
+1419,train,4-172180-A-32.wav,keyboard_typing,31,4,172180,5.0,44100,1,36,Domésticos,train
+1420,train,2-152964-A-31.wav,mouse_click,33,2,152964,5.0,44100,1,37,Domésticos,train
+1421,train,5-242490-A-14.wav,chirping_birds,7,5,242490,5.0,44100,1,10,Naturales y agua,train
+1422,train,2-110614-B-8.wav,sheep,39,2,110614,5.0,44100,1,9,Animales,train
+1423,train,5-182404-A-18.wav,toilet_flush,44,5,182404,5.0,44100,1,17,Naturales y agua,val
+1424,train,2-117615-D-48.wav,fireworks,23,2,117615,5.0,44100,1,45,Urbanos,train
+1425,train,3-112522-A-27.wav,brushing_teeth,2,3,112522,5.0,44100,1,21,Humanos no verbales,train
+1426,train,4-161105-A-47.wav,airplane,0,4,161105,5.0,44100,1,40,Urbanos,train
+1427,train,4-188703-C-8.wav,sheep,39,4,188703,5.0,44100,1,9,Animales,val
+1428,train,5-212059-A-36.wav,vacuum_cleaner,46,5,212059,5.0,44100,1,38,Domésticos,val
+1429,train,3-127890-A-9.wav,crow,16,3,127890,5.0,44100,1,2,Animales,train
+1430,train,2-72547-B-14.wav,chirping_birds,7,2,72547,5.0,44100,1,10,Naturales y agua,train
+1431,train,2-101676-A-10.wav,rain,36,2,101676,5.0,44100,1,14,Naturales y agua,train
+1432,train,4-154443-A-24.wav,coughing,12,4,154443,5.0,44100,1,23,Humanos no verbales,train
+1433,train,3-144253-A-29.wav,drinking_sipping,21,3,144253,5.0,44100,1,25,Humanos no verbales,val
+1434,train,2-127109-A-6.wav,hen,29,2,127109,5.0,44100,1,5,Animales,train
+1435,train,3-180256-A-0.wav,dog,18,3,180256,5.0,44100,1,3,Animales,train
+1436,train,4-156827-A-46.wav,church_bells,8,4,156827,5.0,44100,1,43,Urbanos,train
+1437,train,5-191131-A-40.wav,helicopter,28,5,191131,5.0,44100,1,47,Urbanos,train
+1438,train,3-152997-A-26.wav,laughing,32,3,152997,5.0,44100,1,27,Humanos no verbales,train
+1439,train,5-208810-A-11.wav,sea_waves,38,5,208810,5.0,44100,1,15,Naturales y agua,train
+1440,train,3-103598-A-25.wav,footsteps,24,3,103598,5.0,44100,1,26,Humanos no verbales,train
+1441,train,2-124662-A-11.wav,sea_waves,38,2,124662,5.0,44100,1,15,Naturales y agua,val
+1442,train,3-155556-A-31.wav,mouse_click,33,3,155556,5.0,44100,1,37,Domésticos,train
+1443,train,3-146965-A-5.wav,cat,5,3,146965,5.0,44100,1,0,Animales,train
+1444,train,5-188606-A-33.wav,door_wood_creaks,19,5,188606,5.0,44100,1,33,Domésticos,val
+1445,train,5-156026-A-4.wav,frog,25,5,156026,5.0,44100,1,4,Animales,train
+1446,train,4-166661-A-10.wav,rain,36,4,166661,5.0,44100,1,14,Naturales y agua,train
+1447,train,3-100024-B-27.wav,brushing_teeth,2,3,100024,5.0,44100,1,21,Humanos no verbales,train
+1448,train,3-115387-A-47.wav,airplane,0,3,115387,5.0,44100,1,40,Urbanos,train
+1449,train,2-88724-A-38.wav,clock_tick,11,2,88724,5.0,44100,1,32,Domésticos,train
+1450,train,2-80844-A-13.wav,crickets,15,2,80844,5.0,44100,1,12,Naturales y agua,train
+1451,train,2-77346-A-46.wav,church_bells,8,2,77346,5.0,44100,1,43,Urbanos,train
+1452,train,2-182508-B-8.wav,sheep,39,2,182508,5.0,44100,1,9,Animales,val
+1453,train,3-112557-B-23.wav,breathing,1,3,112557,5.0,44100,1,20,Humanos no verbales,train
+1454,train,5-262957-A-22.wav,clapping,9,5,262957,5.0,44100,1,22,Humanos no verbales,train
+1455,train,2-117330-A-28.wav,snoring,42,2,117330,5.0,44100,1,29,Humanos no verbales,train
+1456,train,4-186518-A-30.wav,door_wood_knock,20,4,186518,5.0,44100,1,34,Domésticos,train
+1457,train,5-189795-A-4.wav,frog,25,5,189795,5.0,44100,1,4,Animales,train
+1458,train,5-186924-A-12.wav,crackling_fire,14,5,186924,5.0,44100,1,11,Naturales y agua,train
+1459,train,3-157615-A-10.wav,rain,36,3,157615,5.0,44100,1,14,Naturales y agua,train
+1460,train,3-119459-A-26.wav,laughing,32,3,119459,5.0,44100,1,27,Humanos no verbales,train
+1461,train,5-262641-A-15.wav,water_drops,48,5,262641,5.0,44100,1,18,Naturales y agua,train
+1462,train,2-123896-A-24.wav,coughing,12,2,123896,5.0,44100,1,23,Humanos no verbales,train
+1463,train,3-149042-A-24.wav,coughing,12,3,149042,5.0,44100,1,23,Humanos no verbales,train
+1464,train,2-250710-A-39.wav,glass_breaking,26,2,250710,5.0,44100,1,35,Domésticos,train
+1465,train,5-215005-A-32.wav,keyboard_typing,31,5,215005,5.0,44100,1,36,Domésticos,val
+1466,train,4-189836-A-22.wav,clapping,9,4,189836,5.0,44100,1,22,Humanos no verbales,train
+1467,train,4-202298-A-31.wav,mouse_click,33,4,202298,5.0,44100,1,37,Domésticos,train
+1468,train,3-155312-A-0.wav,dog,18,3,155312,5.0,44100,1,3,Animales,val
+1469,train,2-95567-A-23.wav,breathing,1,2,95567,5.0,44100,1,20,Humanos no verbales,train
+1470,train,5-160614-G-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+1471,train,2-106881-A-39.wav,glass_breaking,26,2,106881,5.0,44100,1,35,Domésticos,train
+1472,train,5-180229-A-27.wav,brushing_teeth,2,5,180229,5.0,44100,1,21,Humanos no verbales,val
+1473,train,2-108767-A-9.wav,crow,16,2,108767,5.0,44100,1,2,Animales,train
+1474,train,2-103427-A-3.wav,cow,13,2,103427,5.0,44100,1,1,Animales,train
+1475,train,3-144692-A-21.wav,sneezing,41,3,144692,5.0,44100,1,28,Humanos no verbales,train
+1476,train,5-197446-A-7.wav,insects,30,5,197446,5.0,44100,1,6,Animales,train
+1477,train,2-106486-A-44.wav,engine,22,2,106486,5.0,44100,1,44,Urbanos,train
+1478,train,4-132839-A-33.wav,door_wood_creaks,19,4,132839,5.0,44100,1,33,Domésticos,train
+1479,train,5-117120-A-42.wav,siren,40,5,117120,5.0,44100,1,48,Urbanos,train
+1480,train,3-93010-A-18.wav,toilet_flush,44,3,93010,5.0,44100,1,17,Naturales y agua,train
+1481,train,4-107122-A-33.wav,door_wood_creaks,19,4,107122,5.0,44100,1,33,Domésticos,train
+1482,train,2-94230-A-27.wav,brushing_teeth,2,2,94230,5.0,44100,1,21,Humanos no verbales,train
+1483,train,2-83934-B-5.wav,cat,5,2,83934,5.0,44100,1,0,Animales,train
+1484,train,2-205966-A-16.wav,wind,49,2,205966,5.0,44100,1,19,Naturales y agua,val
+1485,train,5-177034-A-18.wav,toilet_flush,44,5,177034,5.0,44100,1,17,Naturales y agua,train
+1486,train,4-181955-B-3.wav,cow,13,4,181955,5.0,44100,1,1,Animales,train
+1487,train,3-152007-A-20.wav,crying_baby,17,3,152007,5.0,44100,1,24,Humanos no verbales,train
+1488,train,3-163459-A-0.wav,dog,18,3,163459,5.0,44100,1,3,Animales,train
+1489,train,3-160119-A-15.wav,water_drops,48,3,160119,5.0,44100,1,18,Naturales y agua,train
+1490,train,3-112397-A-9.wav,crow,16,3,112397,5.0,44100,1,2,Animales,train
+1491,train,2-78781-A-47.wav,airplane,0,2,78781,5.0,44100,1,40,Urbanos,train
+1492,train,2-85945-A-18.wav,toilet_flush,44,2,85945,5.0,44100,1,17,Naturales y agua,val
+1493,train,2-120218-B-30.wav,door_wood_knock,20,2,120218,5.0,44100,1,34,Domésticos,train
+1494,train,2-135860-A-49.wav,hand_saw,27,2,135860,5.0,44100,1,46,Urbanos,val
+1495,train,5-253094-C-49.wav,hand_saw,27,5,253094,5.0,44100,1,46,Urbanos,train
+1496,train,4-164206-A-10.wav,rain,36,4,164206,5.0,44100,1,14,Naturales y agua,train
+1497,train,2-83536-A-27.wav,brushing_teeth,2,2,83536,5.0,44100,1,21,Humanos no verbales,val
+1498,train,2-93030-A-21.wav,sneezing,41,2,93030,5.0,44100,1,28,Humanos no verbales,val
+1499,train,2-188822-B-40.wav,helicopter,28,2,188822,5.0,44100,1,47,Urbanos,train
+1500,train,3-138114-A-22.wav,clapping,9,3,138114,5.0,44100,1,22,Humanos no verbales,train
+1501,train,2-32515-C-4.wav,frog,25,2,32515,5.0,44100,1,4,Animales,train
+1502,train,4-168155-A-15.wav,water_drops,48,4,168155,5.0,44100,1,18,Naturales y agua,train
+1503,train,5-160614-B-48.wav,fireworks,23,5,160614,5.0,44100,1,45,Urbanos,val
+1504,train,5-194899-B-3.wav,cow,13,5,194899,5.0,44100,1,1,Animales,val
+1505,train,2-76408-C-22.wav,clapping,9,2,76408,5.0,44100,1,22,Humanos no verbales,train
+1506,train,5-234335-A-23.wav,breathing,1,5,234335,5.0,44100,1,20,Humanos no verbales,train
+1507,train,4-169726-A-24.wav,coughing,12,4,169726,5.0,44100,1,23,Humanos no verbales,train
+1508,train,2-117615-E-48.wav,fireworks,23,2,117615,5.0,44100,1,45,Urbanos,train
+1509,train,2-141563-A-39.wav,glass_breaking,26,2,141563,5.0,44100,1,35,Domésticos,train
+1510,train,3-125418-A-24.wav,coughing,12,3,125418,5.0,44100,1,23,Humanos no verbales,train
+1511,train,2-116400-A-0.wav,dog,18,2,116400,5.0,44100,1,3,Animales,train
+1512,train,3-144128-A-23.wav,breathing,1,3,144128,5.0,44100,1,20,Humanos no verbales,val
+1513,train,2-52085-B-4.wav,frog,25,2,52085,5.0,44100,1,4,Animales,val
+1514,train,5-195518-A-7.wav,insects,30,5,195518,5.0,44100,1,6,Animales,train
+1515,train,2-131943-A-38.wav,clock_tick,11,2,131943,5.0,44100,1,32,Domésticos,train
+1516,train,5-179294-A-46.wav,church_bells,8,5,179294,5.0,44100,1,43,Urbanos,val
+1517,train,3-149465-A-22.wav,clapping,9,3,149465,5.0,44100,1,22,Humanos no verbales,train
+1518,train,3-187549-B-6.wav,hen,29,3,187549,5.0,44100,1,5,Animales,train
+1519,train,3-164216-C-6.wav,hen,29,3,164216,5.0,44100,1,5,Animales,train
+1520,train,5-188796-A-45.wav,train,45,5,188796,5.0,44100,1,49,Urbanos,val
+1521,train,4-201988-A-44.wav,engine,22,4,201988,5.0,44100,1,44,Urbanos,train
+1522,train,3-136451-A-45.wav,train,45,3,136451,5.0,44100,1,49,Urbanos,train
+1523,train,3-129264-A-9.wav,crow,16,3,129264,5.0,44100,1,2,Animales,train
+1524,train,4-223125-A-14.wav,chirping_birds,7,4,223125,5.0,44100,1,10,Naturales y agua,train
+1525,train,3-182710-A-35.wav,washing_machine,47,3,182710,5.0,44100,1,39,Domésticos,train
+1526,train,3-166326-A-15.wav,water_drops,48,3,166326,5.0,44100,1,18,Naturales y agua,val
+1527,train,3-166125-B-23.wav,breathing,1,3,166125,5.0,44100,1,20,Humanos no verbales,train
+1528,train,2-173607-A-39.wav,glass_breaking,26,2,173607,5.0,44100,1,35,Domésticos,val
+1529,train,4-218199-C-35.wav,washing_machine,47,4,218199,5.0,44100,1,39,Domésticos,train
+1530,train,4-173865-A-9.wav,crow,16,4,173865,5.0,44100,1,2,Animales,val
+1531,train,3-157187-A-12.wav,crackling_fire,14,3,157187,5.0,44100,1,11,Naturales y agua,val
+1532,train,3-144510-A-30.wav,door_wood_knock,20,3,144510,5.0,44100,1,34,Domésticos,train
+1533,train,4-183487-A-1.wav,rooster,37,4,183487,5.0,44100,1,8,Animales,val
+1534,train,2-146877-B-31.wav,mouse_click,33,2,146877,5.0,44100,1,37,Domésticos,train
+1535,train,4-125929-A-40.wav,helicopter,28,4,125929,5.0,44100,1,47,Urbanos,train
+1536,train,2-18766-A-12.wav,crackling_fire,14,2,18766,5.0,44100,1,11,Naturales y agua,train
+1537,train,3-134699-B-16.wav,wind,49,3,134699,5.0,44100,1,19,Naturales y agua,train
+1538,train,3-155642-B-11.wav,sea_waves,38,3,155642,5.0,44100,1,15,Naturales y agua,train
+1539,train,4-191327-A-38.wav,clock_tick,11,4,191327,5.0,44100,1,32,Domésticos,val
+1540,train,3-216280-A-39.wav,glass_breaking,26,3,216280,5.0,44100,1,35,Domésticos,train
+1541,train,5-156999-E-19.wav,thunderstorm,43,5,156999,5.0,44100,1,16,Naturales y agua,train
+1542,train,4-167571-A-26.wav,laughing,32,4,167571,5.0,44100,1,27,Humanos no verbales,val
+1543,train,5-214362-A-17.wav,pouring_water,35,5,214362,5.0,44100,1,13,Naturales y agua,train
+1544,train,5-242932-B-26.wav,laughing,32,5,242932,5.0,44100,1,27,Humanos no verbales,val
+1545,train,2-72688-A-42.wav,siren,40,2,72688,5.0,44100,1,48,Urbanos,train
+1546,train,5-117118-A-42.wav,siren,40,5,117118,5.0,44100,1,48,Urbanos,train
+1547,train,3-95698-A-5.wav,cat,5,3,95698,5.0,44100,1,0,Animales,val
+1548,train,2-140841-A-30.wav,door_wood_knock,20,2,140841,5.0,44100,1,34,Domésticos,train
+1549,train,3-182023-A-30.wav,door_wood_knock,20,3,182023,5.0,44100,1,34,Domésticos,train
+1550,train,3-154758-A-44.wav,engine,22,3,154758,5.0,44100,1,44,Urbanos,val
+1551,train,5-252248-A-34.wav,can_opening,3,5,252248,5.0,44100,1,30,Domésticos,train
+1552,train,3-110913-D-7.wav,insects,30,3,110913,5.0,44100,1,6,Animales,train
+1553,train,4-149294-B-41.wav,chainsaw,6,4,149294,5.0,44100,1,42,Urbanos,val
+1554,train,3-197408-C-8.wav,sheep,39,3,197408,5.0,44100,1,9,Animales,train
+1555,train,4-161519-A-19.wav,thunderstorm,43,4,161519,5.0,44100,1,16,Naturales y agua,val
+1556,train,2-118817-A-32.wav,keyboard_typing,31,2,118817,5.0,44100,1,36,Domésticos,train
+1557,train,4-189830-A-22.wav,clapping,9,4,189830,5.0,44100,1,22,Humanos no verbales,train
+1558,train,2-110417-B-28.wav,snoring,42,2,110417,5.0,44100,1,29,Humanos no verbales,val
+1559,train,3-158056-A-31.wav,mouse_click,33,3,158056,5.0,44100,1,37,Domésticos,val
+1560,train,2-92627-A-27.wav,brushing_teeth,2,2,92627,5.0,44100,1,21,Humanos no verbales,train
+1561,train,2-25293-A-22.wav,clapping,9,2,25293,5.0,44100,1,22,Humanos no verbales,train
+1562,train,5-185516-A-27.wav,brushing_teeth,2,5,185516,5.0,44100,1,21,Humanos no verbales,train
+1563,train,5-161270-B-33.wav,door_wood_creaks,19,5,161270,5.0,44100,1,33,Domésticos,train
+1564,train,3-166546-A-34.wav,can_opening,3,3,166546,5.0,44100,1,30,Domésticos,val
+1565,train,2-122820-A-36.wav,vacuum_cleaner,46,2,122820,5.0,44100,1,38,Domésticos,train
+1566,train,5-217186-B-16.wav,wind,49,5,217186,5.0,44100,1,19,Naturales y agua,val
+1567,train,4-195805-A-13.wav,crickets,15,4,195805,5.0,44100,1,12,Naturales y agua,val
+1568,train,3-144827-A-11.wav,sea_waves,38,3,144827,5.0,44100,1,15,Naturales y agua,train
+1569,train,2-70939-A-42.wav,siren,40,2,70939,5.0,44100,1,48,Urbanos,train
+1570,train,4-182795-A-14.wav,chirping_birds,7,4,182795,5.0,44100,1,10,Naturales y agua,train
+1571,train,2-75726-A-6.wav,hen,29,2,75726,5.0,44100,1,5,Animales,train
+1572,train,2-122104-A-0.wav,dog,18,2,122104,5.0,44100,1,3,Animales,train
+1573,train,3-157695-A-0.wav,dog,18,3,157695,5.0,44100,1,3,Animales,train
+1574,train,2-166644-C-2.wav,pig,34,2,166644,5.0,44100,1,7,Animales,val
+1575,train,2-60180-A-49.wav,hand_saw,27,2,60180,5.0,44100,1,46,Urbanos,train
+1576,train,2-78381-A-46.wav,church_bells,8,2,78381,5.0,44100,1,43,Urbanos,train
+1577,train,5-238492-A-23.wav,breathing,1,5,238492,5.0,44100,1,20,Humanos no verbales,train
+1578,train,5-207781-A-17.wav,pouring_water,35,5,207781,5.0,44100,1,13,Naturales y agua,train
+1579,train,3-118658-A-41.wav,chainsaw,6,3,118658,5.0,44100,1,42,Urbanos,train
+1580,train,4-172732-A-36.wav,vacuum_cleaner,46,4,172732,5.0,44100,1,38,Domésticos,train
+1581,train,4-151242-A-37.wav,clock_alarm,10,4,151242,5.0,44100,1,31,Domésticos,train
+1582,train,3-142593-A-38.wav,clock_tick,11,3,142593,5.0,44100,1,32,Domésticos,train
+1583,train,3-105236-A-7.wav,insects,30,3,105236,5.0,44100,1,6,Animales,train
+1584,train,2-108767-B-9.wav,crow,16,2,108767,5.0,44100,1,2,Animales,train
+1585,train,3-121348-A-9.wav,crow,16,3,121348,5.0,44100,1,2,Animales,val
+1586,train,3-108791-A-18.wav,toilet_flush,44,3,108791,5.0,44100,1,17,Naturales y agua,val
+1587,train,2-118104-A-21.wav,sneezing,41,2,118104,5.0,44100,1,28,Humanos no verbales,train
+1588,train,4-175856-A-43.wav,car_horn,4,4,175856,5.0,44100,1,41,Urbanos,train
+1589,train,2-153388-A-31.wav,mouse_click,33,2,153388,5.0,44100,1,37,Domésticos,train
+1590,train,5-173568-A-33.wav,door_wood_creaks,19,5,173568,5.0,44100,1,33,Domésticos,train
+1591,train,4-168446-A-45.wav,train,45,4,168446,5.0,44100,1,49,Urbanos,train
+1592,train,2-73027-A-10.wav,rain,36,2,73027,5.0,44100,1,14,Naturales y agua,train
+1593,train,2-30322-B-12.wav,crackling_fire,14,2,30322,5.0,44100,1,11,Naturales y agua,train
+1594,train,5-189237-A-12.wav,crackling_fire,14,5,189237,5.0,44100,1,11,Naturales y agua,train
+1595,train,3-146186-A-44.wav,engine,22,3,146186,5.0,44100,1,44,Urbanos,train
+1596,train,2-105270-A-47.wav,airplane,0,2,105270,5.0,44100,1,40,Urbanos,train
+1597,train,4-188703-D-8.wav,sheep,39,4,188703,5.0,44100,1,9,Animales,val
+1598,train,4-172500-A-27.wav,brushing_teeth,2,4,172500,5.0,44100,1,21,Humanos no verbales,train
+1599,train,4-164661-B-12.wav,crackling_fire,14,4,164661,5.0,44100,1,11,Naturales y agua,train
+0,test,1-16568-A-3.wav,cow,13,1,16568,5.0,44100,1,1,Animales,test
+1,test,1-37226-A-29.wav,drinking_sipping,21,1,37226,5.0,44100,1,25,Humanos no verbales,test
+2,test,1-58923-A-27.wav,brushing_teeth,2,1,58923,5.0,44100,1,21,Humanos no verbales,test
+3,test,1-9841-A-13.wav,crickets,15,1,9841,5.0,44100,1,12,Naturales y agua,test
+4,test,1-46274-A-18.wav,toilet_flush,44,1,46274,5.0,44100,1,17,Naturales y agua,test
+5,test,1-62594-A-32.wav,keyboard_typing,31,1,62594,5.0,44100,1,36,Domésticos,test
+6,test,1-72195-A-37.wav,clock_alarm,10,1,72195,5.0,44100,1,31,Domésticos,test
+7,test,1-50625-A-17.wav,pouring_water,35,1,50625,5.0,44100,1,13,Naturales y agua,test
+8,test,1-196660-B-8.wav,sheep,39,1,196660,5.0,44100,1,9,Animales,test
+9,test,1-70300-A-45.wav,train,45,1,70300,5.0,44100,1,49,Urbanos,test
+10,test,1-155858-C-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+11,test,1-160563-B-48.wav,fireworks,23,1,160563,5.0,44100,1,45,Urbanos,test
+12,test,1-7456-A-13.wav,crickets,15,1,7456,5.0,44100,1,12,Naturales y agua,test
+13,test,1-34853-A-37.wav,clock_alarm,10,1,34853,5.0,44100,1,31,Domésticos,test
+14,test,1-21935-A-38.wav,clock_tick,11,1,21935,5.0,44100,1,32,Domésticos,test
+15,test,1-26143-A-21.wav,sneezing,41,1,26143,5.0,44100,1,28,Humanos no verbales,test
+16,test,1-77241-A-3.wav,cow,13,1,77241,5.0,44100,1,1,Animales,test
+17,test,1-39923-A-1.wav,rooster,37,1,39923,5.0,44100,1,8,Animales,test
+18,test,1-84536-A-39.wav,glass_breaking,26,1,84536,5.0,44100,1,35,Domésticos,test
+19,test,1-211527-C-20.wav,crying_baby,17,1,211527,5.0,44100,1,24,Humanos no verbales,test
+20,test,1-15689-B-4.wav,frog,25,1,15689,5.0,44100,1,4,Animales,test
+21,test,1-67152-A-17.wav,pouring_water,35,1,67152,5.0,44100,1,13,Naturales y agua,test
+22,test,1-51805-A-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+23,test,1-1791-A-26.wav,laughing,32,1,1791,5.0,44100,1,27,Humanos no verbales,test
+24,test,1-30226-A-0.wav,dog,18,1,30226,5.0,44100,1,3,Animales,test
+25,test,1-49409-B-8.wav,sheep,39,1,49409,5.0,44100,1,9,Animales,test
+26,test,1-36400-A-23.wav,breathing,1,1,36400,5.0,44100,1,20,Humanos no verbales,test
+27,test,1-14262-A-37.wav,clock_alarm,10,1,14262,5.0,44100,1,31,Domésticos,test
+28,test,1-137296-A-16.wav,wind,49,1,137296,5.0,44100,1,19,Naturales y agua,test
+29,test,1-56380-B-5.wav,cat,5,1,56380,5.0,44100,1,0,Animales,test
+30,test,1-103298-A-9.wav,crow,16,1,103298,5.0,44100,1,2,Animales,test
+31,test,1-47819-B-5.wav,cat,5,1,47819,5.0,44100,1,0,Animales,test
+32,test,1-208757-D-2.wav,pig,34,1,208757,5.0,44100,1,7,Animales,test
+33,test,1-54505-A-21.wav,sneezing,41,1,54505,5.0,44100,1,28,Humanos no verbales,test
+34,test,1-81883-A-21.wav,sneezing,41,1,81883,5.0,44100,1,28,Humanos no verbales,test
+35,test,1-82817-A-30.wav,door_wood_knock,20,1,82817,5.0,44100,1,34,Domésticos,test
+36,test,1-39901-A-11.wav,sea_waves,38,1,39901,5.0,44100,1,15,Naturales y agua,test
+37,test,1-21421-A-46.wav,church_bells,8,1,21421,5.0,44100,1,43,Urbanos,test
+38,test,1-27405-A-28.wav,snoring,42,1,27405,5.0,44100,1,29,Humanos no verbales,test
+39,test,1-47819-A-5.wav,cat,5,1,47819,5.0,44100,1,0,Animales,test
+40,test,1-72195-B-37.wav,clock_alarm,10,1,72195,5.0,44100,1,31,Domésticos,test
+41,test,1-47923-A-28.wav,snoring,42,1,47923,5.0,44100,1,29,Humanos no verbales,test
+42,test,1-11687-A-47.wav,airplane,0,1,11687,5.0,44100,1,40,Urbanos,test
+43,test,1-19898-C-41.wav,chainsaw,6,1,19898,5.0,44100,1,42,Urbanos,test
+44,test,1-181071-A-40.wav,helicopter,28,1,181071,5.0,44100,1,47,Urbanos,test
+45,test,1-41615-A-34.wav,can_opening,3,1,41615,5.0,44100,1,30,Domésticos,test
+46,test,1-18631-A-23.wav,breathing,1,1,18631,5.0,44100,1,20,Humanos no verbales,test
+47,test,1-68670-A-34.wav,can_opening,3,1,68670,5.0,44100,1,30,Domésticos,test
+48,test,1-36393-A-23.wav,breathing,1,1,36393,5.0,44100,1,20,Humanos no verbales,test
+49,test,1-79711-A-32.wav,keyboard_typing,31,1,79711,5.0,44100,1,36,Domésticos,test
+50,test,1-57316-A-13.wav,crickets,15,1,57316,5.0,44100,1,12,Naturales y agua,test
+51,test,1-39835-A-9.wav,crow,16,1,39835,5.0,44100,1,2,Animales,test
+52,test,1-19872-A-36.wav,vacuum_cleaner,46,1,19872,5.0,44100,1,38,Domésticos,test
+53,test,1-39937-A-28.wav,snoring,42,1,39937,5.0,44100,1,29,Humanos no verbales,test
+54,test,1-155858-E-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+55,test,1-202111-A-3.wav,cow,13,1,202111,5.0,44100,1,1,Animales,test
+56,test,1-62509-A-45.wav,train,45,1,62509,5.0,44100,1,49,Urbanos,test
+57,test,1-63871-A-10.wav,rain,36,1,63871,5.0,44100,1,14,Naturales y agua,test
+58,test,1-47250-A-41.wav,chainsaw,6,1,47250,5.0,44100,1,42,Urbanos,test
+59,test,1-24074-A-43.wav,car_horn,4,1,24074,5.0,44100,1,41,Urbanos,test
+60,test,1-115920-B-22.wav,clapping,9,1,115920,5.0,44100,1,22,Humanos no verbales,test
+61,test,1-69760-A-16.wav,wind,49,1,69760,5.0,44100,1,19,Naturales y agua,test
+62,test,1-81001-B-30.wav,door_wood_knock,20,1,81001,5.0,44100,1,34,Domésticos,test
+63,test,1-61261-A-44.wav,engine,22,1,61261,5.0,44100,1,44,Urbanos,test
+64,test,1-18810-A-49.wav,hand_saw,27,1,18810,5.0,44100,1,46,Urbanos,test
+65,test,1-47273-A-21.wav,sneezing,41,1,47273,5.0,44100,1,28,Humanos no verbales,test
+66,test,1-69641-A-3.wav,cow,13,1,69641,5.0,44100,1,1,Animales,test
+67,test,1-75190-A-8.wav,sheep,39,1,75190,5.0,44100,1,9,Animales,test
+68,test,1-65483-A-13.wav,crickets,15,1,65483,5.0,44100,1,12,Naturales y agua,test
+69,test,1-24524-C-19.wav,thunderstorm,43,1,24524,5.0,44100,1,16,Naturales y agua,test
+70,test,1-71030-A-6.wav,hen,29,1,71030,5.0,44100,1,5,Animales,test
+71,test,1-88574-A-8.wav,sheep,39,1,88574,5.0,44100,1,9,Animales,test
+72,test,1-60997-A-20.wav,crying_baby,17,1,60997,5.0,44100,1,24,Humanos no verbales,test
+73,test,1-54752-A-18.wav,toilet_flush,44,1,54752,5.0,44100,1,17,Naturales y agua,test
+74,test,1-68734-A-34.wav,can_opening,3,1,68734,5.0,44100,1,30,Domésticos,test
+75,test,1-39835-B-9.wav,crow,16,1,39835,5.0,44100,1,2,Animales,test
+76,test,1-19111-A-24.wav,coughing,12,1,19111,5.0,44100,1,23,Humanos no verbales,test
+77,test,1-23094-A-15.wav,water_drops,48,1,23094,5.0,44100,1,18,Naturales y agua,test
+78,test,1-115545-B-48.wav,fireworks,23,1,115545,5.0,44100,1,45,Urbanos,test
+79,test,1-17367-A-10.wav,rain,36,1,17367,5.0,44100,1,14,Naturales y agua,test
+80,test,1-56234-A-9.wav,crow,16,1,56234,5.0,44100,1,2,Animales,test
+81,test,1-51805-G-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+82,test,1-23222-B-19.wav,thunderstorm,43,1,23222,5.0,44100,1,16,Naturales y agua,test
+83,test,1-24524-B-19.wav,thunderstorm,43,1,24524,5.0,44100,1,16,Naturales y agua,test
+84,test,1-21896-A-35.wav,washing_machine,47,1,21896,5.0,44100,1,39,Domésticos,test
+85,test,1-20133-A-39.wav,glass_breaking,26,1,20133,5.0,44100,1,35,Domésticos,test
+86,test,1-260640-C-2.wav,pig,34,1,260640,5.0,44100,1,7,Animales,test
+87,test,1-85909-A-29.wav,drinking_sipping,21,1,85909,5.0,44100,1,25,Humanos no verbales,test
+88,test,1-254507-A-43.wav,car_horn,4,1,254507,5.0,44100,1,41,Urbanos,test
+89,test,1-19501-A-7.wav,insects,30,1,19501,5.0,44100,1,6,Animales,test
+90,test,1-50623-A-15.wav,water_drops,48,1,50623,5.0,44100,1,18,Naturales y agua,test
+91,test,1-51805-E-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+92,test,1-61534-A-27.wav,brushing_teeth,2,1,61534,5.0,44100,1,21,Humanos no verbales,test
+93,test,1-4211-A-12.wav,crackling_fire,14,1,4211,5.0,44100,1,11,Naturales y agua,test
+94,test,1-56233-A-9.wav,crow,16,1,56233,5.0,44100,1,2,Animales,test
+95,test,1-56270-A-29.wav,drinking_sipping,21,1,56270,5.0,44100,1,25,Humanos no verbales,test
+96,test,1-58792-A-24.wav,coughing,12,1,58792,5.0,44100,1,23,Humanos no verbales,test
+97,test,1-81269-A-3.wav,cow,13,1,81269,5.0,44100,1,1,Animales,test
+98,test,1-26176-A-43.wav,car_horn,4,1,26176,5.0,44100,1,41,Urbanos,test
+99,test,1-54747-A-46.wav,church_bells,8,1,54747,5.0,44100,1,43,Urbanos,test
+100,test,1-17295-A-29.wav,drinking_sipping,21,1,17295,5.0,44100,1,25,Humanos no verbales,test
+101,test,1-100210-B-36.wav,vacuum_cleaner,46,1,100210,5.0,44100,1,38,Domésticos,test
+102,test,1-20545-A-28.wav,snoring,42,1,20545,5.0,44100,1,29,Humanos no verbales,test
+103,test,1-38559-A-14.wav,chirping_birds,7,1,38559,5.0,44100,1,10,Naturales y agua,test
+104,test,1-172649-F-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+105,test,1-19898-A-41.wav,chainsaw,6,1,19898,5.0,44100,1,42,Urbanos,test
+106,test,1-54918-A-14.wav,chirping_birds,7,1,54918,5.0,44100,1,10,Naturales y agua,test
+107,test,1-61212-A-32.wav,keyboard_typing,31,1,61212,5.0,44100,1,36,Domésticos,test
+108,test,1-54918-B-14.wav,chirping_birds,7,1,54918,5.0,44100,1,10,Naturales y agua,test
+109,test,1-34497-A-14.wav,chirping_birds,7,1,34497,5.0,44100,1,10,Naturales y agua,test
+110,test,1-57318-A-13.wav,crickets,15,1,57318,5.0,44100,1,12,Naturales y agua,test
+111,test,1-79113-A-5.wav,cat,5,1,79113,5.0,44100,1,0,Animales,test
+112,test,1-21189-A-10.wav,rain,36,1,21189,5.0,44100,1,14,Naturales y agua,test
+113,test,1-88409-B-45.wav,train,45,1,88409,5.0,44100,1,49,Urbanos,test
+114,test,1-27165-A-35.wav,washing_machine,47,1,27165,5.0,44100,1,39,Domésticos,test
+115,test,1-23706-A-49.wav,hand_saw,27,1,23706,5.0,44100,1,46,Urbanos,test
+116,test,1-72229-A-6.wav,hen,29,1,72229,5.0,44100,1,5,Animales,test
+117,test,1-53467-A-47.wav,airplane,0,1,53467,5.0,44100,1,40,Urbanos,test
+118,test,1-36397-A-23.wav,breathing,1,1,36397,5.0,44100,1,20,Humanos no verbales,test
+119,test,1-30709-B-23.wav,breathing,1,1,30709,5.0,44100,1,20,Humanos no verbales,test
+120,test,1-21934-A-38.wav,clock_tick,11,1,21934,5.0,44100,1,32,Domésticos,test
+121,test,1-100038-A-14.wav,chirping_birds,7,1,100038,5.0,44100,1,10,Naturales y agua,test
+122,test,1-43764-A-34.wav,can_opening,3,1,43764,5.0,44100,1,30,Domésticos,test
+123,test,1-18755-A-4.wav,frog,25,1,18755,5.0,44100,1,4,Animales,test
+124,test,1-80841-A-13.wav,crickets,15,1,80841,5.0,44100,1,12,Naturales y agua,test
+125,test,1-76831-C-42.wav,siren,40,1,76831,5.0,44100,1,48,Urbanos,test
+126,test,1-121951-A-8.wav,sheep,39,1,121951,5.0,44100,1,9,Animales,test
+127,test,1-47250-B-41.wav,chainsaw,6,1,47250,5.0,44100,1,42,Urbanos,test
+128,test,1-81851-A-31.wav,mouse_click,33,1,81851,5.0,44100,1,37,Domésticos,test
+129,test,1-17124-A-43.wav,car_horn,4,1,17124,5.0,44100,1,41,Urbanos,test
+130,test,1-115545-C-48.wav,fireworks,23,1,115545,5.0,44100,1,45,Urbanos,test
+131,test,1-63679-A-24.wav,coughing,12,1,63679,5.0,44100,1,23,Humanos no verbales,test
+132,test,1-211527-B-20.wav,crying_baby,17,1,211527,5.0,44100,1,24,Humanos no verbales,test
+133,test,1-110389-A-0.wav,dog,18,1,110389,5.0,44100,1,3,Animales,test
+134,test,1-104089-A-22.wav,clapping,9,1,104089,5.0,44100,1,22,Humanos no verbales,test
+135,test,1-19026-A-43.wav,car_horn,4,1,19026,5.0,44100,1,41,Urbanos,test
+136,test,1-34119-A-1.wav,rooster,37,1,34119,5.0,44100,1,8,Animales,test
+137,test,1-43807-C-47.wav,airplane,0,1,43807,5.0,44100,1,40,Urbanos,test
+138,test,1-29680-A-21.wav,sneezing,41,1,29680,5.0,44100,1,28,Humanos no verbales,test
+139,test,1-79146-A-29.wav,drinking_sipping,21,1,79146,5.0,44100,1,25,Humanos no verbales,test
+140,test,1-96890-A-37.wav,clock_alarm,10,1,96890,5.0,44100,1,31,Domésticos,test
+141,test,1-47709-A-16.wav,wind,49,1,47709,5.0,44100,1,19,Naturales y agua,test
+142,test,1-34495-A-14.wav,chirping_birds,7,1,34495,5.0,44100,1,10,Naturales y agua,test
+143,test,1-22694-B-20.wav,crying_baby,17,1,22694,5.0,44100,1,24,Humanos no verbales,test
+144,test,1-30214-A-18.wav,toilet_flush,44,1,30214,5.0,44100,1,17,Naturales y agua,test
+145,test,1-76831-A-42.wav,siren,40,1,76831,5.0,44100,1,48,Urbanos,test
+146,test,1-88807-A-39.wav,glass_breaking,26,1,88807,5.0,44100,1,35,Domésticos,test
+147,test,1-88409-A-45.wav,train,45,1,88409,5.0,44100,1,49,Urbanos,test
+148,test,1-155858-D-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+149,test,1-34119-B-1.wav,rooster,37,1,34119,5.0,44100,1,8,Animales,test
+150,test,1-51436-A-17.wav,pouring_water,35,1,51436,5.0,44100,1,13,Naturales y agua,test
+151,test,1-7973-A-7.wav,insects,30,1,7973,5.0,44100,1,6,Animales,test
+152,test,1-223162-A-25.wav,footsteps,24,1,223162,5.0,44100,1,26,Humanos no verbales,test
+153,test,1-172649-D-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+154,test,1-46938-B-7.wav,insects,30,1,46938,5.0,44100,1,6,Animales,test
+155,test,1-22882-A-44.wav,engine,22,1,22882,5.0,44100,1,44,Urbanos,test
+156,test,1-80785-A-7.wav,insects,30,1,80785,5.0,44100,1,6,Animales,test
+157,test,1-18074-B-6.wav,hen,29,1,18074,5.0,44100,1,5,Animales,test
+158,test,1-64473-A-45.wav,train,45,1,64473,5.0,44100,1,49,Urbanos,test
+159,test,1-155858-A-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+160,test,1-26806-A-1.wav,rooster,37,1,26806,5.0,44100,1,8,Animales,test
+161,test,1-30709-C-23.wav,breathing,1,1,30709,5.0,44100,1,20,Humanos no verbales,test
+162,test,1-7057-A-12.wav,crackling_fire,14,1,7057,5.0,44100,1,11,Naturales y agua,test
+163,test,1-40154-A-46.wav,church_bells,8,1,40154,5.0,44100,1,43,Urbanos,test
+164,test,1-44831-A-1.wav,rooster,37,1,44831,5.0,44100,1,8,Animales,test
+165,test,1-32373-A-35.wav,washing_machine,47,1,32373,5.0,44100,1,39,Domésticos,test
+166,test,1-24076-A-43.wav,car_horn,4,1,24076,5.0,44100,1,41,Urbanos,test
+167,test,1-28808-A-43.wav,car_horn,4,1,28808,5.0,44100,1,41,Urbanos,test
+168,test,1-60460-A-36.wav,vacuum_cleaner,46,1,60460,5.0,44100,1,38,Domésticos,test
+169,test,1-36402-A-23.wav,breathing,1,1,36402,5.0,44100,1,20,Humanos no verbales,test
+170,test,1-85123-A-31.wav,mouse_click,33,1,85123,5.0,44100,1,37,Domésticos,test
+171,test,1-97793-A-31.wav,mouse_click,33,1,97793,5.0,44100,1,37,Domésticos,test
+172,test,1-56269-A-18.wav,toilet_flush,44,1,56269,5.0,44100,1,17,Naturales y agua,test
+173,test,1-43382-A-1.wav,rooster,37,1,43382,5.0,44100,1,8,Animales,test
+174,test,1-118559-A-17.wav,pouring_water,35,1,118559,5.0,44100,1,13,Naturales y agua,test
+175,test,1-75189-A-7.wav,insects,30,1,75189,5.0,44100,1,6,Animales,test
+176,test,1-33658-A-26.wav,laughing,32,1,33658,5.0,44100,1,27,Humanos no verbales,test
+177,test,1-62849-A-38.wav,clock_tick,11,1,62849,5.0,44100,1,32,Domésticos,test
+178,test,1-115545-A-48.wav,fireworks,23,1,115545,5.0,44100,1,45,Urbanos,test
+179,test,1-61252-A-11.wav,sea_waves,38,1,61252,5.0,44100,1,15,Naturales y agua,test
+180,test,1-101296-A-19.wav,thunderstorm,43,1,101296,5.0,44100,1,16,Naturales y agua,test
+181,test,1-26177-A-43.wav,car_horn,4,1,26177,5.0,44100,1,41,Urbanos,test
+182,test,1-61221-A-17.wav,pouring_water,35,1,61221,5.0,44100,1,13,Naturales y agua,test
+183,test,1-54084-A-42.wav,siren,40,1,54084,5.0,44100,1,48,Urbanos,test
+184,test,1-74517-A-37.wav,clock_alarm,10,1,74517,5.0,44100,1,31,Domésticos,test
+185,test,1-101404-A-34.wav,can_opening,3,1,101404,5.0,44100,1,30,Domésticos,test
+186,test,1-94231-A-32.wav,keyboard_typing,31,1,94231,5.0,44100,1,36,Domésticos,test
+187,test,1-208757-B-2.wav,pig,34,1,208757,5.0,44100,1,7,Animales,test
+188,test,1-51805-D-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+189,test,1-30830-A-24.wav,coughing,12,1,30830,5.0,44100,1,23,Humanos no verbales,test
+190,test,1-101296-B-19.wav,thunderstorm,43,1,101296,5.0,44100,1,16,Naturales y agua,test
+191,test,1-40967-A-28.wav,snoring,42,1,40967,5.0,44100,1,29,Humanos no verbales,test
+192,test,1-172649-C-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+193,test,1-24796-A-47.wav,airplane,0,1,24796,5.0,44100,1,40,Urbanos,test
+194,test,1-118206-A-31.wav,mouse_click,33,1,118206,5.0,44100,1,37,Domésticos,test
+195,test,1-51036-A-16.wav,wind,49,1,51036,5.0,44100,1,19,Naturales y agua,test
+196,test,1-9887-A-49.wav,hand_saw,27,1,9887,5.0,44100,1,46,Urbanos,test
+197,test,1-29532-A-16.wav,wind,49,1,29532,5.0,44100,1,19,Naturales y agua,test
+198,test,1-39901-B-11.wav,sea_waves,38,1,39901,5.0,44100,1,15,Naturales y agua,test
+199,test,1-80840-A-13.wav,crickets,15,1,80840,5.0,44100,1,12,Naturales y agua,test
+200,test,1-28135-A-11.wav,sea_waves,38,1,28135,5.0,44100,1,15,Naturales y agua,test
+201,test,1-100210-A-36.wav,vacuum_cleaner,46,1,100210,5.0,44100,1,38,Domésticos,test
+202,test,1-18074-A-6.wav,hen,29,1,18074,5.0,44100,1,5,Animales,test
+203,test,1-50661-A-44.wav,engine,22,1,50661,5.0,44100,1,44,Urbanos,test
+204,test,1-17808-A-12.wav,crackling_fire,14,1,17808,5.0,44100,1,11,Naturales y agua,test
+205,test,1-49409-A-8.wav,sheep,39,1,49409,5.0,44100,1,9,Animales,test
+206,test,1-7974-A-49.wav,hand_saw,27,1,7974,5.0,44100,1,46,Urbanos,test
+207,test,1-30709-A-23.wav,breathing,1,1,30709,5.0,44100,1,20,Humanos no verbales,test
+208,test,1-34094-B-5.wav,cat,5,1,34094,5.0,44100,1,0,Animales,test
+209,test,1-31251-A-6.wav,hen,29,1,31251,5.0,44100,1,5,Animales,test
+210,test,1-68628-A-27.wav,brushing_teeth,2,1,68628,5.0,44100,1,21,Humanos no verbales,test
+211,test,1-23094-B-15.wav,water_drops,48,1,23094,5.0,44100,1,18,Naturales y agua,test
+212,test,1-50688-A-17.wav,pouring_water,35,1,50688,5.0,44100,1,13,Naturales y agua,test
+213,test,1-36164-B-26.wav,laughing,32,1,36164,5.0,44100,1,27,Humanos no verbales,test
+214,test,1-196660-A-8.wav,sheep,39,1,196660,5.0,44100,1,9,Animales,test
+215,test,1-46938-A-7.wav,insects,30,1,46938,5.0,44100,1,6,Animales,test
+216,test,1-977-A-39.wav,glass_breaking,26,1,977,5.0,44100,1,35,Domésticos,test
+217,test,1-155858-B-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+218,test,1-19118-A-24.wav,coughing,12,1,19118,5.0,44100,1,23,Humanos no verbales,test
+219,test,1-46272-A-12.wav,crackling_fire,14,1,46272,5.0,44100,1,11,Naturales y agua,test
+220,test,1-59102-A-13.wav,crickets,15,1,59102,5.0,44100,1,12,Naturales y agua,test
+221,test,1-43807-B-47.wav,airplane,0,1,43807,5.0,44100,1,40,Urbanos,test
+222,test,1-32373-B-35.wav,washing_machine,47,1,32373,5.0,44100,1,39,Domésticos,test
+223,test,1-94036-A-22.wav,clapping,9,1,94036,5.0,44100,1,22,Humanos no verbales,test
+224,test,1-9886-A-49.wav,hand_saw,27,1,9886,5.0,44100,1,46,Urbanos,test
+225,test,1-19898-B-41.wav,chainsaw,6,1,19898,5.0,44100,1,42,Urbanos,test
+226,test,1-32318-A-0.wav,dog,18,1,32318,5.0,44100,1,3,Animales,test
+227,test,1-91359-A-11.wav,sea_waves,38,1,91359,5.0,44100,1,15,Naturales y agua,test
+228,test,1-31836-B-4.wav,frog,25,1,31836,5.0,44100,1,4,Animales,test
+229,test,1-24524-A-19.wav,thunderstorm,43,1,24524,5.0,44100,1,16,Naturales y agua,test
+230,test,1-73585-A-7.wav,insects,30,1,73585,5.0,44100,1,6,Animales,test
+231,test,1-42139-A-38.wav,clock_tick,11,1,42139,5.0,44100,1,32,Domésticos,test
+232,test,1-30344-A-0.wav,dog,18,1,30344,5.0,44100,1,3,Animales,test
+233,test,1-208757-E-2.wav,pig,34,1,208757,5.0,44100,1,7,Animales,test
+234,test,1-99958-A-31.wav,mouse_click,33,1,99958,5.0,44100,1,37,Domésticos,test
+235,test,1-59324-A-21.wav,sneezing,41,1,59324,5.0,44100,1,28,Humanos no verbales,test
+236,test,1-76831-B-42.wav,siren,40,1,76831,5.0,44100,1,48,Urbanos,test
+237,test,1-34094-A-5.wav,cat,5,1,34094,5.0,44100,1,0,Animales,test
+238,test,1-137-A-32.wav,keyboard_typing,31,1,137,5.0,44100,1,36,Domésticos,test
+239,test,1-57795-A-8.wav,sheep,39,1,57795,5.0,44100,1,9,Animales,test
+240,test,1-51037-A-16.wav,wind,49,1,51037,5.0,44100,1,19,Naturales y agua,test
+241,test,1-172649-E-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+242,test,1-51805-H-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+243,test,1-59513-A-0.wav,dog,18,1,59513,5.0,44100,1,3,Animales,test
+244,test,1-12653-A-15.wav,water_drops,48,1,12653,5.0,44100,1,18,Naturales y agua,test
+245,test,1-172649-B-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+246,test,1-60676-A-34.wav,can_opening,3,1,60676,5.0,44100,1,30,Domésticos,test
+247,test,1-208757-C-2.wav,pig,34,1,208757,5.0,44100,1,7,Animales,test
+248,test,1-50454-A-44.wav,engine,22,1,50454,5.0,44100,1,44,Urbanos,test
+249,test,1-155858-F-25.wav,footsteps,24,1,155858,5.0,44100,1,26,Humanos no verbales,test
+250,test,1-90797-A-15.wav,water_drops,48,1,90797,5.0,44100,1,18,Naturales y agua,test
+251,test,1-23996-B-35.wav,washing_machine,47,1,23996,5.0,44100,1,39,Domésticos,test
+252,test,1-115921-A-22.wav,clapping,9,1,115921,5.0,44100,1,22,Humanos no verbales,test
+253,test,1-9887-B-49.wav,hand_saw,27,1,9887,5.0,44100,1,46,Urbanos,test
+254,test,1-53663-A-24.wav,coughing,12,1,53663,5.0,44100,1,23,Humanos no verbales,test
+255,test,1-181071-B-40.wav,helicopter,28,1,181071,5.0,44100,1,47,Urbanos,test
+256,test,1-52323-A-24.wav,coughing,12,1,52323,5.0,44100,1,23,Humanos no verbales,test
+257,test,1-85184-A-39.wav,glass_breaking,26,1,85184,5.0,44100,1,35,Domésticos,test
+258,test,1-30043-A-26.wav,laughing,32,1,30043,5.0,44100,1,27,Humanos no verbales,test
+259,test,1-84705-A-39.wav,glass_breaking,26,1,84705,5.0,44100,1,35,Domésticos,test
+260,test,1-12654-A-15.wav,water_drops,48,1,12654,5.0,44100,1,18,Naturales y agua,test
+261,test,1-54065-A-45.wav,train,45,1,54065,5.0,44100,1,49,Urbanos,test
+262,test,1-19872-B-36.wav,vacuum_cleaner,46,1,19872,5.0,44100,1,38,Domésticos,test
+263,test,1-27166-A-35.wav,washing_machine,47,1,27166,5.0,44100,1,39,Domésticos,test
+264,test,1-85362-A-0.wav,dog,18,1,85362,5.0,44100,1,3,Animales,test
+265,test,1-26222-A-10.wav,rain,36,1,26222,5.0,44100,1,14,Naturales y agua,test
+266,test,1-115546-A-48.wav,fireworks,23,1,115546,5.0,44100,1,45,Urbanos,test
+267,test,1-75162-A-9.wav,crow,16,1,75162,5.0,44100,1,2,Animales,test
+268,test,1-67033-A-37.wav,clock_alarm,10,1,67033,5.0,44100,1,31,Domésticos,test
+269,test,1-31482-B-42.wav,siren,40,1,31482,5.0,44100,1,48,Urbanos,test
+270,test,1-31748-A-21.wav,sneezing,41,1,31748,5.0,44100,1,28,Humanos no verbales,test
+271,test,1-208757-A-2.wav,pig,34,1,208757,5.0,44100,1,7,Animales,test
+272,test,1-49098-A-35.wav,washing_machine,47,1,49098,5.0,44100,1,39,Domésticos,test
+273,test,1-97392-A-0.wav,dog,18,1,97392,5.0,44100,1,3,Animales,test
+274,test,1-17585-A-7.wav,insects,30,1,17585,5.0,44100,1,6,Animales,test
+275,test,1-17970-A-4.wav,frog,25,1,17970,5.0,44100,1,4,Animales,test
+276,test,1-47819-C-5.wav,cat,5,1,47819,5.0,44100,1,0,Animales,test
+277,test,1-96950-B-9.wav,crow,16,1,96950,5.0,44100,1,2,Animales,test
+278,test,1-46744-A-36.wav,vacuum_cleaner,46,1,46744,5.0,44100,1,38,Domésticos,test
+279,test,1-51805-C-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+280,test,1-58923-B-27.wav,brushing_teeth,2,1,58923,5.0,44100,1,21,Humanos no verbales,test
+281,test,1-53501-A-32.wav,keyboard_typing,31,1,53501,5.0,44100,1,36,Domésticos,test
+282,test,1-35687-A-38.wav,clock_tick,11,1,35687,5.0,44100,1,32,Domésticos,test
+283,test,1-23222-A-19.wav,thunderstorm,43,1,23222,5.0,44100,1,16,Naturales y agua,test
+284,test,1-67230-A-29.wav,drinking_sipping,21,1,67230,5.0,44100,1,25,Humanos no verbales,test
+285,test,1-50060-A-10.wav,rain,36,1,50060,5.0,44100,1,14,Naturales y agua,test
+286,test,1-91359-B-11.wav,sea_waves,38,1,91359,5.0,44100,1,15,Naturales y agua,test
+287,test,1-79220-A-17.wav,pouring_water,35,1,79220,5.0,44100,1,13,Naturales y agua,test
+288,test,1-62850-A-38.wav,clock_tick,11,1,62850,5.0,44100,1,32,Domésticos,test
+289,test,1-67432-A-27.wav,brushing_teeth,2,1,67432,5.0,44100,1,21,Humanos no verbales,test
+290,test,1-51805-F-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+291,test,1-43807-D-47.wav,airplane,0,1,43807,5.0,44100,1,40,Urbanos,test
+292,test,1-53670-A-18.wav,toilet_flush,44,1,53670,5.0,44100,1,17,Naturales y agua,test
+293,test,1-110537-A-22.wav,clapping,9,1,110537,5.0,44100,1,22,Humanos no verbales,test
+294,test,1-28005-A-18.wav,toilet_flush,44,1,28005,5.0,44100,1,17,Naturales y agua,test
+295,test,1-18755-B-4.wav,frog,25,1,18755,5.0,44100,1,4,Animales,test
+296,test,1-77160-A-3.wav,cow,13,1,77160,5.0,44100,1,1,Animales,test
+297,test,1-87565-A-29.wav,drinking_sipping,21,1,87565,5.0,44100,1,25,Humanos no verbales,test
+298,test,1-28135-B-11.wav,sea_waves,38,1,28135,5.0,44100,1,15,Naturales y agua,test
+299,test,1-13613-A-37.wav,clock_alarm,10,1,13613,5.0,44100,1,31,Domésticos,test
+300,test,1-52266-A-24.wav,coughing,12,1,52266,5.0,44100,1,23,Humanos no verbales,test
+301,test,1-17092-A-27.wav,brushing_teeth,2,1,17092,5.0,44100,1,21,Humanos no verbales,test
+302,test,1-31251-B-6.wav,hen,29,1,31251,5.0,44100,1,5,Animales,test
+303,test,1-50455-A-44.wav,engine,22,1,50455,5.0,44100,1,44,Urbanos,test
+304,test,1-51433-A-17.wav,pouring_water,35,1,51433,5.0,44100,1,13,Naturales y agua,test
+305,test,1-36929-A-47.wav,airplane,0,1,36929,5.0,44100,1,40,Urbanos,test
+306,test,1-27724-A-1.wav,rooster,37,1,27724,5.0,44100,1,8,Animales,test
+307,test,1-51147-A-25.wav,footsteps,24,1,51147,5.0,44100,1,26,Humanos no verbales,test
+308,test,1-12654-B-15.wav,water_drops,48,1,12654,5.0,44100,1,18,Naturales y agua,test
+309,test,1-84393-A-32.wav,keyboard_typing,31,1,84393,5.0,44100,1,36,Domésticos,test
+310,test,1-69422-A-3.wav,cow,13,1,69422,5.0,44100,1,1,Animales,test
+311,test,1-96950-A-9.wav,crow,16,1,96950,5.0,44100,1,2,Animales,test
+312,test,1-62565-A-44.wav,engine,22,1,62565,5.0,44100,1,44,Urbanos,test
+313,test,1-211527-A-20.wav,crying_baby,17,1,211527,5.0,44100,1,24,Humanos no verbales,test
+314,test,1-38560-A-14.wav,chirping_birds,7,1,38560,5.0,44100,1,10,Naturales y agua,test
+315,test,1-69165-A-34.wav,can_opening,3,1,69165,5.0,44100,1,30,Domésticos,test
+316,test,1-54958-A-10.wav,rain,36,1,54958,5.0,44100,1,14,Naturales y agua,test
+317,test,1-95563-A-31.wav,mouse_click,33,1,95563,5.0,44100,1,37,Domésticos,test
+318,test,1-56380-A-5.wav,cat,5,1,56380,5.0,44100,1,0,Animales,test
+319,test,1-52290-A-30.wav,door_wood_knock,20,1,52290,5.0,44100,1,34,Domésticos,test
+320,test,1-47274-A-21.wav,sneezing,41,1,47274,5.0,44100,1,28,Humanos no verbales,test
+321,test,1-119125-A-45.wav,train,45,1,119125,5.0,44100,1,49,Urbanos,test
+322,test,1-187207-A-20.wav,crying_baby,17,1,187207,5.0,44100,1,24,Humanos no verbales,test
+323,test,1-46353-A-49.wav,hand_saw,27,1,46353,5.0,44100,1,46,Urbanos,test
+324,test,1-15689-A-4.wav,frog,25,1,15689,5.0,44100,1,4,Animales,test
+325,test,1-22804-A-46.wav,church_bells,8,1,22804,5.0,44100,1,43,Urbanos,test
+326,test,1-51035-A-16.wav,wind,49,1,51035,5.0,44100,1,19,Naturales y agua,test
+327,test,1-115920-A-22.wav,clapping,9,1,115920,5.0,44100,1,22,Humanos no verbales,test
+328,test,1-45641-A-27.wav,brushing_teeth,2,1,45641,5.0,44100,1,21,Humanos no verbales,test
+329,test,1-48298-A-46.wav,church_bells,8,1,48298,5.0,44100,1,43,Urbanos,test
+330,test,1-56907-A-46.wav,church_bells,8,1,56907,5.0,44100,1,43,Urbanos,test
+331,test,1-40730-A-1.wav,rooster,37,1,40730,5.0,44100,1,8,Animales,test
+332,test,1-47714-A-16.wav,wind,49,1,47714,5.0,44100,1,19,Naturales y agua,test
+333,test,1-7974-B-49.wav,hand_saw,27,1,7974,5.0,44100,1,46,Urbanos,test
+334,test,1-30039-A-26.wav,laughing,32,1,30039,5.0,44100,1,27,Humanos no verbales,test
+335,test,1-94231-B-32.wav,keyboard_typing,31,1,94231,5.0,44100,1,36,Domésticos,test
+336,test,1-85168-A-39.wav,glass_breaking,26,1,85168,5.0,44100,1,35,Domésticos,test
+337,test,1-76831-D-42.wav,siren,40,1,76831,5.0,44100,1,48,Urbanos,test
+338,test,1-16746-A-15.wav,water_drops,48,1,16746,5.0,44100,1,18,Naturales y agua,test
+339,test,1-103999-A-30.wav,door_wood_knock,20,1,103999,5.0,44100,1,34,Domésticos,test
+340,test,1-18527-B-44.wav,engine,22,1,18527,5.0,44100,1,44,Urbanos,test
+341,test,1-29561-A-10.wav,rain,36,1,29561,5.0,44100,1,14,Naturales y agua,test
+342,test,1-17092-B-27.wav,brushing_teeth,2,1,17092,5.0,44100,1,21,Humanos no verbales,test
+343,test,1-76831-E-42.wav,siren,40,1,76831,5.0,44100,1,48,Urbanos,test
+344,test,1-51170-A-18.wav,toilet_flush,44,1,51170,5.0,44100,1,17,Naturales y agua,test
+345,test,1-40621-A-28.wav,snoring,42,1,40621,5.0,44100,1,29,Humanos no verbales,test
+346,test,1-31482-A-42.wav,siren,40,1,31482,5.0,44100,1,48,Urbanos,test
+347,test,1-43760-A-11.wav,sea_waves,38,1,43760,5.0,44100,1,15,Naturales y agua,test
+348,test,1-172649-A-40.wav,helicopter,28,1,172649,5.0,44100,1,47,Urbanos,test
+349,test,1-260640-A-2.wav,pig,34,1,260640,5.0,44100,1,7,Animales,test
+350,test,1-73123-A-26.wav,laughing,32,1,73123,5.0,44100,1,27,Humanos no verbales,test
+351,test,1-51805-B-33.wav,door_wood_creaks,19,1,51805,5.0,44100,1,33,Domésticos,test
+352,test,1-160563-A-48.wav,fireworks,23,1,160563,5.0,44100,1,45,Urbanos,test
+353,test,1-17565-A-12.wav,crackling_fire,14,1,17565,5.0,44100,1,11,Naturales y agua,test
+354,test,1-43807-A-47.wav,airplane,0,1,43807,5.0,44100,1,40,Urbanos,test
+355,test,1-26188-A-30.wav,door_wood_knock,20,1,26188,5.0,44100,1,34,Domésticos,test
+356,test,1-22694-A-20.wav,crying_baby,17,1,22694,5.0,44100,1,24,Humanos no verbales,test
+357,test,1-79236-A-36.wav,vacuum_cleaner,46,1,79236,5.0,44100,1,38,Domésticos,test
+358,test,1-53444-A-28.wav,snoring,42,1,53444,5.0,44100,1,29,Humanos no verbales,test
+359,test,1-23996-A-35.wav,washing_machine,47,1,23996,5.0,44100,1,39,Domésticos,test
+360,test,1-64398-A-41.wav,chainsaw,6,1,64398,5.0,44100,1,42,Urbanos,test
+361,test,1-103995-A-30.wav,door_wood_knock,20,1,103995,5.0,44100,1,34,Domésticos,test
+362,test,1-54065-B-45.wav,train,45,1,54065,5.0,44100,1,49,Urbanos,test
+363,test,1-60997-B-20.wav,crying_baby,17,1,60997,5.0,44100,1,24,Humanos no verbales,test
+364,test,1-115521-A-19.wav,thunderstorm,43,1,115521,5.0,44100,1,16,Naturales y agua,test
+365,test,1-72229-B-6.wav,hen,29,1,72229,5.0,44100,1,5,Animales,test
+366,test,1-17742-A-12.wav,crackling_fire,14,1,17742,5.0,44100,1,11,Naturales y agua,test
+367,test,1-72695-A-26.wav,laughing,32,1,72695,5.0,44100,1,27,Humanos no verbales,test
+368,test,1-260640-B-2.wav,pig,34,1,260640,5.0,44100,1,7,Animales,test
+369,test,1-45645-A-31.wav,mouse_click,33,1,45645,5.0,44100,1,37,Domésticos,test
+370,test,1-25781-A-48.wav,fireworks,23,1,25781,5.0,44100,1,45,Urbanos,test
+371,test,1-46040-A-14.wav,chirping_birds,7,1,46040,5.0,44100,1,10,Naturales y agua,test
+372,test,1-100032-A-0.wav,dog,18,1,100032,5.0,44100,1,3,Animales,test
+373,test,1-116765-A-41.wav,chainsaw,6,1,116765,5.0,44100,1,42,Urbanos,test
+374,test,1-56311-A-10.wav,rain,36,1,56311,5.0,44100,1,14,Naturales y agua,test
+375,test,1-27403-A-28.wav,snoring,42,1,27403,5.0,44100,1,29,Humanos no verbales,test
+376,test,1-5996-A-6.wav,hen,29,1,5996,5.0,44100,1,5,Animales,test
+377,test,1-104089-B-22.wav,clapping,9,1,104089,5.0,44100,1,22,Humanos no verbales,test
+378,test,1-84704-A-39.wav,glass_breaking,26,1,84704,5.0,44100,1,35,Domésticos,test
+379,test,1-19840-A-36.wav,vacuum_cleaner,46,1,19840,5.0,44100,1,38,Domésticos,test
+380,test,1-18527-A-44.wav,engine,22,1,18527,5.0,44100,1,44,Urbanos,test
+381,test,1-25777-A-48.wav,fireworks,23,1,25777,5.0,44100,1,45,Urbanos,test
+382,test,1-18655-A-31.wav,mouse_click,33,1,18655,5.0,44100,1,37,Domésticos,test
+383,test,1-17150-A-12.wav,crackling_fire,14,1,17150,5.0,44100,1,11,Naturales y agua,test
+384,test,1-105224-A-22.wav,clapping,9,1,105224,5.0,44100,1,22,Humanos no verbales,test
+385,test,1-101336-A-30.wav,door_wood_knock,20,1,101336,5.0,44100,1,34,Domésticos,test
+386,test,1-32579-A-29.wav,drinking_sipping,21,1,32579,5.0,44100,1,25,Humanos no verbales,test
+387,test,1-58846-A-34.wav,can_opening,3,1,58846,5.0,44100,1,30,Domésticos,test
+388,test,1-13571-A-46.wav,church_bells,8,1,13571,5.0,44100,1,43,Urbanos,test
+389,test,1-81001-A-30.wav,door_wood_knock,20,1,81001,5.0,44100,1,34,Domésticos,test
+390,test,1-58277-A-3.wav,cow,13,1,58277,5.0,44100,1,1,Animales,test
+391,test,1-57163-A-38.wav,clock_tick,11,1,57163,5.0,44100,1,32,Domésticos,test
+392,test,1-17808-B-12.wav,crackling_fire,14,1,17808,5.0,44100,1,11,Naturales y agua,test
+393,test,1-18757-A-4.wav,frog,25,1,18757,5.0,44100,1,4,Animales,test
+394,test,1-48413-A-38.wav,clock_tick,11,1,48413,5.0,44100,1,32,Domésticos,test
+395,test,1-31836-A-4.wav,frog,25,1,31836,5.0,44100,1,4,Animales,test
+396,test,1-64398-B-41.wav,chainsaw,6,1,64398,5.0,44100,1,42,Urbanos,test
+397,test,1-13572-A-46.wav,church_bells,8,1,13572,5.0,44100,1,43,Urbanos,test
+398,test,1-20736-A-18.wav,toilet_flush,44,1,20736,5.0,44100,1,17,Naturales y agua,test
+399,test,1-36164-A-26.wav,laughing,32,1,36164,5.0,44100,1,27,Humanos no verbales,test

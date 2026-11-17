@@ -1,0 +1,16 @@
+real,predicha,clips,misma_categoria
+helicopter,washing_machine,4,False
+wind,sea_waves,3,True
+washing_machine,engine,2,False
+crickets,brushing_teeth,1,False
+wind,vacuum_cleaner,1,False
+coughing,sneezing,1,True
+crying_baby,laughing,1,True
+footsteps,door_wood_knock,1,False
+footsteps,keyboard_typing,1,False
+mouse_click,water_drops,1,False
+washing_machine,vacuum_cleaner,1,True
+washing_machine,train,1,False
+airplane,helicopter,1,True
+fireworks,thunderstorm,1,False
+train,wind,1,False

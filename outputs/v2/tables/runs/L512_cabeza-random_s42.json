@@ -1,0 +1,20 @@
+{
+ "tag": "L512_cabeza-random_s42",
+ "head_init": "random",
+ "llrd": false,
+ "specaug": false,
+ "seed": 42,
+ "epocas": 2,
+ "max_length": 512,
+ "train_acc": 0.9937451133698202,
+ "val_acc": 0.9501557632398754,
+ "val_loss": 0.1670636087656021,
+ "val_f1_macro": 0.9487030747030747,
+ "parametros_entrenables": 85757234,
+ "tiempo_min": 7.042592136065165,
+ "dispositivo": "Apple GPU (MPS) \u00b7 Apple M2 Pro",
+ "test_accuracy": 0.94,
+ "test_precision_macro": 0.9411565656565657,
+ "test_recall_macro": 0.94,
+ "test_f1_macro": 0.9366699800027973
+}

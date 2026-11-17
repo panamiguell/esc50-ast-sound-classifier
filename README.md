@@ -67,6 +67,26 @@ A GPU (CUDA or Apple MPS) is strongly recommended: AST has 86 M parameters and p
 
 **Smoke test without internet or GPU:** set the environment variable `MP4_QUICK=1` to run the whole pipeline with synthetic audio and a tiny randomly initialized AST (outputs go to `outputs/_smoke_test/`, not versioned). Its metrics are meaningless.
 
+## Version 2 (`notebooks/02_solucion_ast_esc50_v2.ipynb`)
+
+Same data, split and 2-epoch constraint as v1; each change is kept only if it improves validation macro-F1:
+
+- **512-frame input** instead of 1,024 (ESC-50 clips are 5 s, so v1 was ~51 % padding). It is the AST paper's ESC-50 setting; position embeddings are center-cropped from the 12 × 101 grid to 12 × 50. About 2× faster and less memory.
+- **Classifier head initialized from the matching AudioSet classes** (e.g. `dog` → "Dog", "Bark"), plus a zero-shot evaluation before training.
+- **Layer-wise learning-rate decay**, SpecAugment with the AST recipe, no weight decay on biases / LayerNorm / position embeddings.
+- **3-seed ensemble** as the final model (each model trained for exactly 2 epochs); comparison with v1 when its results exist.
+- Outputs go to `outputs/v2/` and `report/figs/v2_*`; v1 outputs are not touched.
+
+### Running on Apple Silicon (M1 / M2 / M3)
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -U pip && pip install -r requirements.txt   # the default macOS torch wheel includes MPS
+python -c "import torch; print(torch.backends.mps.is_available())"   # must print True
+```
+
+The notebook selects `mps` automatically, sets `PYTORCH_ENABLE_MPS_FALLBACK=1` before importing torch, uses fp32 and SDPA attention, and on Macs with ≤ 8 GB RAM switches to batch 4 × 4 accumulation with gradient checkpointing. If you get `MPS backend out of memory`, close other apps or apply those settings manually in `CONFIG`. Expect roughly 8–15 min per training run on an M2 (6 runs in total).
+
 ## Results
 
 _To be completed._

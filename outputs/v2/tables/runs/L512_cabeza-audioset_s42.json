@@ -1,0 +1,20 @@
+{
+ "tag": "L512_cabeza-audioset_s42",
+ "head_init": "audioset",
+ "llrd": false,
+ "specaug": false,
+ "seed": 42,
+ "epocas": 2,
+ "max_length": 512,
+ "train_acc": 0.9851446442533229,
+ "val_acc": 0.9470404984423676,
+ "val_loss": 0.18575848639011383,
+ "val_f1_macro": 0.9478036963036962,
+ "parametros_entrenables": 85757234,
+ "tiempo_min": 5.999243569374085,
+ "dispositivo": "Apple GPU (MPS) \u00b7 Apple M2 Pro",
+ "test_accuracy": 0.9475,
+ "test_precision_macro": 0.9555198135198135,
+ "test_recall_macro": 0.9475,
+ "test_f1_macro": 0.9454821971973674
+}

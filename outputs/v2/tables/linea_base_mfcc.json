@@ -1,0 +1,9 @@
+{
+ "modelo": "MFCC (media y desv.) + reg. log\u00edstica",
+ "C": 1.0,
+ "val_f1_macro": 0.45852232545576205,
+ "test_accuracy": 0.435,
+ "test_precision_macro": 0.45510606060606057,
+ "test_recall_macro": 0.435,
+ "test_f1_macro": 0.4271976652518448
+}

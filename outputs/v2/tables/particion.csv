@@ -1,0 +1,4 @@
+split,clips,clases,min_por_clase,max_por_clase
+train,1279,50,24,26
+val,321,50,6,8
+test,400,50,8,8

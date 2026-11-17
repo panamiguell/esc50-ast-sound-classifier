@@ -1,0 +1,254 @@
+{
+ "version": 2,
+ "dispositivo": "Apple GPU (MPS) · Apple M2 Pro",
+ "modo_rapido": false,
+ "config": {
+  "dataset": "confit/esc50-demo",
+  "dataset_config": "fold1",
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "sampling_rate": 16000,
+  "max_length": 512,
+  "epochs": 2,
+  "batch_size": 8,
+  "grad_accum": 2,
+  "lr_backbone": 3e-05,
+  "lr_head": 0.001,
+  "llrd": {
+   "lr_top": 0.0001,
+   "decay": 0.75
+  },
+  "weight_decay": 0.01,
+  "warmup": 0.1,
+  "clip": 1.0,
+  "specaug": {
+   "freq_masks": 1,
+   "freq_width": 24,
+   "time_masks": 1,
+   "time_width": 96
+  },
+  "val_folds": 5,
+  "grad_checkpointing": false,
+  "amp_mps": false,
+  "seed": 42,
+  "seeds": [
+   42,
+   7,
+   123
+  ]
+ },
+ "datos": {
+  "clips": 2000,
+  "particion": {
+   "train": 1279,
+   "val": 321,
+   "test": 400
+  },
+  "grabaciones_compartidas": {
+   "train-val": 0,
+   "train-test": 0,
+   "val-test": 0
+  },
+  "fraccion_relleno": 0.027,
+  "clases_mapeadas_audioset": 48
+ },
+ "linea_base": {
+  "modelo": "MFCC (media y desv.) + reg. logística",
+  "C": 1.0,
+  "val_f1_macro": 0.4585,
+  "test_accuracy": 0.435,
+  "test_precision_macro": 0.4551,
+  "test_recall_macro": 0.435,
+  "test_f1_macro": 0.4272
+ },
+ "experimento_0_zero_shot": [
+  {
+   "sesgo": "audioset",
+   "val_f1_macro": 0.4462,
+   "test_accuracy": 0.34,
+   "test_precision_macro": 0.6541,
+   "test_recall_macro": 0.34,
+   "test_f1_macro": 0.4045
+  },
+  {
+   "sesgo": "cero",
+   "val_f1_macro": 0.493,
+   "test_accuracy": 0.42,
+   "test_precision_macro": 0.7386,
+   "test_recall_macro": 0.42,
+   "test_f1_macro": 0.4945
+  }
+ ],
+ "sesgo_cabeza": "zero",
+ "experimento_1_ablacion": [
+  {
+   "paso": "A: base v2",
+   "aceptado": true,
+   "val_f1_macro": 0.9487,
+   "val_loss": 0.1671,
+   "test_f1_macro": 0.9367,
+   "tiempo_min": 7.0426
+  },
+  {
+   "paso": "B: + cabeza AudioSet",
+   "aceptado": false,
+   "val_f1_macro": 0.9478,
+   "val_loss": 0.1858,
+   "test_f1_macro": 0.9455,
+   "tiempo_min": 5.9992
+  },
+  {
+   "paso": "C: + LLRD",
+   "aceptado": false,
+   "val_f1_macro": 0.9045,
+   "val_loss": 0.2618,
+   "test_f1_macro": 0.8917,
+   "tiempo_min": 6.0198
+  },
+  {
+   "paso": "D: + SpecAugment",
+   "aceptado": false,
+   "val_f1_macro": 0.9438,
+   "val_loss": 0.1958,
+   "test_f1_macro": 0.9429,
+   "tiempo_min": 5.9924
+  }
+ ],
+ "receta_final": {
+  "head_init": "random",
+  "llrd": false,
+  "specaug": false
+ },
+ "experimento_2_media_std": {
+  "test_accuracy": "0.9383 ± 0.0076",
+  "test_precision_macro": "0.9409 ± 0.0078",
+  "test_recall_macro": "0.9383 ± 0.0076",
+  "test_f1_macro": "0.9352 ± 0.0096"
+ },
+ "ensamble": {
+  "val_f1_macro": 0.9475,
+  "test_accuracy": 0.9475,
+  "test_precision_macro": 0.9505,
+  "test_recall_macro": 0.9475,
+  "test_f1_macro": 0.9454
+ },
+ "f1_macro_ensamble_ic95": [
+  0.9174,
+  0.9624
+ ],
+ "diferencia_mfcc_ic95": [
+  0.4757,
+  0.5776
+ ],
+ "diferencia_ensamble_vs_individual_ic95": [
+  -0.0045,
+  0.0254
+ ],
+ "comparacion_v1": null,
+ "peores_clases": {
+  "washing_machine": {
+   "categoria": "Domésticos",
+   "precision": 0.5,
+   "recall": 0.5,
+   "f1": 0.5
+  },
+  "helicopter": {
+   "categoria": "Urbanos",
+   "precision": 0.8,
+   "recall": 0.5,
+   "f1": 0.615
+  },
+  "wind": {
+   "categoria": "Naturales y agua",
+   "precision": 0.8,
+   "recall": 0.5,
+   "f1": 0.615
+  },
+  "sea_waves": {
+   "categoria": "Naturales y agua",
+   "precision": 0.727,
+   "recall": 1.0,
+   "f1": 0.842
+  },
+  "footsteps": {
+   "categoria": "Humanos no verbales",
+   "precision": 1.0,
+   "recall": 0.75,
+   "f1": 0.857
+  }
+ },
+ "por_categoria": {
+  "Animales": {
+   "precision (categoría)": 1.0,
+   "recall (categoría)": 1.0,
+   "f1 (categoría)": 1.0,
+   "soporte": 80,
+   "F1 medio de sus clases": 1.0,
+   "errores de clase": 0
+  },
+  "Naturales y agua": {
+   "precision (categoría)": 0.963,
+   "recall (categoría)": 0.975,
+   "f1 (categoría)": 0.969,
+   "soporte": 80,
+   "F1 medio de sus clases": 0.927,
+   "errores de clase": 5
+  },
+  "Humanos no verbales": {
+   "precision (categoría)": 0.987,
+   "recall (categoría)": 0.975,
+   "f1 (categoría)": 0.981,
+   "soporte": 80,
+   "F1 medio de sus clases": 0.955,
+   "errores de clase": 4
+  },
+  "Domésticos": {
+   "precision (categoría)": 0.916,
+   "recall (categoría)": 0.95,
+   "f1 (categoría)": 0.933,
+   "soporte": 80,
+   "F1 medio de sus clases": 0.92,
+   "errores de clase": 5
+  },
+  "Urbanos": {
+   "precision (categoría)": 0.961,
+   "recall (categoría)": 0.925,
+   "f1 (categoría)": 0.943,
+   "soporte": 80,
+   "F1 medio de sus clases": 0.925,
+   "errores de clase": 7
+  }
+ },
+ "pares_mas_confundidos": [
+  {
+   "real": "helicopter",
+   "predicha": "washing_machine",
+   "clips": 4,
+   "misma_categoria": false
+  },
+  {
+   "real": "wind",
+   "predicha": "sea_waves",
+   "clips": 3,
+   "misma_categoria": true
+  },
+  {
+   "real": "washing_machine",
+   "predicha": "engine",
+   "clips": 2,
+   "misma_categoria": false
+  },
+  {
+   "real": "crickets",
+   "predicha": "brushing_teeth",
+   "clips": 1,
+   "misma_categoria": false
+  },
+  {
+   "real": "wind",
+   "predicha": "vacuum_cleaner",
+   "clips": 1,
+   "misma_categoria": false
+  }
+ ],
+ "tiempo_total_entrenamiento_min": 36.9
+}
