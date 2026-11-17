@@ -89,4 +89,20 @@ The notebook selects `mps` automatically, sets `PYTORCH_ENABLE_MPS_FALLBACK=1` b
 
 ## Results
 
-_To be completed._
+Test split of ESC-50 fold 1 (400 clips, never used for decisions); validation of 321 clips carved from folds 2-5 without sharing source recordings. Input of 512 frames (5.12 s), 2 epochs. Macro-averaged metrics:
+
+| Model | Val. F1 | Accuracy | Precision | Recall | F1 |
+|---|---|---|---|---|---|
+| MFCC + logistic regression | 0.459 | 0.435 | 0.455 | 0.435 | 0.427 |
+| AST zero-shot (AudioSet outputs mapped to 48/50 classes) | 0.493 | 0.420 | 0.739 | 0.420 | 0.495 |
+| A: AST fine-tuning, random head (selected recipe) | **0.949** | 0.940 | 0.941 | 0.940 | 0.937 |
+| B: A + head initialized from AudioSet | 0.948 | 0.948 | 0.956 | 0.948 | 0.946 |
+| C: A + layer-wise learning-rate decay | 0.905 | 0.895 | 0.905 | 0.895 | 0.892 |
+| D: A + SpecAugment | 0.944 | 0.945 | 0.948 | 0.945 | 0.943 |
+| A, 3 seeds (mean ± std) | – | 0.938 ± 0.008 | 0.941 ± 0.008 | 0.938 ± 0.008 | 0.935 ± 0.010 |
+| **A, 3-seed ensemble (final model)** | 0.948 | **0.948** | 0.951 | **0.948** | **0.945** |
+
+- Final model: F1-macro 0.945 (95 % bootstrap CI 0.917 to 0.962), +0.52 over MFCC (CI 0.48 to 0.58). None of the ablation changes improved validation F1 within the 2-epoch budget.
+- Per category, F1 ranges from 1.000 (animals) to 0.933 (domestic). 29 of 50 classes have no errors; the hardest are *washing_machine* (0.50), *wind* and *helicopter* (0.62). Most confused pairs: helicopter→washing_machine (4 clips, all from one recording), wind→sea_waves (3), washing_machine→engine (2).
+
+Notebook with all outputs: [`notebooks/02_solucion_ast_esc50_v2.ipynb`](notebooks/02_solucion_ast_esc50_v2.ipynb) (outputs in `outputs/v2/`). Report: [`report/informe_miniproyecto4_v2.pdf`](report/informe_miniproyecto4_v2.pdf); its Fig. 2 is regenerated from the saved ensemble predictions with `python scripts/figura_resultados_informe.py`.
